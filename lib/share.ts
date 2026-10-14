@@ -1,1 +1,123 @@
-Ly8gUHJvamVjdCAwMDMgwrcgTml2YXJhbmEg4oCUIGJpbGluZ3VhbCBzaGFyZS10ZXh0IGJ1aWxkZXJzIChFTiArIFRhbWlsKQoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkU29zVGV4dChvcHRzOiB7CiAgbmFtZTogc3RyaW5nOwogIGFyZWE6IHN0cmluZzsKICBuZWVkOiBzdHJpbmc7CiAgcGhvbmU6IHN0cmluZzsKICBsYW5nOiAiZW4iIHwgInRhIjsKICBjb29yZHM/OiB7IGxhdDogbnVtYmVyOyBsb246IG51bWJlciB9IHwgbnVsbDsKfSk6IHN0cmluZyB7CiAgY29uc3QgeyBuYW1lLCBhcmVhLCBuZWVkLCBwaG9uZSB9ID0gb3B0czsKICBjb25zdCBtYXBzID0gb3B0cy5jb29yZHMKICAgID8gYGh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPSR7b3B0cy5jb29yZHMubGF0LnRvRml4ZWQoNil9LCR7b3B0cy5jb29yZHMubG9uLnRvRml4ZWQoNil9YAogICAgOiAiIjsKICBpZiAob3B0cy5sYW5nID09PSAidGEiKSB7CiAgICByZXR1cm4gKAogICAgICBg8J+GmCDgroXgrrXgrprgrrAg4K6J4K6k4K614K6/IOCupOCvh+CuteCviCFcbmAgKwogICAgICBg4K6q4K+G4K6v4K6w4K+NOiAke25hbWV9XG5gICsKICAgICAgYOCuh+Cun+CuruCvjTogJHthcmVhfVxuYCArCiAgICAgIChtYXBzID8gYOCujuCuqeCvjSDgrofgrrDgr4Hgrqrgr43grqrgrr/grp/grq7gr406ICR7bWFwc31cbmAgOiAiIikgKwogICAgICBg4K6k4K+H4K614K+IOiAke25lZWR9XG5gICsKICAgICAgYOCupOCviuCun+CusOCvjeCuquCvgTogJHtwaG9uZX1cblxuYCArCiAgICAgIGDgroXgrrDgr4HgrpXgrr/grrLgr40g4K6H4K6w4K+B4K6q4K+N4K6q4K614K6w4K+N4K6V4K6z4K+NIOCuieCun+CuqeCvhyDgrongrqTgrrXgrrXgr4Hgrq7gr40uIOKAlCBOaXZhcmFuYWAKICAgICk7CiAgfQogIHJldHVybiAoCiAgICBg8J+GmCBFTUVSR0VOQ1kg4oCUIGhlbHAgbmVlZGVkIVxuYCArCiAgICBgTmFtZTogJHtuYW1lfVxuYCArCiAgICBgTG9jYXRpb246ICR7YXJlYX1cbmAgKwogICAgKG1hcHMgPyBgTXkgR1BTIGxvY2F0aW9uOiAke21hcHN9XG5gIDogIiIpICsKICAgIGBOZWVkOiAke25lZWR9XG5gICsKICAgIGBDb250YWN0OiAke3Bob25lfVxuXG5gICsKICAgIGBJZiB5b3UgYXJlIG5lYXJieSwgcGxlYXNlIGhlbHAgaW1tZWRpYXRlbHkuIOKAlCBOaXZhcmFuYWAKICApOwp9CgpleHBvcnQgZnVuY3Rpb24gYnVpbGRTYWZlVGV4dChvcHRzOiB7IG5hbWU6IHN0cmluZzsgYXJlYTogc3RyaW5nOyBsYW5nOiAiZW4iIHwgInRhIiB9KTogc3RyaW5nIHsKICBjb25zdCB7IG5hbWUsIGFyZWEgfSA9IG9wdHM7CiAgaWYgKG9wdHMubGFuZyA9PT0gInRhIikgewogICAgcmV0dXJuIGDinIUg4K6o4K6+4K6p4K+NIOCuquCuvuCupOCvgeCuleCuvuCuquCvjeCuquCuvuCulSDgrofgrrDgr4HgrpXgr43grpXgrr/grrHgr4fgrqngr40uICR7bmFtZX0g4oCUICR7YXJlYX0uIOCuleCuteCusuCviCDgrrXgr4fgrqPgr43grp/grr7grq7gr40uIOKAlCBOaXZhcmFuYWA7CiAgfQogIHJldHVybiBg4pyFIEknbSBzYWZlLiAke25hbWV9IOKAlCAke2FyZWF9LiBObyBuZWVkIHRvIHdvcnJ5LiDigJQgTml2YXJhbmFgOwp9CgovLyBDb29yZGluYXRvciBzaXQtcmVwOiBhIHBhc3RlYWJsZSBXaGF0c0FwcCBkaXNwYXRjaCBvZiBldmVyeXRoaW5nIG9wZW4gcmlnaHQKLy8gbm93LCBncm91cGVkIHNvIGEgZ3JvdXAgYWRtaW4gY2FuIGJyb2FkY2FzdCBvbmUgbWVzc2FnZSB0byBhIHZvbHVudGVlciBncm91cC4KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkRGlzcGF0Y2hUZXh0KG9wdHM6IHsKICByZXF1ZXN0czogQXJyYXk8eyBuZWVkOiBzdHJpbmc7IGFyZWE6IHN0cmluZzsgcGVvcGxlOiBudW1iZXI7IGNsYWltZWRCeT86IHN0cmluZyB9PjsKICBpbmNpZGVudHM6IEFycmF5PHsgbGFiZWw6IHN0cmluZzsgc2V2ZXJpdHk6IHN0cmluZzsgYXJlYTogc3RyaW5nIH0+OwogIHNoZWx0ZXJTcGFjZTogQXJyYXk8eyBuYW1lOiBzdHJpbmc7IGFyZWE6IHN0cmluZzsgb2NjdXBhbmN5Pzogc3RyaW5nIH0+OwogIHdoZW46IERhdGU7Cn0pOiBzdHJpbmcgewogIGNvbnN0IGxpbmVzOiBzdHJpbmdbXSA9IFtg8J+TiyBOSVZBUkFOQSBTSVQtUkVQIOKAlCAke29wdHMud2hlbi50b0xvY2FsZVN0cmluZygiZW4tSU4iLCB7IGhvdXI6ICIyLWRpZ2l0IiwgbWludXRlOiAiMi1kaWdpdCIsIGRheTogIjItZGlnaXQiLCBtb250aDogInNob3J0IiB9KX1gXTsKICBpZiAob3B0cy5yZXF1ZXN0cy5sZW5ndGgpIHsKICAgIGxpbmVzLnB1c2goIiIsIGDwn5mPIE9QRU4gSEVMUCBSRVFVRVNUUyAoJHtvcHRzLnJlcXVlc3RzLmxlbmd0aH0pYCk7CiAgICBmb3IgKGNvbnN0IHIgb2Ygb3B0cy5yZXF1ZXN0cykgewogICAgICBsaW5lcy5wdXNoKGDigKIgJHtyLm5lZWR9IOKAlCAke3IuYXJlYX0gKCR7ci5wZW9wbGV9KSR7ci5jbGFpbWVkQnkgPyBgIOKGkiAke3IuY2xhaW1lZEJ5fSBvbiBpdGAgOiAiIOKGkiBub2JvZHkgY2xhaW1lZCB5ZXQifWApOwogICAgfQogIH0gZWxzZSB7CiAgICBsaW5lcy5wdXNoKCIiLCAi8J+ZjyBObyBvcGVuIGhlbHAgcmVxdWVzdHMuIFF1aWV0IHJpZ2h0IG5vdy4iKTsKICB9CiAgaWYgKG9wdHMuaW5jaWRlbnRzLmxlbmd0aCkgewogICAgbGluZXMucHVzaCgiIiwgYOKaoO+4jyBVUkdFTlQgSU5DSURFTlRTICgke29wdHMuaW5jaWRlbnRzLmxlbmd0aH0pYCk7CiAgICBmb3IgKGNvbnN0IGkgb2Ygb3B0cy5pbmNpZGVudHMpIGxpbmVzLnB1c2goYOKAoiAke2kubGFiZWx9IOKAlCAke2kuYXJlYX0gKCR7aS5zZXZlcml0eX0pYCk7CiAgfQogIGlmIChvcHRzLnNoZWx0ZXJTcGFjZS5sZW5ndGgpIHsKICAgIGxpbmVzLnB1c2goIiIsIGDwn4+V77iPIFNIRUxURVJTIFdJVEggUk9PTSAoJHtvcHRzLnNoZWx0ZXJTcGFjZS5sZW5ndGh9KWApOwogICAgZm9yIChjb25zdCBzIG9mIG9wdHMuc2hlbHRlclNwYWNlKSBsaW5lcy5wdXNoKGDigKIgJHtzLm5hbWV9LCAke3MuYXJlYX1gKTsKICB9CiAgbGluZXMucHVzaCgiIiwgIlZvbHVudGVlcnM6IGNsYWltIHZpYSB0aGUgYXBwLCBnbyBpbiBwYWlycywgZG9uJ3QgZW50ZXIgZmFzdCB3YXRlci4g4oCUIE5pdmFyYW5hIik7CiAgcmV0dXJuIGxpbmVzLmpvaW4oIlxuIik7Cn0KCmV4cG9ydCBmdW5jdGlvbiBidWlsZEluY2lkZW50VGV4dChvcHRzOiB7CiAgdHlwZUxhYmVsOiBzdHJpbmc7CiAgc2V2ZXJpdHk6IHN0cmluZzsKICBhcmVhOiBzdHJpbmc7CiAgbm90ZTogc3RyaW5nOwogIGNvb3Jkcz86IHsgbGF0OiBudW1iZXI7IGxvbjogbnVtYmVyIH0gfCBudWxsOwp9KTogc3RyaW5nIHsKICBjb25zdCBtYXBzID0gb3B0cy5jb29yZHMKICAgID8gYGh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPSR7b3B0cy5jb29yZHMubGF0LnRvRml4ZWQoNil9LCR7b3B0cy5jb29yZHMubG9uLnRvRml4ZWQoNil9YAogICAgOiAiIjsKICByZXR1cm4gKAogICAgYOKaoO+4jyAke29wdHMudHlwZUxhYmVsfSByZXBvcnRlZCBpbiAke29wdHMuYXJlYX0gKHNldmVyaXR5OiAke29wdHMuc2V2ZXJpdHl9KS5cbmAgKwogICAgKG9wdHMubm90ZSA/IGAke29wdHMubm90ZX1cbmAgOiAiIikgKwogICAgKG1hcHMgPyBgRXhhY3Qgc3BvdDogJHttYXBzfVxuYCA6ICIiKSArCiAgICBgQXZvaWQgdGhlIGFyZWEgaWYgcG9zc2libGUuIOKAlCBOaXZhcmFuYWAKICApOwp9CgovLyBab25lIHNuYXBzaG90OiBhIHBhc3RlYWJsZSBvbmUtbWVzc2FnZSBzdHJlZXQgcmVwb3J0IOKAlCB3aGljaCBhcmVhcyBhcmUKLy8gYWZmZWN0ZWQsIGhvdyBkZWVwLCB3aGV0aGVyIHRoZSB3YXRlciBpcyByZWNlZGluZywgYW5kIGhvdyBmcmVzaCB0aGUKLy8gc2lnbmFsIGlzIOKAlCBmb3Igc2hhcmluZyBpbiBhIG5laWdoYm91cmhvb2QgV2hhdHNBcHAgZ3JvdXAgYXQgMiBBTS4KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkWm9uZVN1bW1hcnlUZXh0KHpvbmVzOiBBcnJheTx7CiAgYXJlYTogc3RyaW5nOwogIHdvcnN0OiBzdHJpbmc7CiAgY291bnQ6IG51bWJlcjsKICBtYXhEZXB0aDogbnVtYmVyIHwgbnVsbDsKICByZWNlZGluZzogYm9vbGVhbjsKICBzdGFsZTogYm9vbGVhbjsKfT4pOiBzdHJpbmcgewogIGNvbnN0IGxpbmVzOiBzdHJpbmdbXSA9IFsi8J+Xuu+4jyBOSVZBUkFOQSBaT05FIFNOQVBTSE9UIl07CiAgZm9yIChjb25zdCB6IG9mIHpvbmVzKSB7CiAgICBjb25zdCBiaXRzOiBzdHJpbmdbXSA9IFtgJHt6LndvcnN0LnRvVXBwZXJDYXNlKCl9YF07CiAgICBpZiAoei5tYXhEZXB0aCAhPSBudWxsKSBiaXRzLnB1c2goYGRlZXBlc3Qg4omIJHt6Lm1heERlcHRofSBjbWApOwogICAgYml0cy5wdXNoKGAke3ouY291bnR9IHJlcG9ydCR7ei5jb3VudCA9PT0gMSA/ICIiIDogInMifWApOwogICAgbGV0IGxpbmUgPSBg4oCiICR7ei5hcmVhfTogJHtiaXRzLmpvaW4oIiDCtyAiKX1gOwogICAgaWYgKHoucmVjZWRpbmcpIGxpbmUgKz0gIiDigJQg8J+MiiByZWNlZGluZyI7CiAgICBpZiAoei5zdGFsZSkgbGluZSArPSAiICjimqAgc2lnbmFsID4yNGggb2xkIOKAlCB2ZXJpZnkgYmVmb3JlIHRyYXZlbGxpbmcpIjsKICAgIGxpbmVzLnB1c2gobGluZSk7CiAgfQogIGxpbmVzLnB1c2goIiIsICJSZXBvcnRlZCBieSBuZWlnaGJvdXJzIGluIE5pdmFyYW5hLiBDb25kaXRpb25zIGNoYW5nZSBmYXN0IOKAlCB2ZXJpZnkgb24gdGhlIGdyb3VuZC4g4oCUIE5pdmFyYW5hIik7CiAgcmV0dXJuIGxpbmVzLmpvaW4oIlxuIik7Cn0KCmV4cG9ydCBmdW5jdGlvbiB3aGF0c2FwcFVybCh0ZXh0OiBzdHJpbmcsIHBob25lID0gIiIpOiBzdHJpbmcgewogIHJldHVybiBgaHR0cHM6Ly93YS5tZS8ke3Bob25lfT90ZXh0PSR7ZW5jb2RlVVJJQ29tcG9uZW50KHRleHQpfWA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBzbXNVcmwodGV4dDogc3RyaW5nLCBwaG9uZSA9ICIiKTogc3RyaW5nIHsKICByZXR1cm4gYHNtczoke3Bob25lfT9ib2R5PSR7ZW5jb2RlVVJJQ29tcG9uZW50KHRleHQpfWA7Cn0K
+// Project 003 · Nivarana — bilingual share-text builders (EN + Tamil)
+
+export function buildSosText(opts: {
+  name: string;
+  area: string;
+  need: string;
+  phone: string;
+  lang: "en" | "ta";
+  coords?: { lat: number; lon: number } | null;
+}): string {
+  const { name, area, need, phone } = opts;
+  const maps = opts.coords
+    ? `https://maps.google.com/?q=${opts.coords.lat.toFixed(6)},${opts.coords.lon.toFixed(6)}`
+    : "";
+  if (opts.lang === "ta") {
+    return (
+      `🆘 அவசர உதவி தேவை!\n` +
+      `பெயர்: ${name}\n` +
+      `இடம்: ${area}\n` +
+      (maps ? `என் இருப்பிடம்: ${maps}\n` : "") +
+      `தேவை: ${need}\n` +
+      `தொடர்பு: ${phone}\n\n` +
+      `அருகில் இருப்பவர்கள் உடனே உதவவும். — Nivarana`
+    );
+  }
+  return (
+    `🆘 EMERGENCY — help needed!\n` +
+    `Name: ${name}\n` +
+    `Location: ${area}\n` +
+    (maps ? `My GPS location: ${maps}\n` : "") +
+    `Need: ${need}\n` +
+    `Contact: ${phone}\n\n` +
+    `If you are nearby, please help immediately. — Nivarana`
+  );
+}
+
+export function buildSafeText(opts: { name: string; area: string; lang: "en" | "ta" }): string {
+  const { name, area } = opts;
+  if (opts.lang === "ta") {
+    return `✅ நான் பாதுகாப்பாக இருக்கிறேன். ${name} — ${area}. கவலை வேண்டாம். — Nivarana`;
+  }
+  return `✅ I'm safe. ${name} — ${area}. No need to worry. — Nivarana`;
+}
+
+// Coordinator sit-rep: a pasteable WhatsApp dispatch of everything open right
+// now, grouped so a group admin can broadcast one message to a volunteer group.
+export function buildDispatchText(opts: {
+  requests: Array<{ need: string; area: string; people: number; claimedBy?: string }>;
+  incidents: Array<{ label: string; severity: string; area: string }>;
+  shelterSpace: Array<{ name: string; area: string; occupancy?: string }>;
+  when: Date;
+}): string {
+  const lines: string[] = [`📋 NIVARANA SIT-REP — ${opts.when.toLocaleString("en-IN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "short" })}`];
+  if (opts.requests.length) {
+    lines.push("", `🙏 OPEN HELP REQUESTS (${opts.requests.length})`);
+    for (const r of opts.requests) {
+      lines.push(`• ${r.need} — ${r.area} (${r.people})${r.claimedBy ? ` → ${r.claimedBy} on it` : " → nobody claimed yet"}`);
+    }
+  } else {
+    lines.push("", "🙏 No open help requests. Quiet right now.");
+  }
+  if (opts.incidents.length) {
+    lines.push("", `⚠️ URGENT INCIDENTS (${opts.incidents.length})`);
+    for (const i of opts.incidents) lines.push(`• ${i.label} — ${i.area} (${i.severity})`);
+  }
+  if (opts.shelterSpace.length) {
+    lines.push("", `🏕️ SHELTERS WITH ROOM (${opts.shelterSpace.length})`);
+    for (const s of opts.shelterSpace) lines.push(`• ${s.name}, ${s.area}`);
+  }
+  lines.push("", "Volunteers: claim via the app, go in pairs, don't enter fast water. — Nivarana");
+  return lines.join("\n");
+}
+
+export function buildIncidentText(opts: {
+  typeLabel: string;
+  severity: string;
+  area: string;
+  note: string;
+  coords?: { lat: number; lon: number } | null;
+}): string {
+  const maps = opts.coords
+    ? `https://maps.google.com/?q=${opts.coords.lat.toFixed(6)},${opts.coords.lon.toFixed(6)}`
+    : "";
+  return (
+    `⚠️ ${opts.typeLabel} reported in ${opts.area} (severity: ${opts.severity}).\n` +
+    (opts.note ? `${opts.note}\n` : "") +
+    (maps ? `Exact spot: ${maps}\n` : "") +
+    `Avoid the area if possible. — Nivarana`
+  );
+}
+
+// Zone snapshot: a pasteable one-message street report — which areas are
+// affected, how deep, whether the water is receding, and how fresh the
+// signal is — for sharing in a neighbourhood WhatsApp group at 2 AM.
+export function buildZoneSummaryText(zones: Array<{
+  area: string;
+  worst: string;
+  count: number;
+  maxDepth: number | null;
+  receding: boolean;
+  stale: boolean;
+}>): string {
+  const lines: string[] = ["🗺️ NIVARANA ZONE SNAPSHOT"];
+  for (const z of zones) {
+    const bits: string[] = [`${z.worst.toUpperCase()}`];
+    if (z.maxDepth != null) bits.push(`deepest ≈${z.maxDepth} cm`);
+    bits.push(`${z.count} report${z.count === 1 ? "" : "s"}`);
+    let line = `• ${z.area}: ${bits.join(" · ")}`;
+    if (z.receding) line += " — 🌊 receding";
+    if (z.stale) line += " (⚠ signal >24h old — verify before travelling)";
+    lines.push(line);
+  }
+  lines.push("", "Reported by neighbours in Nivarana. Conditions change fast — verify on the ground. — Nivarana");
+  return lines.join("\n");
+}
+
+export function whatsappUrl(text: string, phone = ""): string {
+  return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+}
+
+export function smsUrl(text: string, phone = ""): string {
+  return `sms:${phone}?body=${encodeURIComponent(text)}`;
+}

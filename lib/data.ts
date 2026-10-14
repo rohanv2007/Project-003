@@ -1,1 +1,300 @@
-Ly8gUHJvamVjdCAwMDMgwrcgTml2YXJhbmEg4oCUIGN1cmF0ZWQgcmVmZXJlbmNlIGRhdGEgKHdvcmtzIGZ1bGx5IG9mZmxpbmUpCgppbXBvcnQgdHlwZSB7IEZpcnN0QWlkR3VpZGUsIEdvQmFnSXRlbSwgUXVpelF1ZXN0aW9uLCBTaGVsdGVyIH0gZnJvbSAiLi90eXBlcyI7CgpleHBvcnQgY29uc3QgUVVJWl9CQURHRV9USVRMRSA9ICLwn4+FIEZsb29kIEZpcnN0LVJlc3BvbmRlciI7CgovLyBDb3B5LXBhc3RlIGJyb2FkY2FzdCB0ZW1wbGF0ZXMgZm9yIFdoYXRzQXBwIGdyb3VwIGFkbWlucyDigJQgYmlsaW5ndWFsIEVOL1RBLgovLyBJbiBhIHJlYWwgZXZlbnQsIHRoZSBhZG1pbiBmaWxscyBbYnJhY2tldGVkXSBmaWVsZHMsIGNvcGllcywgcGFzdGVzLgpleHBvcnQgY29uc3QgQlJPQURDQVNUX1RFTVBMQVRFUzogeyBpZDogc3RyaW5nOyB0aXRsZTogc3RyaW5nOyBlbjogc3RyaW5nOyB0YTogc3RyaW5nIH1bXSA9IFsKICB7CiAgICBpZDogInJhaW4td2FybmluZyIsCiAgICB0aXRsZTogIvCfjKfvuI8gSGVhdnkgcmFpbiB3YXJuaW5nIiwKICAgIGVuOiAi8J+Mp++4jyBIRUFWWSBSQUlOIFdBUk5JTkcg4oCUIFtBUkVBXTogVmVyeSBoZWF2eSByYWluIGV4cGVjdGVkIGluIHRoZSBuZXh0IDYgaG91cnMuIEF2b2lkIGxvdy1seWluZyByb2Fkcywga2VlcCB5b3VyIGdvLWJhZyByZWFkeSwgY2hlY2sgb24gZWxkZXJseSBuZWlnaGJvdXJzLiBSZXBvcnQgd2hhdCB5b3Ugc2VlIGluIE5pdmFyYW5hLiDigJQgW0dST1VQXSIsCiAgICB0YTogIvCfjKfvuI8g4K6V4K6p4K6u4K604K+IIOCujuCumuCvjeCumuCusOCuv+CuleCvjeCuleCviCDigJQgW0FSRUFdOiDgroXgrp/gr4HgrqTgr43grqQgNiDgrq7grqPgrr8g4K6o4K+H4K6w4K6k4K+N4K6k4K6/4K6y4K+NIOCuruCuv+CulSDgrpXgrqngrq7grrTgr4gg4K6q4K+G4K6v4K+N4K6v4K+B4K6u4K+NLiDgrqTgrr7grrTgr43grrXgrr7grqkg4K6a4K6+4K6y4K+I4K6V4K6z4K+IIOCupOCuteCuv+CusOCvjeCuleCvjeCuleCuteCvgeCuruCvjSwg4K6F4K614K6a4K6wIOCuquCviOCur+CviCDgrqTgrq/grr7grrDgrr7grpUg4K614K+I4K6V4K+N4K6V4K614K+B4K6u4K+NLCDgrrXgrq/grqTgrr7grqkg4K6F4K6j4K+N4K6f4K+I4K614K+A4K6f4K+N4K6f4K6+4K6w4K+IIOCuleCuteCuqeCuv+CuleCvjeCuleCuteCvgeCuruCvjS4g4oCUIFtHUk9VUF0iLAogIH0sCiAgewogICAgaWQ6ICJldmFjLWFkdmlzb3J5IiwKICAgIHRpdGxlOiAi4pqg77iPIEV2YWN1YXRpb24gYWR2aXNvcnkiLAogICAgZW46ICLimqDvuI8gRVZBQ1VBVElPTiBBRFZJU09SWSDigJQgW0FSRUFdOiBXYXRlciByaXNpbmcuIElmIHlvdSdyZSBvbiB0aGUgZ3JvdW5kIGZsb29yLCBtb3ZlIHRvIGhpZ2hlciBncm91bmQgb3IgdGhlIHNoZWx0ZXIgYXQgW1NIRUxURVJdIG5vdy4gVGFrZSBJRCwgbWVkaWNpbmVzLCBwaG9uZS4gV2FsayDigJQgbmV2ZXIgZHJpdmUgdGhyb3VnaCBmbG9vZHdhdGVyLiDigJQgW0dST1VQXSIsCiAgICB0YTogIuKaoO+4jyDgrrXgr4bgrrPgrr/grq/gr4fgrrHgr43grrEg4K6F4K6x4K6/4K614K+B4K6x4K+B4K6k4K+N4K6k4K6y4K+NIOKAlCBbQVJFQV06IOCupOCuo+CvjeCuo+CvgOCusOCvjSDgrongrq/grrDgr43grpXgrr/grrHgrqTgr4EuIOCupOCusOCviCDgrqTgrrPgrqTgr43grqTgrr/grrLgr40g4K6H4K6w4K+B4K6o4K+N4K6k4K6+4K6y4K+NIOCuh+CuquCvjeCuquCvi+CupOCvhyDgrongrq/grrDgrq7grr7grqkg4K6H4K6f4K6k4K+N4K6k4K6/4K6x4K+N4K6V4K+BIOCuheCusuCvjeCusuCupOCvgSBbU0hFTFRFUl0g4K6u4K+B4K6V4K6+4K6u4K6/4K6x4K+N4K6V4K+BIOCumuCvhuCusuCvjeCusuCuteCvgeCuruCvjS4g4K6F4K6f4K+I4K6v4K6+4K6zIOCuheCun+CvjeCun+CviCwg4K6u4K6w4K+B4K6o4K+N4K6k4K+BLCDgrqrgr4vgrqngr4gg4K6O4K6f4K+B4K6k4K+N4K6k4K+B4K6a4K+NIOCumuCvhuCusuCvjeCusuCuteCvgeCuruCvjS4g4K6o4K6f4K6o4K+N4K6k4K+BIOCumuCvhuCusuCvjeCusuCuteCvgeCuruCvjSDigJQg4K614K+G4K6z4K+N4K6z4K6o4K+A4K6w4K6/4K6y4K+NIOCuteCuvuCuleCuqeCuruCvjSDgrpPgrp/gr43grp8g4K614K+H4K6j4K+N4K6f4K6+4K6u4K+NLiDigJQgW0dST1VQXSIsCiAgfSwKICB7CiAgICBpZDogInZvbHVudGVlci1jYWxsIiwKICAgIHRpdGxlOiAi8J+knSBWb2x1bnRlZXIgY2FsbC1vdXQiLAogICAgZW46ICLwn6SdIFZPTFVOVEVFUlMgTkVFREVEIOKAlCBbQVJFQV06IEJvYXRzIC8gaGFuZHMgbmVlZGVkIGF0IFtBUkVBXSDigJQgW05dIHBlb3BsZSBuZWVkIGV2YWN1YXRpb24uIENvb3JkaW5hdGVkIHZpYSBOaXZhcmFuYTogY2xhaW0gYmVmb3JlIHlvdSBnbywgdHJhdmVsIGluIHBhaXJzLCBkbyBub3QgZW50ZXIgZmFzdCB3YXRlci4gUmVwbHkgaWYgYXZhaWxhYmxlLiDigJQgW0dST1VQXSIsCiAgICB0YTogIvCfpJ0g4K6k4K6p4K+N4K6p4K6+4K6w4K+N4K614K6y4K6w4K+N4K6V4K6z4K+NIOCupOCvh+CuteCviCDigJQgW0FSRUFdOiBbQVJFQV0t4K6H4K6y4K+NIOCuquCun+CuleCvgSAvIOCuieCupOCuteCuv+CuleCvjeCuleCusOCuruCvjSDgrqTgr4fgrrXgr4gg4oCUIFtOXSDgrqrgr4fgrrDgr40g4K614K+G4K6z4K6/4K6v4K+H4K6xIOCuteCvh+Cuo+CvjeCun+CvgeCuruCvjS4gTml2YXJhbmEg4K6u4K+C4K6y4K6u4K+NIOCukuCusOCvgeCumeCvjeCuleCuv+Cuo+CviOCuleCvjeCuleCuquCvjeCuquCun+CvgeCuruCvjTog4K6a4K+G4K6y4K+N4K614K6k4K6x4K+N4K6V4K+BIOCuruCvgeCuqeCvjSDgrqrgrqTgrr/grrXgr4Eg4K6a4K+G4K6v4K+N4K6v4K614K+B4K6u4K+NLCDgrpzgr4vgrp/grr/grq/grr7grpXgrprgr40g4K6a4K+G4K6y4K+N4K6y4K614K+B4K6u4K+NLCDgrrXgr4fgrpXgrq7grr7grqkg4K6o4K+A4K6w4K6/4K6y4K+NIOCuh+CuseCumeCvjeCulSDgrrXgr4fgrqPgr43grp/grr7grq7gr40uIOKAlCBbR1JPVVBdIiwKICB9LAogIHsKICAgIGlkOiAiYWxsLWNsZWFyIiwKICAgIHRpdGxlOiAi4pyFIEFsbC1jbGVhciIsCiAgICBlbjogIuKchSBBTEwtQ0xFQVIg4oCUIFtBUkVBXTogV2F0ZXIgaXMgcmVjZWRpbmcuIERvbid0IHJlLWVudGVyIHVudGlsIHRoZSBhbGwtY2xlYXIgZm9yIHlvdXIgc3RyZWV0OyBzd2l0Y2ggb2ZmIHRoZSBtYWlucyBiZWZvcmUgdG91Y2hpbmcgc3dpdGNoZXMuIFJlcG9ydCBkYW1hZ2UgdmlhIE5pdmFyYW5hLiDigJQgW0dST1VQXSIsCiAgICB0YTogIuKchSDgrqjgrr/grrLgr4jgrq7gr4gg4K6a4K+A4K6w4K6+4K6V4K6/4K614K6/4K6f4K+N4K6f4K6k4K+BIOKAlCBbQVJFQV06IOCupOCuo+CvjeCuo+CvgOCusOCvjSDgrrXgrp/grr/grpXgrr/grrHgrqTgr4EuIOCuieCumeCvjeCuleCus+CvjSDgrqTgr4bgrrDgr4HgrrXgr4HgrpXgr43grpXgr4Eg4K6F4K6p4K+B4K6u4K6k4K6/IOCuleCuv+Cun+CviOCuleCvjeCuleCvgeCuruCvjSDgrrXgrrDgr4gg4K6k4K6/4K6w4K+B4K6u4K+N4K6q4K6/IOCuteCusCDgrrXgr4fgrqPgr43grp/grr7grq7gr407IOCumuCvgeCuteCuv+Cun+CvjeCumuCviCDgrqTgr4rgrp/gr4HgrrXgrqTgrrHgr43grpXgr4Eg4K6u4K+B4K6p4K+NIOCuruCuv+CuqeCvjeCumuCuvuCusOCupOCvjeCupOCviCDgroXgrqPgr4jgrpXgr43grpXgrrXgr4Hgrq7gr40uIOKAlCBbR1JPVVBdIiwKICB9LApdOwoKLy8gUG9zdC1mbG9vZCByZWNvdmVyeTogdGhlIHNlY29uZCBkaXNhc3RlciBhZnRlciB0aGUgd2F0ZXIgaXRzZWxmLiBBIGNoZWNrZWQsCi8vIG9yZGVyZWQgc2VxdWVuY2Ug4oCUIHNhZmV0eSBmaXJzdCAoZWxlY3RyaWNzLCBnYXMsIHN0cnVjdHVyZSksIHRoZW4gY2xlYW51cCwKLy8gdGhlbiBwYXBlcndvcmsgd2hpbGUgZGFtYWdlIGlzIHN0aWxsIHZpc2libGUuCmV4cG9ydCBjb25zdCBSRUNPVkVSWV9DSEVDS0xJU1Q6IHsgdGl0bGU6IHN0cmluZzsgZGV0YWlsOiBzdHJpbmc7IGRhbmdlcjogYm9vbGVhbiB9W10gPSBbCiAgeyB0aXRsZTogIldhaXQgZm9yIHRoZSBhbGwtY2xlYXIgYmVmb3JlIHJlLWVudGVyaW5nIiwgZGV0YWlsOiAiRG9uJ3Qgd2FkZSBiYWNrIGluIGJlY2F1c2UgdGhlIHJhaW4gc3RvcHBlZCDigJQgc3RydWN0dXJlcywgbGl2ZSB3aXJlcyBhbmQgc25ha2VzIGFyZSB0aGUga2lsbGVycyBhZnRlciBhIGZsb29kLiIsIGRhbmdlcjogdHJ1ZSB9LAogIHsgdGl0bGU6ICJLaWxsIHRoZSBtYWlucyBiZWZvcmUgdG91Y2hpbmcgYW55dGhpbmciLCBkZXRhaWw6ICJTd2l0Y2ggb2ZmIGVsZWN0cmljaXR5IGF0IHRoZSBtYWluIGJyZWFrZXIgYW5kIGNsb3NlIHRoZSBMUEcgcmVndWxhdG9yIGJlZm9yZSBzdGVwcGluZyBpbnNpZGUuIElmIHRoZSBwYW5lbCBpcyB3ZXQgb3IgeW91IHNtZWxsIGdhcywgY2FsbCBhbiBlbGVjdHJpY2lhbiDigJQgZG9uJ3QgaW1wcm92aXNlLiIsIGRhbmdlcjogdHJ1ZSB9LAogIHsgdGl0bGU6ICJQaG90b2dyYXBoIGV2ZXJ5dGhpbmcgYmVmb3JlIGNsZWFuaW5nIiwgZGV0YWlsOiAiV2FsbHMsIGZsb29ycywgYXBwbGlhbmNlcywgZGFtYWdlZCBnb29kcyDigJQgaW5zdXJlcnMgYW5kIHJlbGllZiBjbGFpbXMgYXJlIGRlbmllZCB3aXRob3V0IGRhdGVkIHByb29mLiBUYWtlIHZpZGVvIHdhbGtpbmcgcm9vbSB0byByb29tLiIsIGRhbmdlcjogZmFsc2UgfSwKICB7IHRpdGxlOiAiV2VhciBib290cyBhbmQgZ2xvdmVzIGZvciBjbGVhbnVwIiwgZGV0YWlsOiAiRmxvb2R3YXRlciBjYXJyaWVzIHNld2FnZSwgZ2xhc3MgYW5kIHJ1c3RlZCBtZXRhbC4gTm8gYmFyZSBoYW5kcywgbm8gYmFyZSBmZWV0LiIsIGRhbmdlcjogdHJ1ZSB9LAogIHsgdGl0bGU6ICJUaHJvdyBvdXQgc29ha2VkIGZvb2QsIG1lZGljaW5lcywgY29zbWV0aWNzIiwgZGV0YWlsOiAiQW55dGhpbmcgZmxvb2R3YXRlciB0b3VjaGVkIGdvZXMgaW4gdGhlIGJpbiDigJQgY2FucyB0aGF0IGFyZSBkZW50ZWQsIHN3b2xsZW4gb3IgcnVzdGVkIHRvby4gJ0l0IGxvb2tzIGZpbmUnIGlzIGhvdyBmb29kIHBvaXNvbmluZyBoYXBwZW5zLiIsIGRhbmdlcjogdHJ1ZSB9LAogIHsgdGl0bGU6ICJDbGVhbiBhbmQgZGlzaW5mZWN0IGV2ZXJ5IHN1cmZhY2UiLCBkZXRhaWw6ICJTb2FwIGZpcnN0LCB0aGVuIGRpc2luZmVjdCAoMSBjYXAgb2YgYmxlYWNoIHBlciBidWNrZXQgb2Ygd2F0ZXIpLiBXYWxscyB1cCB0byB0aGUgd2F0ZXIgbGluZSwgZmxvb3JzLCB1dGVuc2lscyDigJQgZXZlcnl0aGluZy4iLCBkYW5nZXI6IGZhbHNlIH0sCiAgeyB0aXRsZTogIkRyeSB0aGUgaG91c2UgYWdncmVzc2l2ZWx5IiwgZGV0YWlsOiAiT3BlbiB3aW5kb3dzLCBydW4gZmFucywgbW92ZSBmdXJuaXR1cmUuIE1vdWxkIHN0YXJ0cyB3aXRoaW4gMjTigJM0OCBob3VycyBhbmQgdHJpZ2dlcnMgYnJlYXRoaW5nIHByb2JsZW1zIOKAlCB0aHJvdyBvdXQgbWF0dHJlc3NlcyBhbmQgY2FycGV0cyB0aGF0IGNhbid0IGJlIGRyaWVkIGZ1bGx5LiIsIGRhbmdlcjogZmFsc2UgfSwKICB7IHRpdGxlOiAiRG9uJ3QgZHJpbmsgdGFwIHdhdGVyIHVudGlsIGl0J3MgZGVjbGFyZWQgc2FmZSIsIGRldGFpbDogIlVzZSBib3R0bGVkIG9yIGRpc2luZmVjdGVkIHdhdGVyIChzdHJhaW4g4oaSIGJvaWwgMSBtaW4g4oaSIDIgZHJvcHMgYmxlYWNoL0wsIHdhaXQgMzAgbWluKSBmb3IgZHJpbmtpbmcgYW5kIGNvb2tpbmcuIiwgZGFuZ2VyOiB0cnVlIH0sCiAgeyB0aXRsZTogIkNoZWNrIG9uIHRoZSBjaGVjay1pbiBsaXN0IiwgZGV0YWlsOiAiUmUtcnVuIHlvdXIgbmVpZ2hib3VyIGNoZWNrLWlucyAocGFnZSAvY2hlY2tpbnMpIOKAlCBlbGRlcmx5IGFuZCBkZXZpY2UtZGVwZW5kZW50IG5laWdoYm91cnMgbmVlZCBhIHNlY29uZCByb3VuZCBhZnRlciB0aGUgd2F0ZXIgcmVjZWRlcy4iLCBkYW5nZXI6IGZhbHNlIH0sCiAgeyB0aXRsZTogIkZpbGUgY2xhaW1zIHdoaWxlIGV2aWRlbmNlIGlzIGZyZXNoIiwgZGV0YWlsOiAiSW5zdXJhbmNlLCBtdW5pY2lwYWwgcmVsaWVmLCBjcm9wLWxvc3MgY2xhaW1zIOKAlCBrZWVwIHRoZSBEb2N1bWVudCB2YXVsdCAoL2RvY3MpIHJlY2VpcHRzIGFuZCB0aGUgcGhvdG9zIGZyb20gc3RlcCAzIHRvZ2V0aGVyLiIsIGRhbmdlcjogZmFsc2UgfSwKXTsKCmV4cG9ydCBjb25zdCBNT05TT09OX0NBTEVOREFSOiB7IG1vbnRoOiBzdHJpbmc7IHdpbmRvdzogc3RyaW5nOyB0YXNrczogc3RyaW5nW10gfVtdID0gWwogIHsKICAgIG1vbnRoOiAiT2N0b2JlciIsCiAgICB3aW5kb3c6ICJQcmUtbW9uc29vbiDCtyBjbGVhbiBhbmQgZml4IiwKICAgIHRhc2tzOiBbCiAgICAgICJDbGVhciB0ZXJyYWNlIGFuZCBiYWxjb255IGRyYWlucyDigJQgdGVzdCB3aXRoIGEgYnVja2V0IG9mIHdhdGVyIiwKICAgICAgIlNlcnZpY2Ugc3VtcCBwdW1wIC8gY2hlY2sgaW52ZXJ0ZXIgYmF0dGVyeSBjaGFyZ2UiLAogICAgICAiU3RvY2sgY2FuZGxlcywgbWF0Y2hlcywgdG9yY2ggYmF0dGVyaWVzIGFuZCBhIHBvd2VyIGJhbmsiLAogICAgICAiUGhvdG9ncmFwaCB2YWx1YWJsZXMgYW5kIGRvY3VtZW50cyBmb3IgaW5zdXJhbmNlIGNsYWltcyIsCiAgICBdLAogIH0sCiAgewogICAgbW9udGg6ICJOb3ZlbWJlciIsCiAgICB3aW5kb3c6ICJQZWFrIG1vbnNvb24gwrcgc3RheSByZWFkeSIsCiAgICB0YXNrczogWwogICAgICAiR28tYmFnIHBhY2tlZCBhbmQgYnkgdGhlIG1haW4gZG9vciwgYWJvdmUgZXhwZWN0ZWQgd2F0ZXIgbGV2ZWwiLAogICAgICAiRmFtaWx5IHBsYW4gcHJpbnRlZCBhbmQgb24gdGhlIGZyaWRnZSDigJQgZXZlcnlvbmUga25vd3MgYm90aCBtZWV0aW5nIHBvaW50cyIsCiAgICAgICJQaG9uZSArIHBvd2VyIGJhbmsgY2hhcmdlZCBldmVyeSBldmVuaW5nOyB0b3JjaCBhcHAgaW5zdGFsbGVkIiwKICAgICAgIldhdGNoIE5pdmFyYW5hIHJlcG9ydHMgZm9yIHlvdXIgd2FyZCBiZWZvcmUgZHJpdmluZyBhbnl3aGVyZSIsCiAgICBdLAogIH0sCiAgewogICAgbW9udGg6ICJEZWNlbWJlciIsCiAgICB3aW5kb3c6ICJUYWlsIG1vbnNvb24gwrcgc3RheSB2aWdpbGFudCIsCiAgICB0YXNrczogWwogICAgICAiVG9wIHVwIG1lZGljaW5lcyBhbmQgZHJpbmtpbmcgd2F0ZXIg4oCUIHN1cHBseSBjaGFpbnMgc2xvdyBpbiB3YXRlcmxvZ2dlZCBzdHJlZXRzIiwKICAgICAgIkNoZWNrIGhvbWUgZm9yIHNlZXBhZ2UsIG1vdWxkIGFuZCBleHBvc2VkIHdpcmluZyBhZnRlciB0aGUgcmFpbnMiLAogICAgICAiUmVmaWxsIHdoYXQgeW91IHVzZWQgZnJvbSB0aGUgZ28tYmFnOyByZS1ydW4gdGhlIDYwLXNlY29uZCBkcmlsbCIsCiAgICAgICJDb25maXJtIGFueSBmbG9vZCByZXBvcnRzIG5lYXIgeW91IGFzICdyZWNlZGluZycgb25jZSBzdHJlZXRzIGRyYWluIiwKICAgIF0sCiAgfSwKXTsKCmV4cG9ydCBjb25zdCBFVkFDX0RSSUxMX1NURVBTOiB7IHN0ZXA6IHN0cmluZzsgd2h5OiBzdHJpbmcgfVtdID0gWwogIHsgc3RlcDogIktpbGwgdGhlIG1haW5zIOKAlCBwb3dlciwgZ2FzLCB3YXRlciIsIHdoeTogIkZsb29kZWQgc3dpdGNoYm9hcmRzIGFuZCBzaG9ydGVkIGFwcGxpYW5jZXMgZWxlY3Ryb2N1dGUgcGVvcGxlIGV2ZXJ5IG1vbnNvb24uIFR1cm4gb2ZmIHRoZSBtYWluIHN3aXRjaCBhbmQgdGhlIGdhcyBjeWxpbmRlciByZWd1bGF0b3IgYmVmb3JlIHlvdSBsZWF2ZS4iIH0sCiAgeyBzdGVwOiAiR3JhYiB0aGUgZ28tYmFnIGFuZCBkb2N1bWVudHMgcG91Y2giLCB3aHk6ICJJdCdzIGFscmVhZHkgcGFja2VkIOKAlCBkb24ndCByZXBhY2sgbm93LiBUaGF0J3Mgd2hhdCB0aGUgZHJpbGwgaXMgZm9yLiIgfSwKICB7IHN0ZXA6ICJNb3ZlIGVsZGVybHksIGNoaWxkcmVuIGFuZCBwZXRzIGZpcnN0Iiwgd2h5OiAiVGhlIG1vc3QgdnVsbmVyYWJsZSBsZWF2ZSBmaXJzdCBhbmQgc2V0dGxlIHVwc3RhaXJzIG9yIGF0IHRoZSBuZWlnaGJvdXIncyB1cHBlciBmbG9vciB3aGlsZSB5b3UgZmluaXNoIHRoZSByZXN0LiIgfSwKICB7IHN0ZXA6ICJMb2NrIGRvb3JzLCB0YWtlIG9uZSBwaG90byBvZiB0aGUgaG91c2UiLCB3aHk6ICJMb2NrZWQgZG9vcnMgc2xvdyBsb290ZXJzOyBhIHBob3RvIG9mIHlvdXIgaG9tZSdzIGNvbmRpdGlvbiBoZWxwcyBhbnkgbGF0ZXIgaW5zdXJhbmNlIG9yIHJlbGllZiBjbGFpbS4iIH0sCiAgeyBzdGVwOiAiU2VuZCBhbiBcIkknbSBTYWZlXCIgcGluZyB0byBmYW1pbHkiLCB3aHk6ICJPbmUgdGFwIG5vdyBzdG9wcyBob3VycyBvZiBwYW5pYyBjYWxscyBsYXRlci4gVXNlIHRoZSBTT1MgcGFnZSDigJQgaXQgd29ya3MgaW4gYm90aCBsYW5ndWFnZXMuIiB9LAogIHsgc3RlcDogIldhbGsgdG8geW91ciBtZWV0aW5nIHBvaW50IOKAlCBuZXZlciBkcml2ZSB0aHJvdWdoIHdhdGVyIiwgd2h5OiAiMTUgY20gb2YgZmFzdCB3YXRlciBjYW4ga25vY2sgeW91IGRvd247IDYwIGNtIGNhbiBmbG9hdCBhIGNhci4gVHVybiBhcm91bmQsIGRvbid0IGRyb3duLiIgfSwKICB7IHN0ZXA6ICJDaGVjayB0aGUgTml2YXJhbmEgcmVwb3J0cyBib2FyZCBvbiBhcnJpdmFsIiwgd2h5OiAiU2VlIHdoaWNoIHN0cmVldHMgb24geW91ciByb3V0ZSBhcmUgZmxvb2RlZCwgYW5kIGNvbmZpcm0gb3IgcmVwb3J0IHdoYXQgeW91IHNlZS4iIH0sCl07CgpleHBvcnQgaW50ZXJmYWNlIEhlbHBsaW5lIHsKICBudW1iZXI6IHN0cmluZzsKICBsYWJlbDogc3RyaW5nOwogIGxhYmVsVGE6IHN0cmluZzsKICBkZXRhaWw6IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IEhFTFBMSU5FUzogSGVscGxpbmVbXSA9IFsKICB7IG51bWJlcjogIjExMiIsIGxhYmVsOiAiTmF0aW9uYWwgRW1lcmdlbmN5IiwgbGFiZWxUYTogIuCupOCvh+CumuCuv+CuryDgroXgrrXgrprgrrAg4K6J4K6k4K614K6/IiwgZGV0YWlsOiAiU2luZ2xlIGVtZXJnZW5jeSBudW1iZXIg4oCUIHBvbGljZSwgZmlyZSwgbWVkaWNhbC4iIH0sCiAgeyBudW1iZXI6ICIxMDc3IiwgbGFiZWw6ICJUTiBEaXNhc3RlciBIZWxwbGluZSIsIGxhYmVsVGE6ICLgrqrgr4fgrrDgrr/grp/grrDgr40g4K6J4K6k4K614K6/IOCujuCuo+CvjSIsIGRldGFpbDogIlRhbWlsIE5hZHUgU3RhdGUgRW1lcmdlbmN5IE9wZXJhdGlvbnMgQ2VudHJlLiIgfSwKICB7IG51bWJlcjogIjEwOCIsIGxhYmVsOiAiQW1idWxhbmNlIiwgbGFiZWxUYTogIuCuhuCuruCvjeCuquCvgeCusuCuqeCvjeCuuOCvjSIsIGRldGFpbDogIkZyZWUgZW1lcmdlbmN5IGFtYnVsYW5jZSBzZXJ2aWNlLiIgfSwKICB7IG51bWJlcjogIjEwMCIsIGxhYmVsOiAiUG9saWNlIiwgbGFiZWxUYTogIuCuleCuvuCuteCusuCvjeCupOCvgeCuseCviCIsIGRldGFpbDogIlBvbGljZSBjb250cm9sIHJvb20uIiB9LAogIHsgbnVtYmVyOiAiMTAxIiwgbGFiZWw6ICJGaXJlICYgUmVzY3VlIiwgbGFiZWxUYTogIuCupOCvgOCur+Cuo+CviOCuquCvjeCuquCvgSIsIGRldGFpbDogIkZpcmUgYW5kIHJlc2N1ZSBzZXJ2aWNlcy4iIH0sCiAgeyBudW1iZXI6ICIxOTEzIiwgbGFiZWw6ICJDaGVubmFpIENvcnBvcmF0aW9uIiwgbGFiZWxUYTogIuCumuCvhuCuqeCvjeCuqeCviCDgrq7grr7grqjgrpXgrrDgrr7grp/gr43grprgrr8iLCBkZXRhaWw6ICJDaXZpYyBncmlldmFuY2VzIOKAlCB3YXRlcmxvZ2dpbmcsIGZhbGxlbiB0cmVlcywgYmxvY2tlZCBkcmFpbnMuIiB9LApdOwoKZXhwb3J0IGNvbnN0IEdPX0JBR19TRUVEOiBBcnJheTxQaWNrPEdvQmFnSXRlbSwgImlkIiB8ICJsYWJlbCIgfCAiZGV0YWlsIj4+ID0gWwogIHsgaWQ6ICJ3YXRlciIsIGxhYmVsOiAiRHJpbmtpbmcgd2F0ZXIiLCBkZXRhaWw6ICIzIGxpdHJlcyBwZXIgcGVyc29uIOKAlCBzZWFsZWQgYm90dGxlcyIgfSwKICB7IGlkOiAiZm9vZCIsIGxhYmVsOiAiRHJ5IGZvb2QiLCBkZXRhaWw6ICJCaXNjdWl0cywgZHJ5IGZydWl0cywgT1JTIHBhY2tldHMg4oCUIDMgZGF5cyIgfSwKICB7IGlkOiAibWVkcyIsIGxhYmVsOiAiTWVkaWNpbmVzIiwgZGV0YWlsOiAiRGFpbHkgcHJlc2NyaXB0aW9ucyArIGJhc2ljIGZpcnN0LWFpZCBraXQiIH0sCiAgeyBpZDogImRvY3MiLCBsYWJlbDogIkRvY3VtZW50cyBwb3VjaCIsIGRldGFpbDogIklELCBpbnN1cmFuY2UsIHByb3BlcnR5IHBhcGVycyBpbiBhIHppcC1sb2NrIiB9LAogIHsgaWQ6ICJ0b3JjaCIsIGxhYmVsOiAiVG9yY2ggKyBiYXR0ZXJpZXMiLCBkZXRhaWw6ICJPciBhIGhhbmQtY3JhbmsgLyBzb2xhciB0b3JjaCIgfSwKICB7IGlkOiAicG93ZXIiLCBsYWJlbDogIlBvd2VyIGJhbmsiLCBkZXRhaWw6ICJGdWxseSBjaGFyZ2VkLCB3aXRoIGNhYmxlIiB9LAogIHsgaWQ6ICJjbG90aGVzIiwgbGFiZWw6ICJDaGFuZ2Ugb2YgY2xvdGhlcyIsIGRldGFpbDogIk9uZSBzZXQgcGVyIHBlcnNvbiwgaW4gYSBkcnkgYmFnIiB9LAogIHsgaWQ6ICJjYXNoIiwgbGFiZWw6ICJDYXNoIiwgZGV0YWlsOiAiU21hbGwgbm90ZXMg4oCUIEFUTXMgZmFpbCBpbiBmbG9vZHMiIH0sCiAgeyBpZDogInJhZGlvIiwgbGFiZWw6ICJCYXR0ZXJ5IHJhZGlvIiwgZGV0YWlsOiAiRm9yIGFsZXJ0cyB3aGVuIG5ldHdvcmtzIGdvIGRvd24iIH0sCiAgeyBpZDogIndoaXN0bGUiLCBsYWJlbDogIldoaXN0bGUiLCBkZXRhaWw6ICJUbyBzaWduYWwgcmVzY3VlcnMg4oCUIGxvdWRlciB0aGFuIHNob3V0aW5nIiB9LAogIHsgaWQ6ICJibGFua2V0IiwgbGFiZWw6ICJCbGFua2V0IC8gc2hhd2wiLCBkZXRhaWw6ICJMaWdodCwgd2FybSwgcXVpY2stZHJ5IiB9LAogIHsgaWQ6ICJzYW5pdGFyeSIsIGxhYmVsOiAiU2FuaXRhcnkgc3VwcGxpZXMiLCBkZXRhaWw6ICJTb2FwLCBzYW5pdGFyeSBwYWRzLCBiYWJ5IG5lZWRzIiB9LApdOwoKZXhwb3J0IGNvbnN0IFNIRUxURVJfU0VFRDogQXJyYXk8T21pdDxTaGVsdGVyLCAiaWQiPj4gPSBbCiAgewogICAgbmFtZTogIlNhbXBsZSByZWxpZWYgY2FtcCDigJQgTWFyaW5hIiwKICAgIGFyZWE6ICJNYXJpbmEiLAogICAgY2FwYWNpdHk6IDUwMCwKICAgIGZhY2lsaXRpZXM6IFsiRHJpbmtpbmcgd2F0ZXIiLCAiRm9vZCIsICJNZWRpY2FsIGRlc2siLCAiQ2hhcmdpbmcgcG9pbnQiXSwKICAgIGNvbnRhY3Q6ICLigJQiLAogICAgbm90ZTogIlNhbXBsZSBlbnRyeS4gUmVwbGFjZSB3aXRoIHlvdXIgd2FyZCdzIGFjdHVhbCByZWxpZWYgY2FtcCBiZWZvcmUgbW9uc29vbi4iLAogICAgc291cmNlOiAic2VlZCIsCiAgfSwKICB7CiAgICBuYW1lOiAiU2FtcGxlIHJlbGllZiBjYW1wIOKAlCBWZWxhY2hlcnkiLAogICAgYXJlYTogIlZlbGFjaGVyeSIsCiAgICBjYXBhY2l0eTogMzAwLAogICAgZmFjaWxpdGllczogWyJEcmlua2luZyB3YXRlciIsICJGb29kIiwgIlRvaWxldHMiXSwKICAgIGNvbnRhY3Q6ICLigJQiLAogICAgbm90ZTogIlNhbXBsZSBlbnRyeS4gUmVwbGFjZSB3aXRoIHlvdXIgd2FyZCdzIGFjdHVhbCByZWxpZWYgY2FtcCBiZWZvcmUgbW9uc29vbi4iLAogICAgc291cmNlOiAic2VlZCIsCiAgfSwKICB7CiAgICBuYW1lOiAiU2FtcGxlIHJlbGllZiBjYW1wIOKAlCBNdWRpY2h1ciIsCiAgICBhcmVhOiAiTXVkaWNodXIiLAogICAgY2FwYWNpdHk6IDIwMCwKICAgIGZhY2lsaXRpZXM6IFsiRHJpbmtpbmcgd2F0ZXIiLCAiTWVkaWNhbCBkZXNrIl0sCiAgICBjb250YWN0OiAi4oCUIiwKICAgIG5vdGU6ICJTYW1wbGUgZW50cnkuIFJlcGxhY2Ugd2l0aCB5b3VyIHdhcmQncyBhY3R1YWwgcmVsaWVmIGNhbXAgYmVmb3JlIG1vbnNvb24uIiwKICAgIHNvdXJjZTogInNlZWQiLAogIH0sCl07CgpleHBvcnQgY29uc3QgRklSU1RfQUlEOiBGaXJzdEFpZEd1aWRlW10gPSBbCiAgewogICAgaWQ6ICJzYWZlLXdhdGVyIiwKICAgIHRpdGxlOiAiU2FmZSBkcmlua2luZyB3YXRlciBpbiBmbG9vZHMiLAogICAgc3VidGl0bGU6ICJQdXJpZnkgdGFwLCB0YW5rZXIgb3Igd2VsbCB3YXRlciBiZWZvcmUgZHJpbmtpbmciLAogICAgc3RlcHM6IFsKICAgICAgIlN0cmFpbiBtdWRkeSB3YXRlciB0aHJvdWdoIGEgY2xlYW4gY2xvdGggZmlyc3Qg4oCUIGRpc2luZmVjdGFudCBjYW4ndCB3b3JrIHRocm91Z2ggc2lsdC4iLAogICAgICAiQmVzdCBtZXRob2Q6IGJyaW5nIHdhdGVyIHRvIGEgcm9sbGluZyBib2lsIGZvciAxIGZ1bGwgbWludXRlLCB0aGVuIGNvb2wgY292ZXJlZC4iLAogICAgICAiTm8gZnVlbD8gVXNlIGhvdXNlaG9sZCBibGVhY2ggKHNvZGl1bSBoeXBvY2hsb3JpdGUsIG5vIHNjZW50L2FkZGl0aXZlcyk6IDIgZHJvcHMgcGVyIGxpdHJlIGZvciBjbGVhciB3YXRlciwgNCBkcm9wcyBwZXIgbGl0cmUgZm9yIGNsb3VkeSB3YXRlci4iLAogICAgICAiTWl4IHdlbGwgYW5kIHdhaXQgMzAgbWludXRlcy4gSXQgc2hvdWxkIHNtZWxsIGZhaW50bHkgb2YgY2hsb3JpbmUg4oCUIGlmIG5vdCwgcmVwZWF0IHRoZSBkb3NlIGFuZCB3YWl0IDE1IG1vcmUgbWludXRlcy4iLAogICAgICAiU3RvcmUgaW4gY2xlYW4gY292ZXJlZCBjb250YWluZXJzLiBOZXZlciBkcmluayB3YXRlciB0aGF0IHNtZWxscyBvZiBmdWVsIG9yIGNoZW1pY2FscyDigJQgZGlzaW5mZWN0aW9uIGRvZXNuJ3QgcmVtb3ZlIHRob3NlLiIsCiAgICBdLAogICAgd2FybmluZzogIkRpYXJyaG9lYSBhbmQgY2hvbGVyYSBzcGlrZSBhZnRlciBldmVyeSBmbG9vZC4gV2hlbiBpbiBkb3VidCwgYm9pbCDigJQgMSBtaW51dGUgb2YgYm9pbGluZyBraWxscyB2aXJ0dWFsbHkgZXZlcnl0aGluZy4iLAogIH0sCiAgewogICAgaWQ6ICJkcm93bmluZyIsCiAgICB0aXRsZTogIkZsb29kLXdhdGVyIHJlc2N1ZSIsCiAgICBzdWJ0aXRsZTogIldoYXQgdG8gZG8gaWYgc29tZW9uZSBpcyBjYXVnaHQgaW4gZmxvb2Qgd2F0ZXIiLAogICAgc3RlcHM6IFsKICAgICAgIkRvIE5PVCBlbnRlciBmYXN0LW1vdmluZyB3YXRlciB5b3Vyc2VsZi4gUmVhY2ggb3IgdGhyb3cg4oCUIG5ldmVyIGdvLiIsCiAgICAgICJFeHRlbmQgYSBzdGljaywgcm9wZSwgc2FyZWUgb3IgbGFkZGVyIHRvIHRoZSBwZXJzb24uIiwKICAgICAgIlRocm93IGEgZmxvYXRpbmcgb2JqZWN0OiBlbXB0eSBzZWFsZWQgZHJ1bSwgdGhlcm1vY29sLCBpbmZsYXRlZCB0dWJlLiIsCiAgICAgICJPbmNlIG91dCwgY2hlY2sgYnJlYXRoaW5nLiBJZiBub3QgYnJlYXRoaW5nIGFuZCB0cmFpbmVkLCBzdGFydCBDUFIuIiwKICAgICAgIktlZXAgdGhlIHBlcnNvbiB3YXJtLCB0cmVhdCBmb3Igc2hvY2ssIGNhbGwgMTA4IGltbWVkaWF0ZWx5LiIsCiAgICBdLAogICAgd2FybmluZzogIkZsb29kIHdhdGVyIGhpZGVzIG9wZW4gbWFuaG9sZXMgYW5kIGxpdmUgd2lyZXMuIE5ldmVyIHdhZGUgYWJvdmUga25lZSBsZXZlbC4iLAogIH0sCiAgewogICAgaWQ6ICJjcHIiLAogICAgdGl0bGU6ICJIYW5kcy1vbmx5IENQUiIsCiAgICBzdWJ0aXRsZTogIkFkdWx0IHdobyBoYXMgY29sbGFwc2VkIGFuZCBpcyBub3QgYnJlYXRoaW5nIG5vcm1hbGx5IiwKICAgIHN0ZXBzOiBbCiAgICAgICJDYWxsIDEwOCBmaXJzdCwgb3Igc2hvdXQgZm9yIHNvbWVvbmUgdG8gY2FsbC4iLAogICAgICAiUGxhY2UgdGhlIGhlZWwgb2YgeW91ciBoYW5kIG9uIHRoZSBjZW50cmUgb2YgdGhlIGNoZXN0LiIsCiAgICAgICJQdXNoIGhhcmQgYW5kIGZhc3Qg4oCUIDXigJM2IGNtIGRlZXAsIGFib3V0IDEwMOKAkzEyMCBwZXIgbWludXRlLiIsCiAgICAgICJMZXQgdGhlIGNoZXN0IGZ1bGx5IHJpc2UgYmV0d2VlbiBwdXNoZXMuIERvIG5vdCBzdG9wLiIsCiAgICAgICJDb250aW51ZSB1bnRpbCBoZWxwIGFycml2ZXMgb3IgdGhlIHBlcnNvbiBzdGFydHMgYnJlYXRoaW5nLiIsCiAgICBdLAogICAgd2FybmluZzogIkhhbmRzLW9ubHkgQ1BSIGlzIGZvciBhZHVsdHMuIEZvciBjaGlsZHJlbiBhbmQgZHJvd25pbmcgdmljdGltcywgcmVzY3VlIGJyZWF0aHMgbWF0dGVyIOKAlCBjYWxsIDEwOCBmb3IgZ3VpZGFuY2UuIiwKICB9LAogIHsKICAgIGlkOiAiYmxlZWRpbmciLAogICAgdGl0bGU6ICJTZXZlcmUgYmxlZWRpbmciLAogICAgc3VidGl0bGU6ICJDdXRzIGZyb20gZGVicmlzLCB0aW4gc2hlZXRzLCBicm9rZW4gZ2xhc3MiLAogICAgc3RlcHM6IFsKICAgICAgIlByZXNzIGZpcm1seSBvbiB0aGUgd291bmQgd2l0aCBjbGVhbiBjbG90aC4gRG8gbm90IGxpZnQgdG8gY2hlY2suIiwKICAgICAgIklmIGJsb29kIHNvYWtzIHRocm91Z2gsIGFkZCBtb3JlIGNsb3RoIG9uIHRvcCDigJQga2VlcCBwcmVzc2luZy4iLAogICAgICAiUmFpc2UgdGhlIGluanVyZWQgbGltYiBhYm92ZSBoZWFydCBsZXZlbCBpZiBwb3NzaWJsZS4iLAogICAgICAiRm9yIGEgbGltYiB3b3VuZCB0aGF0IHdvbid0IHN0b3AsIHRpZSBhIGJlbHQgb3IgY2xvdGggYWJvdmUgdGhlIHdvdW5kIGFzIGEgdG91cm5pcXVldCBhbmQgbm90ZSB0aGUgdGltZS4iLAogICAgICAiR2V0IHRvIG1lZGljYWwgaGVscCBmYXN0IOKAlCBjYWxsIDEwOC4iLAogICAgXSwKICAgIHdhcm5pbmc6ICJEbyBub3QgcmVtb3ZlIGVtYmVkZGVkIG9iamVjdHMgKGdsYXNzLCBtZXRhbCkuIFByZXNzIGFyb3VuZCB0aGVtLiIsCiAgfSwKICB7CiAgICBpZDogImVsZWN0cmljIiwKICAgIHRpdGxlOiAiRWxlY3RyaWMgc2hvY2siLAogICAgc3VidGl0bGU6ICJMaXZlIHdpcmVzIGluIGZsb29kIHdhdGVyIGFyZSBzaWxlbnQga2lsbGVycyIsCiAgICBzdGVwczogWwogICAgICAiRG8gTk9UIHRvdWNoIHRoZSBwZXJzb24gd2hpbGUgdGhleSBhcmUgaW4gY29udGFjdCB3aXRoIGVsZWN0cmljaXR5LiIsCiAgICAgICJTd2l0Y2ggb2ZmIHRoZSBtYWlucyBpZiB5b3UgY2FuIGRvIGl0IHNhZmVseSBhbmQgcXVpY2tseS4iLAogICAgICAiU2VwYXJhdGUgdGhlbSB1c2luZyBhIGRyeSB3b29kZW4gc3RpY2ssIHBsYXN0aWMgY2hhaXIgb3IgcnViYmVyIG1hdC4iLAogICAgICAiQ2hlY2sgYnJlYXRoaW5nIGFuZCBwdWxzZTsgc3RhcnQgQ1BSIGlmIHRyYWluZWQgYW5kIG5lZWRlZC4iLAogICAgICAiQ2FsbCAxMDEgKGZpcmUpIGFuZCAxMDguIFRyZWF0IGJ1cm5zIHdpdGggY29vbCB3YXRlciwgbm8gb2ludG1lbnRzLiIsCiAgICBdLAogICAgd2FybmluZzogIkFzc3VtZSBldmVyeSBmYWxsZW4gd2lyZSBpcyBsaXZlLiBLZWVwIGV2ZXJ5b25lIGF0IGxlYXN0IDggbWV0cmVzIGF3YXkuIiwKICB9LAogIHsKICAgIGlkOiAiY2hva2luZyIsCiAgICB0aXRsZTogIkNob2tpbmciLAogICAgc3VidGl0bGU6ICJQZXJzb24gY2Fubm90IHNwZWFrLCBjb3VnaCBvciBicmVhdGhlIiwKICAgIHN0ZXBzOiBbCiAgICAgICJBc2sgJ2FyZSB5b3UgY2hva2luZz8nIElmIHRoZXkgbm9kIGFuZCBjYW4ndCBzcGVhaywgYWN0IG5vdy4iLAogICAgICAiU3RhbmQgYmVoaW5kLCB3cmFwIGFybXMgYXJvdW5kIHRoZSB3YWlzdC4iLAogICAgICAiTWFrZSBhIGZpc3QgYWJvdmUgdGhlIG5hdmVsLCBncmFzcCBpdCwgYW5kIGdpdmUgc2hhcnAgdXB3YXJkIHRocnVzdHMuIiwKICAgICAgIlJlcGVhdCB1bnRpbCB0aGUgb2JqZWN0IGNvbWVzIG91dCBvciB0aGUgcGVyc29uIGNvbGxhcHNlcy4iLAogICAgICAiSWYgdGhleSBjb2xsYXBzZSwgY2FsbCAxMDggYW5kIHN0YXJ0IENQUi4iLAogICAgXSwKICAgIHdhcm5pbmc6ICJEbyBub3QgZG8gYmxpbmQgZmluZ2VyIHN3ZWVwcyDigJQgeW91IGNhbiBwdXNoIHRoZSBvYmplY3QgZGVlcGVyLiIsCiAgfSwKXTsKCmV4cG9ydCBjb25zdCBGTE9PRF9QUk9ORV9BUkVBUyA9IFsKICAiVmVsYWNoZXJ5IiwgIk11ZGljaHVyIiwgIlRhbWJhcmFtIiwgIlBlcnVtYmFra2FtIiwgIlNob2xpbmdhbmFsbHVyIiwKICAiTXlsYXBvcmUiLCAiVC4gTmFnYXIiLCAiU2FpZGFwZXQiLCAiR3VpbmR5IiwgIkFkeWFyIiwKICAiS290dHVycHVyYW0iLCAiTmFuZ2FuYWxsdXIiLCAiUGFsbGF2YXJhbSIsICJDaHJvbWVwZXQiLCAiTWVkYXZha2thbSIsCiAgIktvcmF0dHVyIiwgIkFtYmF0dHVyIiwgIkF2YWRpIiwgIlBvb25hbWFsbGVlIiwgIlRoaXJ1bWF6aGlzYWkiLApdOwoKZXhwb3J0IGNvbnN0IEZJUlNUX0FJRF9RVUlaOiBRdWl6UXVlc3Rpb25bXSA9IFsKICB7CiAgICBndWlkZUlkOiAiZHJvd25pbmciLAogICAgcXVlc3Rpb246ICJTb21lb25lIGlzIGNhdWdodCBpbiBmYXN0LW1vdmluZyBmbG9vZCB3YXRlci4gV2hhdCBkbyB5b3UgZG8gZmlyc3Q/IiwKICAgIG9wdGlvbnM6IFsKICAgICAgIkp1bXAgaW4gYW5kIHN3aW0gb3V0IHRvIHRoZW0iLAogICAgICAiUmVhY2ggb3IgdGhyb3cg4oCUIGV4dGVuZCBhIHN0aWNrLCByb3BlIG9yIGZsb2F0aW5nIG9iamVjdCwgbmV2ZXIgZW50ZXIgdGhlIHdhdGVyIiwKICAgICAgIldhaXQgb24gdGhlIGJhbmsgdW50aWwgdGhleSBkcmlmdCBjbG9zZXIiLAogICAgXSwKICAgIGFuc3dlcjogMSwKICAgIHdoeTogIkZhc3Qgd2F0ZXIgaGlkZXMgb3BlbiBtYW5ob2xlcyBhbmQgbGl2ZSB3aXJlcy4gUmVhY2ggb3IgdGhyb3cg4oCUIG5ldmVyIGdvLiIsCiAgfSwKICB7CiAgICBndWlkZUlkOiAiY3ByIiwKICAgIHF1ZXN0aW9uOiAiQW4gYWR1bHQgaGFzIGNvbGxhcHNlZCBhbmQgaXMgbm90IGJyZWF0aGluZyBub3JtYWxseS4gSGFuZHMtb25seSBDUFIgbWVhbnPigKYiLAogICAgb3B0aW9uczogWwogICAgICAiR2VudGxlIGNoZXN0IHJ1YnMgd2hpbGUgd2FpdGluZyBmb3IgaGVscCIsCiAgICAgICJQdXNoIGhhcmQgYW5kIGZhc3QgaW4gdGhlIGNlbnRyZSBvZiB0aGUgY2hlc3QsIGFib3V0IDEwMOKAkzEyMCB0aW1lcyBhIG1pbnV0ZSIsCiAgICAgICJUaWx0IHRoZSBoZWFkIGJhY2sgYW5kIGJsb3cgaW50byB0aGUgbW91dGggb25seSIsCiAgICBdLAogICAgYW5zd2VyOiAxLAogICAgd2h5OiAiQ2FsbCAxMDggZmlyc3QsIHRoZW4gcHVzaCA14oCTNiBjbSBkZWVwIGFuZCBkb24ndCBzdG9wIHVudGlsIGhlbHAgYXJyaXZlcy4iLAogIH0sCiAgewogICAgZ3VpZGVJZDogImJsZWVkaW5nIiwKICAgIHF1ZXN0aW9uOiAiQmxvb2Qgc29ha3MgdGhyb3VnaCB0aGUgY2xvdGggeW91J3JlIHByZXNzaW5nIG9uIGEgZGVlcCBjdXQuIFdoYXQgbmV4dD8iLAogICAgb3B0aW9uczogWwogICAgICAiUmVtb3ZlIHRoZSBjbG90aCBhbmQgY2hlY2sgaG93IGRlZXAgdGhlIGN1dCBpcyIsCiAgICAgICJBZGQgbW9yZSBjbG90aCBvbiB0b3AgYW5kIGtlZXAgcHJlc3Npbmcg4oCUIG5ldmVyIGxpZnQgdGhlIGZpcnN0IGxheWVyIiwKICAgICAgIlBvdXIgd2F0ZXIgb3ZlciB0aGUgd291bmQgdG8gd2FzaCBpdCBvdXQiLAogICAgXSwKICAgIGFuc3dlcjogMSwKICAgIHdoeTogIkxpZnRpbmcgdGhlIGNsb3RoIGJyZWFrcyB0aGUgY2xvdC4gQWRkIGxheWVycywga2VlcCBwcmVzc3VyZSwgY2FsbCAxMDguIiwKICB9LAogIHsKICAgIGd1aWRlSWQ6ICJlbGVjdHJpYyIsCiAgICBxdWVzdGlvbjogIkEgcGVyc29uIGlzIGJlaW5nIGVsZWN0cm9jdXRlZCBieSBhIGZhbGxlbiB3aXJlIGluIGZsb29kIHdhdGVyLiBGaXJzdCBhY3Rpb24/IiwKICAgIG9wdGlvbnM6IFsKICAgICAgIlB1bGwgdGhlbSBhd2F5IGZyb20gdGhlIHdpcmUgaW1tZWRpYXRlbHkiLAogICAgICAiRG8gTk9UIHRvdWNoIHRoZW0g4oCUIHN3aXRjaCBvZmYgdGhlIG1haW5zIG9yIHNlcGFyYXRlIHRoZW0gd2l0aCBhIGRyeSB3b29kZW4gc3RpY2siLAogICAgICAiU3BsYXNoIHdhdGVyIG9uIHRoZSB3aXJlIHRvIGNvb2wgaXQgZG93biIsCiAgICBdLAogICAgYW5zd2VyOiAxLAogICAgd2h5OiAiQXNzdW1lIGV2ZXJ5IGZhbGxlbiB3aXJlIGlzIGxpdmUuIEtlZXAgZXZlcnlvbmUgYXQgbGVhc3QgOCBtZXRyZXMgYXdheS4iLAogIH0sCiAgewogICAgZ3VpZGVJZDogImNob2tpbmciLAogICAgcXVlc3Rpb246ICJBIHBlcnNvbiBpcyBjaG9raW5nLCBjYW5ub3Qgc3BlYWsgb3IgY291Z2guIFdoYXQgZG8geW91IGRvPyIsCiAgICBvcHRpb25zOiBbCiAgICAgICJEbyBibGluZCBmaW5nZXIgc3dlZXBzIHRvIGdyYWIgdGhlIG9iamVjdCIsCiAgICAgICJPZmZlciB0aGVtIHdhdGVyIHRvIHdhc2ggaXQgZG93biIsCiAgICAgICJTdGFuZCBiZWhpbmQgdGhlbSBhbmQgZ2l2ZSBzaGFycCB1cHdhcmQgYWJkb21pbmFsIHRocnVzdHMgdW50aWwgaXQgY2xlYXJzIiwKICAgIF0sCiAgICBhbnN3ZXI6IDIsCiAgICB3aHk6ICJCbGluZCBmaW5nZXIgc3dlZXBzIGNhbiBwdXNoIHRoZSBvYmplY3QgZGVlcGVyLiBUaHJ1c3RzIHVzZSB0aGUgYm9keSdzIG93biBhaXIuIiwKICB9LApdOwo=
+// Project 003 · Nivarana — curated reference data (works fully offline)
+
+import type { FirstAidGuide, GoBagItem, QuizQuestion, Shelter } from "./types";
+
+export const QUIZ_BADGE_TITLE = "🏅 Flood First-Responder";
+
+// Copy-paste broadcast templates for WhatsApp group admins — bilingual EN/TA.
+// In a real event, the admin fills [bracketed] fields, copies, pastes.
+export const BROADCAST_TEMPLATES: { id: string; title: string; en: string; ta: string }[] = [
+  {
+    id: "rain-warning",
+    title: "🌧️ Heavy rain warning",
+    en: "🌧️ HEAVY RAIN WARNING — [AREA]: Very heavy rain expected in the next 6 hours. Avoid low-lying roads, keep your go-bag ready, check on elderly neighbours. Report what you see in Nivarana. — [GROUP]",
+    ta: "🌧️ கனமழை எச்சரிக்கை — [AREA]: அடுத்த 6 மணி நேரத்தில் மிக கனமழை பெய்யும். தாழ்வான சாலைகளை தவிர்க்கவும், அவசர பையை தயாராக வைக்கவும், வயதான அண்டைவீட்டாரை கவனிக்கவும். — [GROUP]",
+  },
+  {
+    id: "evac-advisory",
+    title: "⚠️ Evacuation advisory",
+    en: "⚠️ EVACUATION ADVISORY — [AREA]: Water rising. If you're on the ground floor, move to higher ground or the shelter at [SHELTER] now. Take ID, medicines, phone. Walk — never drive through floodwater. — [GROUP]",
+    ta: "⚠️ வெளியேற்ற அறிவுறுத்தல் — [AREA]: தண்ணீர் உயர்கிறது. தரை தளத்தில் இருந்தால் இப்போதே உயரமான இடத்திற்கு அல்லது [SHELTER] முகாமிற்கு செல்லவும். அடையாள அட்டை, மருந்து, போனை எடுத்துச் செல்லவும். நடந்து செல்லவும் — வெள்ளநீரில் வாகனம் ஓட்ட வேண்டாம். — [GROUP]",
+  },
+  {
+    id: "volunteer-call",
+    title: "🤝 Volunteer call-out",
+    en: "🤝 VOLUNTEERS NEEDED — [AREA]: Boats / hands needed at [AREA] — [N] people need evacuation. Coordinated via Nivarana: claim before you go, travel in pairs, do not enter fast water. Reply if available. — [GROUP]",
+    ta: "🤝 தன்னார்வலர்கள் தேவை — [AREA]: [AREA]-இல் படகு / உதவிக்கரம் தேவை — [N] பேர் வெளியேற வேண்டும். Nivarana மூலம் ஒருங்கிணைக்கப்படும்: செல்வதற்கு முன் பதிவு செய்யவும், ஜோடியாகச் செல்லவும், வேகமான நீரில் இறங்க வேண்டாம். — [GROUP]",
+  },
+  {
+    id: "all-clear",
+    title: "✅ All-clear",
+    en: "✅ ALL-CLEAR — [AREA]: Water is receding. Don't re-enter until the all-clear for your street; switch off the mains before touching switches. Report damage via Nivarana. — [GROUP]",
+    ta: "✅ நிலைமை சீராகிவிட்டது — [AREA]: தண்ணீர் வடிகிறது. உங்கள் தெருவுக்கு அனுமதி கிடைக்கும் வரை திரும்பி வர வேண்டாம்; சுவிட்சை தொடுவதற்கு முன் மின்சாரத்தை அணைக்கவும். — [GROUP]",
+  },
+];
+
+// Post-flood recovery: the second disaster after the water itself. A checked,
+// ordered sequence — safety first (electrics, gas, structure), then cleanup,
+// then paperwork while damage is still visible.
+export const RECOVERY_CHECKLIST: { title: string; detail: string; danger: boolean }[] = [
+  { title: "Wait for the all-clear before re-entering", detail: "Don't wade back in because the rain stopped — structures, live wires and snakes are the killers after a flood.", danger: true },
+  { title: "Kill the mains before touching anything", detail: "Switch off electricity at the main breaker and close the LPG regulator before stepping inside. If the panel is wet or you smell gas, call an electrician — don't improvise.", danger: true },
+  { title: "Photograph everything before cleaning", detail: "Walls, floors, appliances, damaged goods — insurers and relief claims are denied without dated proof. Take video walking room to room.", danger: false },
+  { title: "Wear boots and gloves for cleanup", detail: "Floodwater carries sewage, glass and rusted metal. No bare hands, no bare feet.", danger: true },
+  { title: "Throw out soaked food, medicines, cosmetics", detail: "Anything floodwater touched goes in the bin — cans that are dented, swollen or rusted too. 'It looks fine' is how food poisoning happens.", danger: true },
+  { title: "Clean and disinfect every surface", detail: "Soap first, then disinfect (1 cap of bleach per bucket of water). Walls up to the water line, floors, utensils — everything.", danger: false },
+  { title: "Dry the house aggressively", detail: "Open windows, run fans, move furniture. Mould starts within 24–48 hours and triggers breathing problems — throw out mattresses and carpets that can't be dried fully.", danger: false },
+  { title: "Don't drink tap water until it's declared safe", detail: "Use bottled or disinfected water (strain → boil 1 min → 2 drops bleach/L, wait 30 min) for drinking and cooking.", danger: true },
+  { title: "Check on the check-in list", detail: "Re-run your neighbour check-ins (page /checkins) — elderly and device-dependent neighbours need a second round after the water recedes.", danger: false },
+  { title: "File claims while evidence is fresh", detail: "Insurance, municipal relief, crop-loss claims — keep the Document vault (/docs) receipts and the photos from step 3 together.", danger: false },
+];
+
+export const MONSOON_CALENDAR: { month: string; window: string; tasks: string[] }[] = [
+  {
+    month: "October",
+    window: "Pre-monsoon · clean and fix",
+    tasks: [
+      "Clear terrace and balcony drains — test with a bucket of water",
+      "Service sump pump / check inverter battery charge",
+      "Stock candles, matches, torch batteries and a power bank",
+      "Photograph valuables and documents for insurance claims",
+    ],
+  },
+  {
+    month: "November",
+    window: "Peak monsoon · stay ready",
+    tasks: [
+      "Go-bag packed and by the main door, above expected water level",
+      "Family plan printed and on the fridge — everyone knows both meeting points",
+      "Phone + power bank charged every evening; torch app installed",
+      "Watch Nivarana reports for your ward before driving anywhere",
+    ],
+  },
+  {
+    month: "December",
+    window: "Tail monsoon · stay vigilant",
+    tasks: [
+      "Top up medicines and drinking water — supply chains slow in waterlogged streets",
+      "Check home for seepage, mould and exposed wiring after the rains",
+      "Refill what you used from the go-bag; re-run the 60-second drill",
+      "Confirm any flood reports near you as 'receding' once streets drain",
+    ],
+  },
+];
+
+export const EVAC_DRILL_STEPS: { step: string; why: string }[] = [
+  { step: "Kill the mains — power, gas, water", why: "Flooded switchboards and shorted appliances electrocute people every monsoon. Turn off the main switch and the gas cylinder regulator before you leave." },
+  { step: "Grab the go-bag and documents pouch", why: "It's already packed — don't repack now. That's what the drill is for." },
+  { step: "Move elderly, children and pets first", why: "The most vulnerable leave first and settle upstairs or at the neighbour's upper floor while you finish the rest." },
+  { step: "Lock doors, take one photo of the house", why: "Locked doors slow looters; a photo of your home's condition helps any later insurance or relief claim." },
+  { step: "Send an \"I'm Safe\" ping to family", why: "One tap now stops hours of panic calls later. Use the SOS page — it works in both languages." },
+  { step: "Walk to your meeting point — never drive through water", why: "15 cm of fast water can knock you down; 60 cm can float a car. Turn around, don't drown." },
+  { step: "Check the Nivarana reports board on arrival", why: "See which streets on your route are flooded, and confirm or report what you see." },
+];
+
+export interface Helpline {
+  number: string;
+  label: string;
+  labelTa: string;
+  detail: string;
+}
+
+export const HELPLINES: Helpline[] = [
+  { number: "112", label: "National Emergency", labelTa: "தேசிய அவசர உதவி", detail: "Single emergency number — police, fire, medical." },
+  { number: "1077", label: "TN Disaster Helpline", labelTa: "பேரிடர் உதவி எண்", detail: "Tamil Nadu State Emergency Operations Centre." },
+  { number: "108", label: "Ambulance", labelTa: "ஆம்புலன்ஸ்", detail: "Free emergency ambulance service." },
+  { number: "100", label: "Police", labelTa: "காவல்துறை", detail: "Police control room." },
+  { number: "101", label: "Fire & Rescue", labelTa: "தீயணைப்பு", detail: "Fire and rescue services." },
+  { number: "1913", label: "Chennai Corporation", labelTa: "சென்னை மாநகராட்சி", detail: "Civic grievances — waterlogging, fallen trees, blocked drains." },
+];
+
+export const GO_BAG_SEED: Array<Pick<GoBagItem, "id" | "label" | "detail">> = [
+  { id: "water", label: "Drinking water", detail: "3 litres per person — sealed bottles" },
+  { id: "food", label: "Dry food", detail: "Biscuits, dry fruits, ORS packets — 3 days" },
+  { id: "meds", label: "Medicines", detail: "Daily prescriptions + basic first-aid kit" },
+  { id: "docs", label: "Documents pouch", detail: "ID, insurance, property papers in a zip-lock" },
+  { id: "torch", label: "Torch + batteries", detail: "Or a hand-crank / solar torch" },
+  { id: "power", label: "Power bank", detail: "Fully charged, with cable" },
+  { id: "clothes", label: "Change of clothes", detail: "One set per person, in a dry bag" },
+  { id: "cash", label: "Cash", detail: "Small notes — ATMs fail in floods" },
+  { id: "radio", label: "Battery radio", detail: "For alerts when networks go down" },
+  { id: "whistle", label: "Whistle", detail: "To signal rescuers — louder than shouting" },
+  { id: "blanket", label: "Blanket / shawl", detail: "Light, warm, quick-dry" },
+  { id: "sanitary", label: "Sanitary supplies", detail: "Soap, sanitary pads, baby needs" },
+];
+
+export const SHELTER_SEED: Array<Omit<Shelter, "id">> = [
+  {
+    name: "Sample relief camp — Marina",
+    area: "Marina",
+    capacity: 500,
+    facilities: ["Drinking water", "Food", "Medical desk", "Charging point"],
+    contact: "—",
+    note: "Sample entry. Replace with your ward's actual relief camp before monsoon.",
+    source: "seed",
+  },
+  {
+    name: "Sample relief camp — Velachery",
+    area: "Velachery",
+    capacity: 300,
+    facilities: ["Drinking water", "Food", "Toilets"],
+    contact: "—",
+    note: "Sample entry. Replace with your ward's actual relief camp before monsoon.",
+    source: "seed",
+  },
+  {
+    name: "Sample relief camp — Mudichur",
+    area: "Mudichur",
+    capacity: 200,
+    facilities: ["Drinking water", "Medical desk"],
+    contact: "—",
+    note: "Sample entry. Replace with your ward's actual relief camp before monsoon.",
+    source: "seed",
+  },
+];
+
+export const FIRST_AID: FirstAidGuide[] = [
+  {
+    id: "safe-water",
+    title: "Safe drinking water in floods",
+    subtitle: "Purify tap, tanker or well water before drinking",
+    steps: [
+      "Strain muddy water through a clean cloth first — disinfectant can't work through silt.",
+      "Best method: bring water to a rolling boil for 1 full minute, then cool covered.",
+      "No fuel? Use household bleach (sodium hypochlorite, no scent/additives): 2 drops per litre for clear water, 4 drops per litre for cloudy water.",
+      "Mix well and wait 30 minutes. It should smell faintly of chlorine — if not, repeat the dose and wait 15 more minutes.",
+      "Store in clean covered containers. Never drink water that smells of fuel or chemicals — disinfection doesn't remove those.",
+    ],
+    warning: "Diarrhoea and cholera spike after every flood. When in doubt, boil — 1 minute of boiling kills virtually everything.",
+  },
+  {
+    id: "drowning",
+    title: "Flood-water rescue",
+    subtitle: "What to do if someone is caught in flood water",
+    steps: [
+      "Do NOT enter fast-moving water yourself. Reach or throw — never go.",
+      "Extend a stick, rope, saree or ladder to the person.",
+      "Throw a floating object: empty sealed drum, thermocol, inflated tube.",
+      "Once out, check breathing. If not breathing and trained, start CPR.",
+      "Keep the person warm, treat for shock, call 108 immediately.",
+    ],
+    warning: "Flood water hides open manholes and live wires. Never wade above knee level.",
+  },
+  {
+    id: "cpr",
+    title: "Hands-only CPR",
+    subtitle: "Adult who has collapsed and is not breathing normally",
+    steps: [
+      "Call 108 first, or shout for someone to call.",
+      "Place the heel of your hand on the centre of the chest.",
+      "Push hard and fast — 5–6 cm deep, about 100–120 per minute.",
+      "Let the chest fully rise between pushes. Do not stop.",
+      "Continue until help arrives or the person starts breathing.",
+    ],
+    warning: "Hands-only CPR is for adults. For children and drowning victims, rescue breaths matter — call 108 for guidance.",
+  },
+  {
+    id: "bleeding",
+    title: "Severe bleeding",
+    subtitle: "Cuts from debris, tin sheets, broken glass",
+    steps: [
+      "Press firmly on the wound with clean cloth. Do not lift to check.",
+      "If blood soaks through, add more cloth on top — keep pressing.",
+      "Raise the injured limb above heart level if possible.",
+      "For a limb wound that won't stop, tie a belt or cloth above the wound as a tourniquet and note the time.",
+      "Get to medical help fast — call 108.",
+    ],
+    warning: "Do not remove embedded objects (glass, metal). Press around them.",
+  },
+  {
+    id: "electric",
+    title: "Electric shock",
+    subtitle: "Live wires in flood water are silent killers",
+    steps: [
+      "Do NOT touch the person while they are in contact with electricity.",
+      "Switch off the mains if you can do it safely and quickly.",
+      "Separate them using a dry wooden stick, plastic chair or rubber mat.",
+      "Check breathing and pulse; start CPR if trained and needed.",
+      "Call 101 (fire) and 108. Treat burns with cool water, no ointments.",
+    ],
+    warning: "Assume every fallen wire is live. Keep everyone at least 8 metres away.",
+  },
+  {
+    id: "choking",
+    title: "Choking",
+    subtitle: "Person cannot speak, cough or breathe",
+    steps: [
+      "Ask 'are you choking?' If they nod and can't speak, act now.",
+      "Stand behind, wrap arms around the waist.",
+      "Make a fist above the navel, grasp it, and give sharp upward thrusts.",
+      "Repeat until the object comes out or the person collapses.",
+      "If they collapse, call 108 and start CPR.",
+    ],
+    warning: "Do not do blind finger sweeps — you can push the object deeper.",
+  },
+];
+
+export const FLOOD_PRONE_AREAS = [
+  "Velachery", "Mudichur", "Tambaram", "Perumbakkam", "Sholinganallur",
+  "Mylapore", "T. Nagar", "Saidapet", "Guindy", "Adyar",
+  "Kotturpuram", "Nanganallur", "Pallavaram", "Chromepet", "Medavakkam",
+  "Korattur", "Ambattur", "Avadi", "Poonamallee", "Thirumazhisai",
+];
+
+export const FIRST_AID_QUIZ: QuizQuestion[] = [
+  {
+    guideId: "drowning",
+    question: "Someone is caught in fast-moving flood water. What do you do first?",
+    options: [
+      "Jump in and swim out to them",
+      "Reach or throw — extend a stick, rope or floating object, never enter the water",
+      "Wait on the bank until they drift closer",
+    ],
+    answer: 1,
+    why: "Fast water hides open manholes and live wires. Reach or throw — never go.",
+  },
+  {
+    guideId: "cpr",
+    question: "An adult has collapsed and is not breathing normally. Hands-only CPR means…",
+    options: [
+      "Gentle chest rubs while waiting for help",
+      "Push hard and fast in the centre of the chest, about 100–120 times a minute",
+      "Tilt the head back and blow into the mouth only",
+    ],
+    answer: 1,
+    why: "Call 108 first, then push 5–6 cm deep and don't stop until help arrives.",
+  },
+  {
+    guideId: "bleeding",
+    question: "Blood soaks through the cloth you're pressing on a deep cut. What next?",
+    options: [
+      "Remove the cloth and check how deep the cut is",
+      "Add more cloth on top and keep pressing — never lift the first layer",
+      "Pour water over the wound to wash it out",
+    ],
+    answer: 1,
+    why: "Lifting the cloth breaks the clot. Add layers, keep pressure, call 108.",
+  },
+  {
+    guideId: "electric",
+    question: "A person is being electrocuted by a fallen wire in flood water. First action?",
+    options: [
+      "Pull them away from the wire immediately",
+      "Do NOT touch them — switch off the mains or separate them with a dry wooden stick",
+      "Splash water on the wire to cool it down",
+    ],
+    answer: 1,
+    why: "Assume every fallen wire is live. Keep everyone at least 8 metres away.",
+  },
+  {
+    guideId: "choking",
+    question: "A person is choking, cannot speak or cough. What do you do?",
+    options: [
+      "Do blind finger sweeps to grab the object",
+      "Offer them water to wash it down",
+      "Stand behind them and give sharp upward abdominal thrusts until it clears",
+    ],
+    answer: 2,
+    why: "Blind finger sweeps can push the object deeper. Thrusts use the body's own air.",
+  },
+];
