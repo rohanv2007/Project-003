@@ -1,1 +1,202 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyB1c2VQYXRobmFtZSB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCB7IHVzZUNhbGxiYWNrLCB1c2VFZmZlY3QsIHVzZVN0YXRlLCB0eXBlIFJlYWN0Tm9kZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHR5cGUgeyBBbGVydEl0ZW0sIEluY2lkZW50VHlwZSwgU2V2ZXJpdHkgfSBmcm9tICJAL2xpYi90eXBlcyI7CmltcG9ydCB7IEtFWVMsIGxvYWQgfSBmcm9tICJAL2xpYi9zdG9yZSI7CgpleHBvcnQgZnVuY3Rpb24gU2l0ZUhlYWRlcigpIHsKICBjb25zdCBwYXRoID0gdXNlUGF0aG5hbWUoKTsKICBjb25zdCBbdW5yZWFkQWxlcnRzLCBzZXRVbnJlYWRBbGVydHNdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgcmVmcmVzaFVucmVhZCA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIHNldFVucmVhZEFsZXJ0cyhsb2FkPEFsZXJ0SXRlbVtdPihLRVlTLmFsZXJ0cywgW10pLmZpbHRlcigoYSkgPT4gIWEucmVhZCkubGVuZ3RoKTsKICB9LCBbXSk7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHJlZnJlc2hVbnJlYWQoKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJmb2N1cyIsIHJlZnJlc2hVbnJlYWQpOwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInN0b3JhZ2UiLCByZWZyZXNoVW5yZWFkKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJmb2N1cyIsIHJlZnJlc2hVbnJlYWQpOwogICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigic3RvcmFnZSIsIHJlZnJlc2hVbnJlYWQpOwogICAgfTsKICB9LCBbcmVmcmVzaFVucmVhZF0pOwogIGNvbnN0IGxpbmtzID0gWwogICAgeyBocmVmOiAiLyIsIGxhYmVsOiAiSG9tZSIgfSwKICAgIHsgaHJlZjogIi9yZXBvcnRzIiwgbGFiZWw6ICJSZXBvcnRzIiB9LAogICAgeyBocmVmOiAiL3pvbmVzIiwgbGFiZWw6ICJab25lcyIgfSwKICAgIHsgaHJlZjogIi9wcmVwYXJlIiwgbGFiZWw6ICJQcmVwYXJlIiB9LAogICAgeyBocmVmOiAiL3NoZWx0ZXJzIiwgbGFiZWw6ICJTaGVsdGVycyIgfSwKICAgIHsgaHJlZjogIi92b2x1bnRlZXJzIiwgbGFiZWw6ICJWb2x1bnRlZXJzIiB9LAogICAgeyBocmVmOiAiL2NoZWNraW5zIiwgbGFiZWw6ICJOZWlnaGJvdXJzIiB9LAogICAgeyBocmVmOiAiL2FsZXJ0cyIsIGxhYmVsOiAiQWxlcnRzIiB9LAogICAgeyBocmVmOiAiL2ZpcnN0YWlkIiwgbGFiZWw6ICJGaXJzdCBBaWQiIH0sCiAgICB7IGhyZWY6ICIvZG9jcyIsIGxhYmVsOiAiRG9jdW1lbnRzIiB9LAogICAgeyBocmVmOiAiL3NldHRpbmdzIiwgbGFiZWw6ICJTZXR0aW5ncyIgfSwKICBdOwogIHJldHVybiAoCiAgICA8aGVhZGVyIGNsYXNzTmFtZT0ic3RpY2t5IHRvcC0wIHotNDAgYm9yZGVyLWIgYm9yZGVyLWxpbmUgYmctY3JlYW0vOTUgYmFja2Ryb3AtYmx1ciI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIGZsZXggbWF4LXctNXhsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNCBweS0zIj4KICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUgZ2FwLTIiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtaW5rIj5OaXZhcmFuYTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaGlkZGVuIHJvdW5kZWQtc20gYmctc2lnbmFsIHB4LTEuNSBweS0wLjUgdGV4dC1bMTBweF0gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXN0IHRleHQtY3JlYW0gc206aW5saW5lIj4KICAgICAgICAgICAgUHJvamVjdCAwMDMKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L0xpbms+CiAgICAgICAgPG5hdiBjbGFzc05hbWU9ImhpZGRlbiBpdGVtcy1jZW50ZXIgZ2FwLTEgbWQ6ZmxleCI+CiAgICAgICAgICB7bGlua3MubWFwKChsKSA9PiAoCiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAga2V5PXtsLmhyZWZ9CiAgICAgICAgICAgICAgaHJlZj17bC5ocmVmfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtbWQgcHgtMyBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSAkewogICAgICAgICAgICAgICAgcGF0aCA9PT0gbC5ocmVmID8gImJnLWluayB0ZXh0LWNyZWFtIiA6ICJ0ZXh0LXNvb3QgaG92ZXI6Ymctc2FuZCIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIHtsLmxhYmVsfQogICAgICAgICAgICAgIHtsLmhyZWYgPT09ICIvYWxlcnRzIiAmJiB1bnJlYWRBbGVydHMgPiAwICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtMS41IGlubGluZS1ibG9jayBtaW4tdy01IHJvdW5kZWQtZnVsbCBiZy1hbGFybSBweC0xLjUgcHktMC41IHRleHQtY2VudGVyIHRleHQtWzEwcHhdIGZvbnQtYm9sZCBsZWFkaW5nLW5vbmUgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgICAgIHt1bnJlYWRBbGVydHN9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9uYXY+CiAgICAgICAgPExpbmsKICAgICAgICAgIGhyZWY9Ii9zb3MiCiAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbWQgYmctYWxhcm0gcHgtNCBweS0yIHRleHQtc20gZm9udC1ib2xkIHRleHQtd2hpdGUiCiAgICAgICAgPgogICAgICAgICAgU09TCiAgICAgICAgPC9MaW5rPgogICAgICA8L2Rpdj4KICAgICAgPG5hdiBjbGFzc05hbWU9ImZsZXggZ2FwLTEgb3ZlcmZsb3cteC1hdXRvIGJvcmRlci10IGJvcmRlci1saW5lIGJnLWNyZWFtIHB4LTMgcHktMiBtZDpoaWRkZW4iPgogICAgICAgIHtsaW5rcy5tYXAoKGwpID0+ICgKICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIGtleT17bC5ocmVmfQogICAgICAgICAgICBocmVmPXtsLmhyZWZ9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHdoaXRlc3BhY2Utbm93cmFwIHJvdW5kZWQtbWQgcHgtMyBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSAkewogICAgICAgICAgICAgIHBhdGggPT09IGwuaHJlZiA/ICJiZy1pbmsgdGV4dC1jcmVhbSIgOiAidGV4dC1zb290IgogICAgICAgICAgICB9YH0KICAgICAgICAgID4KICAgICAgICAgICAge2wubGFiZWx9CiAgICAgICAgICAgIHtsLmhyZWYgPT09ICIvYWxlcnRzIiAmJiB1bnJlYWRBbGVydHMgPiAwICYmICgKICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1sLTEuNSBpbmxpbmUtYmxvY2sgbWluLXctNSByb3VuZGVkLWZ1bGwgYmctYWxhcm0gcHgtMS41IHB5LTAuNSB0ZXh0LWNlbnRlciB0ZXh0LVsxMHB4XSBmb250LWJvbGQgbGVhZGluZy1ub25lIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAge3VucmVhZEFsZXJ0c30KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L0xpbms+CiAgICAgICAgKSl9CiAgICAgIDwvbmF2PgogICAgPC9oZWFkZXI+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIFNlY3Rpb25IZWFkKHsgdGl0bGUsIHN1YiwgYWN0aW9uIH06IHsgdGl0bGU6IHN0cmluZzsgc3ViPzogc3RyaW5nOyBhY3Rpb24/OiBSZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCBmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgIDxkaXY+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWluayI+e3RpdGxlfTwvaDI+CiAgICAgICAge3N1YiAmJiA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LWZhaW50Ij57c3VifTwvcD59CiAgICAgIDwvZGl2PgogICAgICB7YWN0aW9ufQogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIENhcmQoeyBjaGlsZHJlbiwgY2xhc3NOYW1lID0gIiIgfTogeyBjaGlsZHJlbjogUmVhY3ROb2RlOyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLWNyZWFtIHAtNCBzaGFkb3ctWzBfMXB4XzBfcmdiYSgyOCwyNiwyMCwwLjA2KV0gJHtjbGFzc05hbWV9YH0+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBFbXB0eVN0YXRlKHsgdGl0bGUsIGJvZHksIGFjdGlvbiB9OiB7IHRpdGxlOiBzdHJpbmc7IGJvZHk6IHN0cmluZzsgYWN0aW9uPzogUmVhY3ROb2RlIH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1kYXNoZWQgYm9yZGVyLWxpbmUgYmctcGFwZXIgcHgtNiBweS0xMCB0ZXh0LWNlbnRlciI+CiAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtbGcgZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+e3RpdGxlfTwvcD4KICAgICAgPHAgY2xhc3NOYW1lPSJteC1hdXRvIG10LTEgbWF4LXctc20gdGV4dC1zbSB0ZXh0LWZhaW50Ij57Ym9keX08L3A+CiAgICAgIHthY3Rpb24gJiYgPGRpdiBjbGFzc05hbWU9Im10LTQiPnthY3Rpb259PC9kaXY+fQogICAgPC9kaXY+CiAgKTsKfQoKY29uc3QgU0VWRVJJVFlfU1RZTEU6IFJlY29yZDxTZXZlcml0eSwgc3RyaW5nPiA9IHsKICBsb3c6ICJiZy1tb3NzLzEwIHRleHQtbW9zcyBib3JkZXItbW9zcy8zMCIsCiAgbW9kZXJhdGU6ICJiZy1nb2xkLzEwIHRleHQtZ29sZCBib3JkZXItZ29sZC8zMCIsCiAgaGlnaDogImJnLWFsYXJtLzEwIHRleHQtYWxhcm0gYm9yZGVyLWFsYXJtLzMwIiwKICBjcml0aWNhbDogImJnLWFsYXJtIHRleHQtd2hpdGUgYm9yZGVyLWFsYXJtIiwKfTsKCmV4cG9ydCBmdW5jdGlvbiBTZXZlcml0eUJhZGdlKHsgc2V2ZXJpdHkgfTogeyBzZXZlcml0eTogU2V2ZXJpdHkgfSkgewogIHJldHVybiAoCiAgICA8c3BhbiBjbGFzc05hbWU9e2BpbmxpbmUtYmxvY2sgcm91bmRlZC1zbSBib3JkZXIgcHgtMiBweS0wLjUgdGV4dC14cyBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgJHtTRVZFUklUWV9TVFlMRVtzZXZlcml0eV19YH0+CiAgICAgIHtzZXZlcml0eX0KICAgIDwvc3Bhbj4KICApOwp9CgpleHBvcnQgY29uc3QgSU5DSURFTlRfTEFCRUxTOiBSZWNvcmQ8SW5jaWRlbnRUeXBlLCBzdHJpbmc+ID0gewogIGZsb29kOiAiRmxvb2RpbmciLAogIHdhdGVybG9nZ2luZzogIldhdGVybG9nZ2luZyIsCiAgImJsb2NrZWQtZHJhaW4iOiAiQmxvY2tlZCBkcmFpbiIsCiAgIm9wZW4tbWFuaG9sZSI6ICJPcGVuIG1hbmhvbGUiLAogICJmYWxsZW4tdHJlZSI6ICJGYWxsZW4gdHJlZSIsCiAgInBvd2VyLW91dGFnZSI6ICJQb3dlciBvdXRhZ2UiLAogIHJlY2VkaW5nOiAiV2F0ZXIgcmVjZWRpbmciLAogIG90aGVyOiAiT3RoZXIiLAp9OwoKZXhwb3J0IGNvbnN0IElOQ0lERU5UX0xBQkVMU19UQTogUmVjb3JkPEluY2lkZW50VHlwZSwgc3RyaW5nPiA9IHsKICBmbG9vZDogIuCuteCvhuCus+CvjeCus+CuruCvjSIsCiAgd2F0ZXJsb2dnaW5nOiAi4K6o4K+A4K6w4K+NIOCupOCvh+CumeCvjeCuleCusuCvjSIsCiAgImJsb2NrZWQtZHJhaW4iOiAi4K6F4K6f4K+I4K6q4K6f4K+N4K6fIOCuteCun+Cuv+CuleCuvuCusuCvjSIsCiAgIm9wZW4tbWFuaG9sZSI6ICLgrqTgrr/grrHgrqjgr43grqQg4K6u4K+H4K6p4K+N4K654K+L4K6y4K+NIiwKICAiZmFsbGVuLXRyZWUiOiAi4K614K6/4K604K+B4K6o4K+N4K6kIOCuruCusOCuruCvjSIsCiAgInBvd2VyLW91dGFnZSI6ICLgrq7grr/grqngr40g4K6k4K6f4K+IIiwKICByZWNlZGluZzogIuCuqOCvgOCusOCvjSDgrrXgrp/grr/grpXgrr/grrHgrqTgr4EiLAogIG90aGVyOiAi4K6u4K6x4K+N4K6x4K614K+IIiwKfTsKCmV4cG9ydCBmdW5jdGlvbiB0aW1lQWdvKHRzOiBudW1iZXIpOiBzdHJpbmcgewogIGNvbnN0IHMgPSBNYXRoLm1heCgxLCBNYXRoLmZsb29yKChEYXRlLm5vdygpIC0gdHMpIC8gMTAwMCkpOwogIGlmIChzIDwgNjApIHJldHVybiBgJHtzfXMgYWdvYDsKICBjb25zdCBtID0gTWF0aC5mbG9vcihzIC8gNjApOwogIGlmIChtIDwgNjApIHJldHVybiBgJHttfW0gYWdvYDsKICBjb25zdCBoID0gTWF0aC5mbG9vcihtIC8gNjApOwogIGlmIChoIDwgMjQpIHJldHVybiBgJHtofWggYWdvYDsKICBjb25zdCBkID0gTWF0aC5mbG9vcihoIC8gMjQpOwogIHJldHVybiBgJHtkfWQgYWdvYDsKfQoKLy8gRmxvb2QgY29uZGl0aW9ucyBjaGFuZ2UgZmFzdDogYSByZXBvcnQgb2xkZXIgdGhhbiA2aCBtYXkgbm8gbG9uZ2VyIHJlZmxlY3QKLy8gd2hhdCdzIG9uIHRoZSBzdHJlZXQuIFN0YWxlIHJlcG9ydHMgZ2V0IGZsYWdnZWQgcmF0aGVyIHRoYW4gaGlkZGVuLgpleHBvcnQgY29uc3QgU1RBTEVfQUZURVJfTVMgPSA2ICogNjAgKiA2MCAqIDEwMDA7CmV4cG9ydCBmdW5jdGlvbiBpc1N0YWxlKHRzOiBudW1iZXIpOiBib29sZWFuIHsKICByZXR1cm4gRGF0ZS5ub3coKSAtIHRzID4gU1RBTEVfQUZURVJfTVM7Cn0KZXhwb3J0IGZ1bmN0aW9uIFN0YWxlQmFkZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxzcGFuCiAgICAgIHRpdGxlPSJUaGlzIHJlcG9ydCBpcyBtb3JlIHRoYW4gNiBob3VycyBvbGQg4oCUIGNvbmRpdGlvbnMgbWF5IGhhdmUgY2hhbmdlZC4gQ29uZmlybSBpdCBvbmx5IGlmIHlvdSBzZWUgaXQgbm93LiIKICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcm91bmRlZC1zbSBib3JkZXIgYm9yZGVyLWdvbGQvNDAgYmctZ29sZC8xMCBweC0yIHB5LTAuNSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1nb2xkIgogICAgPgogICAgICDimqAgTWF5IGJlIG91dGRhdGVkCiAgICA8L3NwYW4+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIEZpZWxkKHsgbGFiZWwsIGNoaWxkcmVuIH06IHsgbGFiZWw6IHN0cmluZzsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIj4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtYi0xIGJsb2NrIHRleHQteHMgZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSB0ZXh0LWZhaW50Ij57bGFiZWx9PC9zcGFuPgogICAgICB7Y2hpbGRyZW59CiAgICA8L2xhYmVsPgogICk7Cn0KCmV4cG9ydCBjb25zdCBpbnB1dENscyA9CiAgInctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy13aGl0ZSBweC0zIHB5LTIuNSB0ZXh0LXNtIHRleHQtaW5rIHBsYWNlaG9sZGVyOnRleHQtZmFpbnQvNzAgZm9jdXM6Ym9yZGVyLXNpZ25hbCBmb2N1czpvdXRsaW5lLW5vbmUiOwoKZXhwb3J0IGNvbnN0IGJ0blByaW1hcnkgPQogICJyb3VuZGVkLW1kIGJnLXNpZ25hbCBweC00IHB5LTIuNSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBob3ZlcjpiZy10aWRlIGRpc2FibGVkOm9wYWNpdHktNTAiOwpleHBvcnQgY29uc3QgYnRuR2hvc3QgPQogICJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1jcmVhbSBweC00IHB5LTIuNSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsgaG92ZXI6Ymctc2FuZCI7Cg==
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useCallback, useEffect, useState, type ReactNode } from "react";
+import type { AlertItem, IncidentType, Severity } from "@/lib/types";
+import { KEYS, load } from "@/lib/store";
+
+export function SiteHeader() {
+  const path = usePathname();
+  const [unreadAlerts, setUnreadAlerts] = useState(0);
+  const refreshUnread = useCallback(() => {
+    setUnreadAlerts(load<AlertItem[]>(KEYS.alerts, []).filter((a) => !a.read).length);
+  }, []);
+  useEffect(() => {
+    refreshUnread();
+    window.addEventListener("focus", refreshUnread);
+    window.addEventListener("storage", refreshUnread);
+    return () => {
+      window.removeEventListener("focus", refreshUnread);
+      window.removeEventListener("storage", refreshUnread);
+    };
+  }, [refreshUnread]);
+  const links = [
+    { href: "/", label: "Home" },
+    { href: "/reports", label: "Reports" },
+    { href: "/zones", label: "Zones" },
+    { href: "/prepare", label: "Prepare" },
+    { href: "/shelters", label: "Shelters" },
+    { href: "/volunteers", label: "Volunteers" },
+    { href: "/checkins", label: "Neighbours" },
+    { href: "/alerts", label: "Alerts" },
+    { href: "/firstaid", label: "First Aid" },
+    { href: "/docs", label: "Documents" },
+    { href: "/settings", label: "Settings" },
+  ];
+  return (
+    <header className="sticky top-0 z-40 border-b border-line bg-cream/95 backdrop-blur">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+        <Link href="/" className="flex items-baseline gap-2">
+          <span className="font-display text-2xl font-bold tracking-tight text-ink">Nivarana</span>
+          <span className="hidden rounded-sm bg-signal px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-widest text-cream sm:inline">
+            Project 003
+          </span>
+        </Link>
+        <nav className="hidden items-center gap-1 md:flex">
+          {links.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className={`rounded-md px-3 py-1.5 text-sm font-medium ${
+                path === l.href ? "bg-ink text-cream" : "text-soot hover:bg-sand"
+              }`}
+            >
+              {l.label}
+              {l.href === "/alerts" && unreadAlerts > 0 && (
+                <span className="ml-1.5 inline-block min-w-5 rounded-full bg-alarm px-1.5 py-0.5 text-center text-[10px] font-bold leading-none text-white">
+                  {unreadAlerts}
+                </span>
+              )}
+            </Link>
+          ))}
+        </nav>
+        <Link
+          href="/sos"
+          className="rounded-md bg-alarm px-4 py-2 text-sm font-bold text-white"
+        >
+          SOS
+        </Link>
+      </div>
+      <nav className="flex gap-1 overflow-x-auto border-t border-line bg-cream px-3 py-2 md:hidden">
+        {links.map((l) => (
+          <Link
+            key={l.href}
+            href={l.href}
+            className={`whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium ${
+              path === l.href ? "bg-ink text-cream" : "text-soot"
+            }`}
+          >
+            {l.label}
+            {l.href === "/alerts" && unreadAlerts > 0 && (
+              <span className="ml-1.5 inline-block min-w-5 rounded-full bg-alarm px-1.5 py-0.5 text-center text-[10px] font-bold leading-none text-white">
+                {unreadAlerts}
+              </span>
+            )}
+          </Link>
+        ))}
+      </nav>
+    </header>
+  );
+}
+
+export function SectionHead({ title, sub, action }: { title: string; sub?: string; action?: ReactNode }) {
+  return (
+    <div className="mb-4 flex items-start justify-between gap-3">
+      <div>
+        <h2 className="font-display text-2xl font-bold text-ink">{title}</h2>
+        {sub && <p className="mt-1 text-sm text-faint">{sub}</p>}
+      </div>
+      {action}
+    </div>
+  );
+}
+
+export function Card({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return (
+    <div className={`rounded-lg border border-line bg-cream p-4 shadow-[0_1px_0_rgba(28,26,20,0.06)] ${className}`}>
+      {children}
+    </div>
+  );
+}
+
+export function EmptyState({ title, body, action }: { title: string; body: string; action?: ReactNode }) {
+  return (
+    <div className="rounded-lg border border-dashed border-line bg-paper px-6 py-10 text-center">
+      <p className="font-display text-lg font-semibold text-ink">{title}</p>
+      <p className="mx-auto mt-1 max-w-sm text-sm text-faint">{body}</p>
+      {action && <div className="mt-4">{action}</div>}
+    </div>
+  );
+}
+
+const SEVERITY_STYLE: Record<Severity, string> = {
+  low: "bg-moss/10 text-moss border-moss/30",
+  moderate: "bg-gold/10 text-gold border-gold/30",
+  high: "bg-alarm/10 text-alarm border-alarm/30",
+  critical: "bg-alarm text-white border-alarm",
+};
+
+export function SeverityBadge({ severity }: { severity: Severity }) {
+  return (
+    <span className={`inline-block rounded-sm border px-2 py-0.5 text-xs font-bold uppercase tracking-wide ${SEVERITY_STYLE[severity]}`}>
+      {severity}
+    </span>
+  );
+}
+
+export const INCIDENT_LABELS: Record<IncidentType, string> = {
+  flood: "Flooding",
+  waterlogging: "Waterlogging",
+  "blocked-drain": "Blocked drain",
+  "open-manhole": "Open manhole",
+  "fallen-tree": "Fallen tree",
+  "power-outage": "Power outage",
+  receding: "Water receding",
+  other: "Other",
+};
+
+export const INCIDENT_LABELS_TA: Record<IncidentType, string> = {
+  flood: "வெள்ளம்",
+  waterlogging: "நீர் தேங்கல்",
+  "blocked-drain": "அடைபட்ட வடிகால்",
+  "open-manhole": "திறந்த மேன்ஹோல்",
+  "fallen-tree": "விழுந்த மரம்",
+  "power-outage": "மின் தடை",
+  receding: "நீர் வடிகிறது",
+  other: "மற்றவை",
+};
+
+export function timeAgo(ts: number): string {
+  const s = Math.max(1, Math.floor((Date.now() - ts) / 1000));
+  if (s < 60) return `${s}s ago`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  return `${d}d ago`;
+}
+
+// Flood conditions change fast: a report older than 6h may no longer reflect
+// what's on the street. Stale reports get flagged rather than hidden.
+export const STALE_AFTER_MS = 6 * 60 * 60 * 1000;
+export function isStale(ts: number): boolean {
+  return Date.now() - ts > STALE_AFTER_MS;
+}
+export function StaleBadge() {
+  return (
+    <span
+      title="This report is more than 6 hours old — conditions may have changed. Confirm it only if you see it now."
+      className="inline-block rounded-sm border border-gold/40 bg-gold/10 px-2 py-0.5 text-xs font-semibold text-gold"
+    >
+      ⚠ May be outdated
+    </span>
+  );
+}
+
+export function Field({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <label className="block">
+      <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-faint">{label}</span>
+      {children}
+    </label>
+  );
+}
+
+export const inputCls =
+  "w-full rounded-md border border-line bg-white px-3 py-2.5 text-sm text-ink placeholder:text-faint/70 focus:border-signal focus:outline-none";
+
+export const btnPrimary =
+  "rounded-md bg-signal px-4 py-2.5 text-sm font-semibold text-white hover:bg-tide disabled:opacity-50";
+export const btnGhost =
+  "rounded-md border border-line bg-cream px-4 py-2.5 text-sm font-semibold text-ink hover:bg-sand";

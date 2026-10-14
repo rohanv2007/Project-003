@@ -1,1 +1,80 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgYnRuR2hvc3QsIGJ0blByaW1hcnksIENhcmQsIEVtcHR5U3RhdGUsIEZpZWxkLCBpbnB1dENscywgU2VjdGlvbkhlYWQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBLRVlTLCB1aWQsIHVzZUxvY2FsU3RvcmFnZSB9IGZyb20gIkAvbGliL3N0b3JlIjsKaW1wb3J0IHR5cGUgeyBEb2NFbnRyeSB9IGZyb20gIkAvbGliL3R5cGVzIjsKCmNvbnN0IENPTU1PTiA9IFsiQWFkaGFhciBjYXJkIiwgIlBBTiBjYXJkIiwgIlBhc3Nwb3J0IiwgIlZvdGVyIElEIiwgIkRyaXZpbmcgbGljZW5jZSIsICJQcm9wZXJ0eSBkb2N1bWVudHMiLCAiSW5zdXJhbmNlIHBvbGljeSIsICJCYW5rIHBhc3Nib29rIiwgIkJpcnRoIGNlcnRpZmljYXRlIiwgIk1lZGljYWwgcHJlc2NyaXB0aW9ucyJdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRG9jcygpIHsKICBjb25zdCBbZG9jcywgc2V0RG9jc10gPSB1c2VMb2NhbFN0b3JhZ2U8RG9jRW50cnlbXT4oS0VZUy5kb2NzLCBbXSk7CiAgY29uc3QgW25hbWUsIHNldE5hbWVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtrZXB0QXQsIHNldEtlcHRBdF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2V4cGlyeSwgc2V0RXhwaXJ5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbm90ZSwgc2V0Tm90ZV0gPSB1c2VTdGF0ZSgiIik7CgogIGZ1bmN0aW9uIGFkZChlOiBSZWFjdC5Gb3JtRXZlbnQpIHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIGlmICghbmFtZS50cmltKCkpIHJldHVybjsKICAgIHNldERvY3MoWy4uLmRvY3MsIHsgaWQ6IHVpZCgiZG9jIiksIG5hbWU6IG5hbWUudHJpbSgpLCBrZXB0QXQ6IGtlcHRBdC50cmltKCksIGV4cGlyeSwgbm90ZTogbm90ZS50cmltKCkgfV0pOwogICAgc2V0TmFtZSgiIik7IHNldEtlcHRBdCgiIik7IHNldEV4cGlyeSgiIik7IHNldE5vdGUoIiIpOwogIH0KCiAgZnVuY3Rpb24gZGF5c0xlZnQoZXhwaXJ5OiBzdHJpbmcpOiBudW1iZXIgfCBudWxsIHsKICAgIGlmICghZXhwaXJ5KSByZXR1cm4gbnVsbDsKICAgIHJldHVybiBNYXRoLmNlaWwoKG5ldyBEYXRlKGV4cGlyeSkuZ2V0VGltZSgpIC0gRGF0ZS5ub3coKSkgLyA4NjQwMDAwMCk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctM3hsIj4KICAgICAgPFNlY3Rpb25IZWFkCiAgICAgICAgdGl0bGU9IkRvY3VtZW50IHZhdWx0IgogICAgICAgIHN1Yj0iTm90IHRoZSBkb2N1bWVudHMgdGhlbXNlbHZlcyDigJQgd2hlcmUgdGhleSBhcmUsIGFuZCB3aGVuIHRoZXkgZXhwaXJlLiBBZnRlciBhIGZsb29kLCB0aGlzIGxpc3QgaXMgZ29sZC4iCiAgICAgIC8+CiAgICAgIDxDYXJkIGNsYXNzTmFtZT0ibWItNSI+CiAgICAgICAgPGZvcm0gb25TdWJtaXQ9e2FkZH0gY2xhc3NOYW1lPSJncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iRG9jdW1lbnQgKiI+CiAgICAgICAgICAgIDxpbnB1dCBjbGFzc05hbWU9e2lucHV0Q2xzfSB2YWx1ZT17bmFtZX0gb25DaGFuZ2U9eyhlKSA9PiBzZXROYW1lKGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9ImUuZy4gSW5zdXJhbmNlIHBvbGljeSIgbGlzdD0iY29tbW9uLWRvY3MiIHJlcXVpcmVkIC8+CiAgICAgICAgICAgIDxkYXRhbGlzdCBpZD0iY29tbW9uLWRvY3MiPntDT01NT04ubWFwKChjKSA9PiA8b3B0aW9uIGtleT17Y30gdmFsdWU9e2N9IC8+KX08L2RhdGFsaXN0PgogICAgICAgICAgPC9GaWVsZD4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iS2VwdCBhdCI+CiAgICAgICAgICAgIDxpbnB1dCBjbGFzc05hbWU9e2lucHV0Q2xzfSB2YWx1ZT17a2VwdEF0fSBvbkNoYW5nZT17KGUpID0+IHNldEtlcHRBdChlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJlLmcuIEJsdWUgZm9sZGVyLCBiZWRyb29tIHNoZWxmIiAvPgogICAgICAgICAgPC9GaWVsZD4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iRXhwaXJ5IGRhdGUiPjxpbnB1dCBjbGFzc05hbWU9e2lucHV0Q2xzfSB0eXBlPSJkYXRlIiB2YWx1ZT17ZXhwaXJ5fSBvbkNoYW5nZT17KGUpID0+IHNldEV4cGlyeShlLnRhcmdldC52YWx1ZSl9IC8+PC9GaWVsZD4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0iTm90ZSI+PGlucHV0IGNsYXNzTmFtZT17aW5wdXRDbHN9IHZhbHVlPXtub3RlfSBvbkNoYW5nZT17KGUpID0+IHNldE5vdGUoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iZS5nLiBSZW5ldyBvbmxpbmUgYXTigKYiIC8+PC9GaWVsZD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzbTpjb2wtc3Bhbi0yIj48YnV0dG9uIGNsYXNzTmFtZT17YnRuUHJpbWFyeX0+QWRkIGRvY3VtZW50PC9idXR0b24+PC9kaXY+CiAgICAgICAgPC9mb3JtPgogICAgICA8L0NhcmQ+CgogICAgICB7ZG9jcy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgPEVtcHR5U3RhdGUKICAgICAgICAgIHRpdGxlPSJObyBkb2N1bWVudHMgdHJhY2tlZCIKICAgICAgICAgIGJvZHk9IkZsb29kcyBkZXN0cm95IHBhcGVyLiBMaXN0IHdoZXJlIGV2ZXJ5IGNyaXRpY2FsIGRvY3VtZW50IGxpdmVzIOKAlCBhbmQga2VlcCBwaG90b2NvcGllcyBpbiB5b3VyIGdvLWJhZydzIHppcC1sb2NrIHBvdWNoLiIKICAgICAgICAvPgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAge2RvY3MubWFwKChkKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IGxlZnQgPSBkYXlzTGVmdChkLmV4cGlyeSk7CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgPENhcmQga2V5PXtkLmlkfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPntkLm5hbWV9PC9wPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1mYWludCI+e2Qua2VwdEF0IHx8ICJMb2NhdGlvbiBub3Qgbm90ZWQifXtkLm5vdGUgJiYgYCDCtyAke2Qubm90ZX1gfTwvcD4KICAgICAgICAgICAgICAgICAge2xlZnQgIT0gbnVsbCAmJiAoCiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPXtgbXQtMSB0ZXh0LXhzIGZvbnQtYm9sZCAke2xlZnQgPCAwID8gInRleHQtYWxhcm0iIDogbGVmdCA8IDkwID8gInRleHQtZ29sZCIgOiAidGV4dC1tb3NzIn1gfT4KICAgICAgICAgICAgICAgICAgICAgIHtsZWZ0IDwgMCA/IGBFeHBpcmVkICR7TWF0aC5hYnMobGVmdCl9IGRheXMgYWdvYCA6IGxlZnQgPT09IDAgPyAiRXhwaXJlcyB0b2RheSIgOiBgRXhwaXJlcyBpbiAke2xlZnR9IGRheXNgfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXREb2NzKGRvY3MuZmlsdGVyKCh4KSA9PiB4LmlkICE9PSBkLmlkKSl9IGNsYXNzTmFtZT17YnRuR2hvc3QgKyAiICFweC0zICFweS0xLjUgIXRleHQteHMifT5SZW1vdmU8L2J1dHRvbj4KICAgICAgICAgICAgICA8L0NhcmQ+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHJvdW5kZWQtbWQgYmctcGFwZXIgcC0zIHRleHQteHMgdGV4dC1mYWludCI+CiAgICAgICAgVGlwOiBwaG90b2dyYXBoIGV2ZXJ5IGRvY3VtZW50IGFuZCBrZWVwIHRoZSBwaG90b3MgaW4gYSBzZXBhcmF0ZSBwaG9uZSBvciBjbG91ZCBmb2xkZXIg4oCUIHBhcGVyIG9yaWdpbmFscyBzdGF5IGluIHRoZSB6aXAtbG9jayBwb3VjaCBpbiB5b3VyIGdvLWJhZy4KICAgICAgPC9wPgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+import { useState } from "react";
+import { btnGhost, btnPrimary, Card, EmptyState, Field, inputCls, SectionHead } from "@/components/ui";
+import { KEYS, uid, useLocalStorage } from "@/lib/store";
+import type { DocEntry } from "@/lib/types";
+
+const COMMON = ["Aadhaar card", "PAN card", "Passport", "Voter ID", "Driving licence", "Property documents", "Insurance policy", "Bank passbook", "Birth certificate", "Medical prescriptions"];
+
+export default function Docs() {
+  const [docs, setDocs] = useLocalStorage<DocEntry[]>(KEYS.docs, []);
+  const [name, setName] = useState("");
+  const [keptAt, setKeptAt] = useState("");
+  const [expiry, setExpiry] = useState("");
+  const [note, setNote] = useState("");
+
+  function add(e: React.FormEvent) {
+    e.preventDefault();
+    if (!name.trim()) return;
+    setDocs([...docs, { id: uid("doc"), name: name.trim(), keptAt: keptAt.trim(), expiry, note: note.trim() }]);
+    setName(""); setKeptAt(""); setExpiry(""); setNote("");
+  }
+
+  function daysLeft(expiry: string): number | null {
+    if (!expiry) return null;
+    return Math.ceil((new Date(expiry).getTime() - Date.now()) / 86400000);
+  }
+
+  return (
+    <div className="mx-auto max-w-3xl">
+      <SectionHead
+        title="Document vault"
+        sub="Not the documents themselves — where they are, and when they expire. After a flood, this list is gold."
+      />
+      <Card className="mb-5">
+        <form onSubmit={add} className="grid gap-3 sm:grid-cols-2">
+          <Field label="Document *">
+            <input className={inputCls} value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. Insurance policy" list="common-docs" required />
+            <datalist id="common-docs">{COMMON.map((c) => <option key={c} value={c} />)}</datalist>
+          </Field>
+          <Field label="Kept at">
+            <input className={inputCls} value={keptAt} onChange={(e) => setKeptAt(e.target.value)} placeholder="e.g. Blue folder, bedroom shelf" />
+          </Field>
+          <Field label="Expiry date"><input className={inputCls} type="date" value={expiry} onChange={(e) => setExpiry(e.target.value)} /></Field>
+          <Field label="Note"><input className={inputCls} value={note} onChange={(e) => setNote(e.target.value)} placeholder="e.g. Renew online at…" /></Field>
+          <div className="sm:col-span-2"><button className={btnPrimary}>Add document</button></div>
+        </form>
+      </Card>
+
+      {docs.length === 0 ? (
+        <EmptyState
+          title="No documents tracked"
+          body="Floods destroy paper. List where every critical document lives — and keep photocopies in your go-bag's zip-lock pouch."
+        />
+      ) : (
+        <div className="space-y-2">
+          {docs.map((d) => {
+            const left = daysLeft(d.expiry);
+            return (
+              <Card key={d.id} className="flex items-center justify-between gap-3">
+                <div>
+                  <p className="font-semibold text-ink">{d.name}</p>
+                  <p className="text-sm text-faint">{d.keptAt || "Location not noted"}{d.note && ` · ${d.note}`}</p>
+                  {left != null && (
+                    <p className={`mt-1 text-xs font-bold ${left < 0 ? "text-alarm" : left < 90 ? "text-gold" : "text-moss"}`}>
+                      {left < 0 ? `Expired ${Math.abs(left)} days ago` : left === 0 ? "Expires today" : `Expires in ${left} days`}
+                    </p>
+                  )}
+                </div>
+                <button onClick={() => setDocs(docs.filter((x) => x.id !== d.id))} className={btnGhost + " !px-3 !py-1.5 !text-xs"}>Remove</button>
+              </Card>
+            );
+          })}
+        </div>
+      )}
+      <p className="mt-4 rounded-md bg-paper p-3 text-xs text-faint">
+        Tip: photograph every document and keep the photos in a separate phone or cloud folder — paper originals stay in the zip-lock pouch in your go-bag.
+      </p>
+    </div>
+  );
+}

@@ -1,1 +1,158 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBidG5HaG9zdCwgYnRuUHJpbWFyeSwgQ2FyZCwgU2VjdGlvbkhlYWQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBhcHBseVNpbXBsZU1vZGUgfSBmcm9tICJAL2NvbXBvbmVudHMvc2ltcGxlLW1vZGUiOwppbXBvcnQgeyBLRVlTLCB1c2VMb2NhbFN0b3JhZ2UgfSBmcm9tICJAL2xpYi9zdG9yZSI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTZXR0aW5ncygpIHsKICBjb25zdCBbbXNnLCBzZXRNc2ddID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtsYW5nUHJlZiwgc2V0TGFuZ1ByZWZdID0gdXNlTG9jYWxTdG9yYWdlPCJlbiIgfCAidGEiPihLRVlTLmxhbmcsICJlbiIpOwogIGNvbnN0IFtzaW1wbGUsIHNldFNpbXBsZV0gPSB1c2VMb2NhbFN0b3JhZ2U8Ym9vbGVhbj4oS0VZUy51aVNpbXBsZSwgZmFsc2UpOwogIGNvbnN0IGZpbGVSZWYgPSB1c2VSZWY8SFRNTElucHV0RWxlbWVudD4obnVsbCk7CgogIGZ1bmN0aW9uIHRvZ2dsZVNpbXBsZSgpIHsKICAgIGNvbnN0IG5leHQgPSAhc2ltcGxlOwogICAgc2V0U2ltcGxlKG5leHQpOwogICAgYXBwbHlTaW1wbGVNb2RlKG5leHQpOwogICAgc2V0TXNnKG5leHQKICAgICAgPyAiU2ltcGxlIG1vZGUgb24g4oCUIHRoZSB3aG9sZSBhcHAgaXMgbm93IGJpZ2dlciBhbmQgZWFzaWVyIHRvIHRhcC4gVHVybiBpdCBvZmYgaGVyZSBhbnkgdGltZS4iCiAgICAgIDogIlNpbXBsZSBtb2RlIG9mZi4iKTsKICB9CgogIGZ1bmN0aW9uIGV4cG9ydERhdGEoKSB7CiAgICAvLyBTdGFtcCBmaXJzdDogdGhlIGV4cG9ydGVkIGJhY2t1cCBpdHNlbGYgbXVzdCBpbmNsdWRlIHRoZSBmcmVzaCB0aW1lc3RhbXAuCiAgICB0cnkgeyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShLRVlTLmJhY2t1cFRha2VuLCBKU09OLnN0cmluZ2lmeSh7IGF0OiBEYXRlLm5vdygpIH0pKTsgfSBjYXRjaCB7IC8qIHN0b3JhZ2UgdW5hdmFpbGFibGUgKi8gfQogICAgY29uc3QgZGF0YTogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gPSB7fTsKICAgIGZvciAoY29uc3QgayBvZiBPYmplY3QudmFsdWVzKEtFWVMpKSB7CiAgICAgIHRyeSB7IGRhdGFba10gPSBKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKGspID8/ICJudWxsIik7IH0gY2F0Y2ggeyBkYXRhW2tdID0gbnVsbDsgfQogICAgfQogICAgY29uc3QgYmxvYiA9IG5ldyBCbG9iKFtKU09OLnN0cmluZ2lmeSh7IGFwcDogIm5pdmFyYW5hIiwgcHJvamVjdDogIjAwMyIsIGV4cG9ydGVkQXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwgZGF0YSB9LCBudWxsLCAyKV0sIHsgdHlwZTogImFwcGxpY2F0aW9uL2pzb24iIH0pOwogICAgY29uc3QgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImEiKTsKICAgIGEuaHJlZiA9IFVSTC5jcmVhdGVPYmplY3RVUkwoYmxvYik7CiAgICBhLmRvd25sb2FkID0gYG5pdmFyYW5hLWJhY2t1cC0ke25ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCl9Lmpzb25gOwogICAgYS5jbGljaygpOwogICAgVVJMLnJldm9rZU9iamVjdFVSTChhLmhyZWYpOwogICAgc2V0TXNnKCJCYWNrdXAgZG93bmxvYWRlZC4gS2VlcCBpdCBzb21ld2hlcmUgc2FmZSDigJQgaWRlYWxseSBvZmYgdGhpcyBwaG9uZS4iKTsKICB9CgogIC8vIEtleXMgd2hvc2UgdmFsdWVzIG11c3QgYmUgSlNPTiBhcnJheXMsIGFuZCBrZXlzIHdob3NlIHZhbHVlcyBtdXN0IGJlIHBsYWluCiAgLy8gb2JqZWN0cyDigJQgdXNlZCB0byByZWplY3QgY29ycnVwdCBvciBtaXNtYXRjaGVkIGJhY2t1cCBzZWN0aW9ucyBvbiBpbXBvcnQuCiAgY29uc3QgQVJSQVlfS0VZUzogc3RyaW5nW10gPSBbCiAgICBLRVlTLmluY2lkZW50cywgS0VZUy5zaGVsdGVycywgS0VZUy5oZWxwUmVxdWVzdHMsIEtFWVMudm9sdW50ZWVycywKICAgIEtFWVMuY29udGFjdHMsIEtFWVMuc2FmZVBpbmdzLCBLRVlTLmRvY3MsIEtFWVMuYWxlcnRzLCBLRVlTLndhdGNoZXMsIEtFWVMuZ29CYWcsCiAgICBLRVlTLnNvc1NlbmRzLCBLRVlTLmJhZGdlcywgS0VZUy5kcmlsbHMsIEtFWVMuY2hlY2tpbnMsCiAgXTsKICBjb25zdCBPQkpFQ1RfS0VZUzogc3RyaW5nW10gPSBbS0VZUy5mYW1pbHlQbGFuLCBLRVlTLnByb2ZpbGUsIEtFWVMuZW1lcmdlbmN5SWQsIEtFWVMuY2xhaW1JZGVudGl0eSwgS0VZUy5hbGVydFRlc3RlZCwgS0VZUy5hbGVydENvbmZpcm1zLCBLRVlTLmZhbWlseVNhZmV0eSwgS0VZUy5iYWNrdXBUYWtlbl07CgogIGZ1bmN0aW9uIGltcG9ydERhdGEoZTogUmVhY3QuQ2hhbmdlRXZlbnQ8SFRNTElucHV0RWxlbWVudD4pIHsKICAgIGNvbnN0IGYgPSBlLnRhcmdldC5maWxlcz8uWzBdOwogICAgaWYgKCFmKSByZXR1cm47CiAgICBjb25zdCByID0gbmV3IEZpbGVSZWFkZXIoKTsKICAgIHIub25sb2FkID0gKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UoU3RyaW5nKHIucmVzdWx0KSk7CiAgICAgICAgY29uc3QgZGF0YSA9IHBhcnNlZC5kYXRhID8/IHBhcnNlZDsKICAgICAgICAvLyBSZWplY3QgZmlsZXMgdGhhdCBhcmVuJ3QgTml2YXJhbmEgYmFja3VwcyBhdCBhbGwuCiAgICAgICAgY29uc3QgbG9va3NMaWtlRGF0YSA9IHR5cGVvZiBkYXRhID09PSAib2JqZWN0IiAmJiBkYXRhICE9PSBudWxsICYmCiAgICAgICAgICBPYmplY3QudmFsdWVzKEtFWVMpLnNvbWUoKGspID0+IGRhdGFba10gIT09IHVuZGVmaW5lZCAmJiBkYXRhW2tdICE9PSBudWxsKTsKICAgICAgICBpZiAocGFyc2VkLmRhdGEgIT09IHVuZGVmaW5lZCAmJiBwYXJzZWQuYXBwICE9PSAibml2YXJhbmEiKSB0aHJvdyBuZXcgRXJyb3IoIm5vdCBhIE5pdmFyYW5hIGJhY2t1cCIpOwogICAgICAgIGlmICghbG9va3NMaWtlRGF0YSkgdGhyb3cgbmV3IEVycm9yKCJub3QgYSBOaXZhcmFuYSBiYWNrdXAiKTsKICAgICAgICBsZXQgcmVzdG9yZWQgPSAwOwogICAgICAgIGxldCBza2lwcGVkID0gMDsKICAgICAgICBmb3IgKGNvbnN0IGsgb2YgT2JqZWN0LnZhbHVlcyhLRVlTKSkgewogICAgICAgICAgY29uc3QgdiA9IGRhdGFba107CiAgICAgICAgICBpZiAodiA9PT0gdW5kZWZpbmVkIHx8IHYgPT09IG51bGwpIGNvbnRpbnVlOwogICAgICAgICAgbGV0IG9rID0gdHJ1ZTsKICAgICAgICAgIGlmIChBUlJBWV9LRVlTLmluY2x1ZGVzKGspKSBvayA9IEFycmF5LmlzQXJyYXkodik7CiAgICAgICAgICBlbHNlIGlmIChPQkpFQ1RfS0VZUy5pbmNsdWRlcyhrKSkgb2sgPSB0eXBlb2YgdiA9PT0gIm9iamVjdCIgJiYgIUFycmF5LmlzQXJyYXkodik7CiAgICAgICAgICBlbHNlIGlmIChrID09PSBLRVlTLmxhbmcpIG9rID0gdiA9PT0gImVuIiB8fCB2ID09PSAidGEiOwogICAgICAgICAgZWxzZSBpZiAoayA9PT0gS0VZUy51aVNpbXBsZSkgb2sgPSB0eXBlb2YgdiA9PT0gImJvb2xlYW4iOwogICAgICAgICAgaWYgKG9rKSB7IGxvY2FsU3RvcmFnZS5zZXRJdGVtKGssIEpTT04uc3RyaW5naWZ5KHYpKTsgcmVzdG9yZWQrKzsgfQogICAgICAgICAgZWxzZSBza2lwcGVkKys7CiAgICAgICAgfQogICAgICAgIHNldE1zZygKICAgICAgICAgIHJlc3RvcmVkID4gMAogICAgICAgICAgICA/IGBSZXN0b3JlZCAke3Jlc3RvcmVkfSBzZWN0aW9uJHtyZXN0b3JlZCA9PT0gMSA/ICIiIDogInMifS4ke3NraXBwZWQgPiAwID8gYCBTa2lwcGVkICR7c2tpcHBlZH0gZGFtYWdlZCBzZWN0aW9uJHtza2lwcGVkID09PSAxID8gIiIgOiAicyJ9LmAgOiAiIn0gUmVsb2FkIHRoZSBhcHAgdG8gc2VlIGV2ZXJ5dGhpbmcuYAogICAgICAgICAgICA6ICJUaGF0IGZpbGUgaXMgYSBOaXZhcmFuYSBiYWNrdXAsIGJ1dCBub25lIG9mIGl0cyBzZWN0aW9ucyB3ZXJlIHVzYWJsZS4iCiAgICAgICAgKTsKICAgICAgfSBjYXRjaCB7CiAgICAgICAgc2V0TXNnKCJUaGF0IGZpbGUgZG9lc24ndCBsb29rIGxpa2UgYSBOaXZhcmFuYSBiYWNrdXAg4oCUIG5vdGhpbmcgd2FzIGNoYW5nZWQuIik7CiAgICAgIH0KICAgIH07CiAgICByLnJlYWRBc1RleHQoZik7CiAgICBlLnRhcmdldC52YWx1ZSA9ICIiOwogIH0KCiAgZnVuY3Rpb24gcmVzZXRBbGwoKSB7CiAgICBpZiAoIXdpbmRvdy5jb25maXJtKCJEZWxldGUgQUxMIE5pdmFyYW5hIGRhdGEgaW4gdGhpcyBicm93c2VyPyBUaGlzIGNhbm5vdCBiZSB1bmRvbmUuIikpIHJldHVybjsKICAgIGZvciAoY29uc3QgayBvZiBPYmplY3QudmFsdWVzKEtFWVMpKSBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShrKTsKICAgIHNldE1zZygiQWxsIGRhdGEgY2xlYXJlZC4iKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0yeGwiPgogICAgICA8U2VjdGlvbkhlYWQgdGl0bGU9IlNldHRpbmdzIiBzdWI9IllvdXIgZGF0YSBsaXZlcyBvbmx5IGluIHRoaXMgYnJvd3Nlci4gQmFjayBpdCB1cCBiZWZvcmUgeW91IG5lZWQgaXQuIiAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICA8Q2FyZD4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWluayI+8J+MkCBMYW5ndWFnZSDCtyDgrq7gr4rgrrTgrr88L2gzPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gdGV4dC1mYWludCI+WW91ciBwcmVmZXJyZWQgbGFuZ3VhZ2UgZm9yIFNPUyBhbmQgc2FmZXR5IG1lc3NhZ2VzLiBJdCBzdGlja3MgYWNyb3NzIHZpc2l0cy48L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGdhcC0yIj4KICAgICAgICAgICAgeyhbImVuIiwgInRhIl0gYXMgY29uc3QpLm1hcCgobCkgPT4gKAogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIGtleT17bH0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldExhbmdQcmVmKGwpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcm91bmRlZC1tZCBib3JkZXIgcHgtNCBweS0yIHRleHQtc20gZm9udC1zZW1pYm9sZCAke2xhbmdQcmVmID09PSBsID8gImJvcmRlci1pbmsgYmctaW5rIHRleHQtY3JlYW0iIDogImJvcmRlci1saW5lIHRleHQtc29vdCBob3ZlcjpiZy1zYW5kIn1gfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtsID09PSAiZW4iID8gIkVuZ2xpc2giIDogIuCupOCuruCuv+CutOCvjSJ9CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkPgogICAgICAgIDxDYXJkPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1sZyBmb250LWJvbGQgdGV4dC1pbmsiPvCflI4gU2ltcGxlIG1vZGU8L2gzPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtZmFpbnQiPgogICAgICAgICAgICAgICAgQmlnZ2VyIHRleHQgYW5kIGxhcmdlciB0YXAgdGFyZ2V0cyDigJQgYnVpbHQgZm9yIGVsZGVycyBhbmQgYW55b25lCiAgICAgICAgICAgICAgICB3aG8gc3RydWdnbGVzIHdpdGggc21hbGwgcHJpbnQuIFN0YXlzIG9uIHVudGlsIHlvdSBzd2l0Y2ggaXQgb2ZmLgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICBvbkNsaWNrPXt0b2dnbGVTaW1wbGV9CiAgICAgICAgICAgICAgcm9sZT0ic3dpdGNoIgogICAgICAgICAgICAgIGFyaWEtY2hlY2tlZD17c2ltcGxlfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YG10LTEgdy0xNCBzaHJpbmstMCByb3VuZGVkLWZ1bGwgcC0xIHRyYW5zaXRpb24tY29sb3JzICR7c2ltcGxlID8gImJnLXNpZ25hbCIgOiAiYmctbGluZSJ9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YGJsb2NrIGgtNiB3LTYgcm91bmRlZC1mdWxsIGJnLXdoaXRlIHNoYWRvdyB0cmFuc2l0aW9uLXRyYW5zZm9ybSAke3NpbXBsZSA/ICJ0cmFuc2xhdGUteC02IiA6ICIifWB9IC8+CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkPgogICAgICAgIDxDYXJkPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtbGcgZm9udC1ib2xkIHRleHQtaW5rIj7wn5K+IEJhY2t1cCAmIHJlc3RvcmU8L2gzPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gdGV4dC1mYWludCI+RXhwb3J0IGV2ZXJ5dGhpbmcg4oCUIHJlcG9ydHMsIHBsYW5zLCBjb250YWN0cywgc2hlbHRlcnMsIHZvbHVudGVlcnMg4oCUIGFzIG9uZSBKU09OIGZpbGUuPC9wPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2V4cG9ydERhdGF9IGNsYXNzTmFtZT17YnRuUHJpbWFyeX0+RG93bmxvYWQgYmFja3VwPC9idXR0b24+CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gZmlsZVJlZi5jdXJyZW50Py5jbGljaygpfSBjbGFzc05hbWU9e2J0bkdob3N0fT5SZXN0b3JlIGZyb20gZmlsZTwvYnV0dG9uPgogICAgICAgICAgICA8aW5wdXQgcmVmPXtmaWxlUmVmfSB0eXBlPSJmaWxlIiBhY2NlcHQ9ImFwcGxpY2F0aW9uL2pzb24iIGNsYXNzTmFtZT0iaGlkZGVuIiBvbkNoYW5nZT17aW1wb3J0RGF0YX0gLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAge21zZyAmJiA8cCBjbGFzc05hbWU9Im10LTMgcm91bmRlZC1tZCBiZy1zYW5kIHB4LTMgcHktMiB0ZXh0LXNtIHRleHQtc29vdCI+e21zZ308L3A+fQogICAgICAgIDwvQ2FyZD4KICAgICAgICA8Q2FyZD4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWFsYXJtIj5EYW5nZXIgem9uZTwvaDM+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LWZhaW50Ij5XaXBlIGV2ZXJ5IHJlcG9ydCwgcGxhbiwgY29udGFjdCBhbmQgY2hlY2tsaXN0IHN0b3JlZCBpbiB0aGlzIGJyb3dzZXIuPC9wPgogICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtyZXNldEFsbH0gY2xhc3NOYW1lPSJtdC0zIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1hbGFybSBweC00IHB5LTIgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1hbGFybSBob3ZlcjpiZy1hbGFybSBob3Zlcjp0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgRGVsZXRlIGFsbCBteSBkYXRhCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L0NhcmQ+CiAgICAgICAgPENhcmQ+CiAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1sZyBmb250LWJvbGQgdGV4dC1pbmsiPkFib3V0PC9oMz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXNtIHRleHQtc29vdCI+CiAgICAgICAgICAgIDxzdHJvbmc+Tml2YXJhbmEgwrcgUHJvamVjdCAwMDMuPC9zdHJvbmc+IEEgbG9jYWwtZmlyc3QgZmxvb2QgJiBkaXNhc3RlciByZXNpbGllbmNlIGNvbXBhbmlvbiDigJQKICAgICAgICAgICAgcHJlcGFyZSwgcmVwb3J0LCBmaW5kIHNoZWx0ZXIsIGNhbGwgZm9yIGhlbHAuIE5vIGFjY291bnRzLCBubyBzZXJ2ZXJzLCBubyB0cmFja2luZy4KICAgICAgICAgICAgV29ya3Mgb2ZmbGluZSBvbmNlIGxvYWRlZC4gSW4gYSByZWFsIGVtZXJnZW5jeSwgYWx3YXlzIGNhbGwgPGEgaHJlZj0idGVsOjExMiIgY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1zaWduYWwiPjExMjwvYT4uCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9DYXJkPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+"use client";
+import { useRef, useState } from "react";
+import { btnGhost, btnPrimary, Card, SectionHead } from "@/components/ui";
+import { applySimpleMode } from "@/components/simple-mode";
+import { KEYS, useLocalStorage } from "@/lib/store";
+
+export default function Settings() {
+  const [msg, setMsg] = useState("");
+  const [langPref, setLangPref] = useLocalStorage<"en" | "ta">(KEYS.lang, "en");
+  const [simple, setSimple] = useLocalStorage<boolean>(KEYS.uiSimple, false);
+  const fileRef = useRef<HTMLInputElement>(null);
+
+  function toggleSimple() {
+    const next = !simple;
+    setSimple(next);
+    applySimpleMode(next);
+    setMsg(next
+      ? "Simple mode on — the whole app is now bigger and easier to tap. Turn it off here any time."
+      : "Simple mode off.");
+  }
+
+  function exportData() {
+    // Stamp first: the exported backup itself must include the fresh timestamp.
+    try { localStorage.setItem(KEYS.backupTaken, JSON.stringify({ at: Date.now() })); } catch { /* storage unavailable */ }
+    const data: Record<string, unknown> = {};
+    for (const k of Object.values(KEYS)) {
+      try { data[k] = JSON.parse(localStorage.getItem(k) ?? "null"); } catch { data[k] = null; }
+    }
+    const blob = new Blob([JSON.stringify({ app: "nivarana", project: "003", exportedAt: new Date().toISOString(), data }, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `nivarana-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+    setMsg("Backup downloaded. Keep it somewhere safe — ideally off this phone.");
+  }
+
+  // Keys whose values must be JSON arrays, and keys whose values must be plain
+  // objects — used to reject corrupt or mismatched backup sections on import.
+  const ARRAY_KEYS: string[] = [
+    KEYS.incidents, KEYS.shelters, KEYS.helpRequests, KEYS.volunteers,
+    KEYS.contacts, KEYS.safePings, KEYS.docs, KEYS.alerts, KEYS.watches, KEYS.goBag,
+    KEYS.sosSends, KEYS.badges, KEYS.drills, KEYS.checkins,
+  ];
+  const OBJECT_KEYS: string[] = [KEYS.familyPlan, KEYS.profile, KEYS.emergencyId, KEYS.claimIdentity, KEYS.alertTested, KEYS.alertConfirms, KEYS.familySafety, KEYS.backupTaken];
+
+  function importData(e: React.ChangeEvent<HTMLInputElement>) {
+    const f = e.target.files?.[0];
+    if (!f) return;
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const parsed = JSON.parse(String(r.result));
+        const data = parsed.data ?? parsed;
+        // Reject files that aren't Nivarana backups at all.
+        const looksLikeData = typeof data === "object" && data !== null &&
+          Object.values(KEYS).some((k) => data[k] !== undefined && data[k] !== null);
+        if (parsed.data !== undefined && parsed.app !== "nivarana") throw new Error("not a Nivarana backup");
+        if (!looksLikeData) throw new Error("not a Nivarana backup");
+        let restored = 0;
+        let skipped = 0;
+        for (const k of Object.values(KEYS)) {
+          const v = data[k];
+          if (v === undefined || v === null) continue;
+          let ok = true;
+          if (ARRAY_KEYS.includes(k)) ok = Array.isArray(v);
+          else if (OBJECT_KEYS.includes(k)) ok = typeof v === "object" && !Array.isArray(v);
+          else if (k === KEYS.lang) ok = v === "en" || v === "ta";
+          else if (k === KEYS.uiSimple) ok = typeof v === "boolean";
+          if (ok) { localStorage.setItem(k, JSON.stringify(v)); restored++; }
+          else skipped++;
+        }
+        setMsg(
+          restored > 0
+            ? `Restored ${restored} section${restored === 1 ? "" : "s"}.${skipped > 0 ? ` Skipped ${skipped} damaged section${skipped === 1 ? "" : "s"}.` : ""} Reload the app to see everything.`
+            : "That file is a Nivarana backup, but none of its sections were usable."
+        );
+      } catch {
+        setMsg("That file doesn't look like a Nivarana backup — nothing was changed.");
+      }
+    };
+    r.readAsText(f);
+    e.target.value = "";
+  }
+
+  function resetAll() {
+    if (!window.confirm("Delete ALL Nivarana data in this browser? This cannot be undone.")) return;
+    for (const k of Object.values(KEYS)) localStorage.removeItem(k);
+    setMsg("All data cleared.");
+  }
+
+  return (
+    <div className="mx-auto max-w-2xl">
+      <SectionHead title="Settings" sub="Your data lives only in this browser. Back it up before you need it." />
+      <div className="space-y-4">
+        <Card>
+          <h3 className="font-display text-lg font-bold text-ink">🌐 Language · மொழி</h3>
+          <p className="mt-1 text-sm text-faint">Your preferred language for SOS and safety messages. It sticks across visits.</p>
+          <div className="mt-3 flex gap-2">
+            {(["en", "ta"] as const).map((l) => (
+              <button
+                key={l}
+                onClick={() => setLangPref(l)}
+                className={`rounded-md border px-4 py-2 text-sm font-semibold ${langPref === l ? "border-ink bg-ink text-cream" : "border-line text-soot hover:bg-sand"}`}
+              >
+                {l === "en" ? "English" : "தமிழ்"}
+              </button>
+            ))}
+          </div>
+        </Card>
+        <Card>
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h3 className="font-display text-lg font-bold text-ink">🔎 Simple mode</h3>
+              <p className="mt-1 text-sm text-faint">
+                Bigger text and larger tap targets — built for elders and anyone
+                who struggles with small print. Stays on until you switch it off.
+              </p>
+            </div>
+            <button
+              onClick={toggleSimple}
+              role="switch"
+              aria-checked={simple}
+              className={`mt-1 w-14 shrink-0 rounded-full p-1 transition-colors ${simple ? "bg-signal" : "bg-line"}`}
+            >
+              <span className={`block h-6 w-6 rounded-full bg-white shadow transition-transform ${simple ? "translate-x-6" : ""}`} />
+            </button>
+          </div>
+        </Card>
+        <Card>
+          <h3 className="font-display text-lg font-bold text-ink">💾 Backup & restore</h3>
+          <p className="mt-1 text-sm text-faint">Export everything — reports, plans, contacts, shelters, volunteers — as one JSON file.</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button onClick={exportData} className={btnPrimary}>Download backup</button>
+            <button onClick={() => fileRef.current?.click()} className={btnGhost}>Restore from file</button>
+            <input ref={fileRef} type="file" accept="application/json" className="hidden" onChange={importData} />
+          </div>
+          {msg && <p className="mt-3 rounded-md bg-sand px-3 py-2 text-sm text-soot">{msg}</p>}
+        </Card>
+        <Card>
+          <h3 className="font-display text-lg font-bold text-alarm">Danger zone</h3>
+          <p className="mt-1 text-sm text-faint">Wipe every report, plan, contact and checklist stored in this browser.</p>
+          <button onClick={resetAll} className="mt-3 rounded-md border border-alarm px-4 py-2 text-sm font-bold text-alarm hover:bg-alarm hover:text-white">
+            Delete all my data
+          </button>
+        </Card>
+        <Card>
+          <h3 className="font-display text-lg font-bold text-ink">About</h3>
+          <p className="mt-1 text-sm text-soot">
+            <strong>Nivarana · Project 003.</strong> A local-first flood & disaster resilience companion —
+            prepare, report, find shelter, call for help. No accounts, no servers, no tracking.
+            Works offline once loaded. In a real emergency, always call <a href="tel:112" className="font-bold text-signal">112</a>.
+          </p>
+        </Card>
+      </div>
+    </div>
+  );
+}

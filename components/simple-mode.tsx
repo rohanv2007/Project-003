@@ -1,1 +1,17 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VFZmZlY3QgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEtFWVMsIGxvYWQgfSBmcm9tICJAL2xpYi9zdG9yZSI7CgpleHBvcnQgZnVuY3Rpb24gYXBwbHlTaW1wbGVNb2RlKG9uOiBib29sZWFuKSB7CiAgaWYgKHR5cGVvZiBkb2N1bWVudCA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LnRvZ2dsZSgic2ltcGxlLW1vZGUiLCBvbik7Cn0KCi8vIE1vdW50ZWQgb25jZSBpbiB0aGUgcm9vdCBsYXlvdXQ6IHJlLWFwcGxpZXMgdGhlIHBlcnNpc3RlZCBwcmVmZXJlbmNlIG9uCi8vIGV2ZXJ5IHBhZ2UgbG9hZC4gVG9nZ2xlcyBpbiBTZXR0aW5ncyBjYWxsIGFwcGx5U2ltcGxlTW9kZSBkaXJlY3RseS4KZXhwb3J0IGZ1bmN0aW9uIFNpbXBsZU1vZGVNb3VudCgpIHsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgYXBwbHlTaW1wbGVNb2RlKGxvYWQ8Ym9vbGVhbj4oS0VZUy51aVNpbXBsZSwgZmFsc2UpKTsKICB9LCBbXSk7CiAgcmV0dXJuIG51bGw7Cn0K
+"use client";
+import { useEffect } from "react";
+import { KEYS, load } from "@/lib/store";
+
+export function applySimpleMode(on: boolean) {
+  if (typeof document === "undefined") return;
+  document.documentElement.classList.toggle("simple-mode", on);
+}
+
+// Mounted once in the root layout: re-applies the persisted preference on
+// every page load. Toggles in Settings call applySimpleMode directly.
+export function SimpleModeMount() {
+  useEffect(() => {
+    applySimpleMode(load<boolean>(KEYS.uiSimple, false));
+  }, []);
+  return null;
+}

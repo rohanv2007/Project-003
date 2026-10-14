@@ -1,1 +1,29 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwoKLy8gU2hvd3MgYSBwZXJzaXN0ZW50IGJhbm5lciB3aGVuIHRoZSBkZXZpY2UgaXMgb2ZmbGluZSDigJQgZGlzYXN0ZXIgYXBwcyBkaWUKLy8gd2hlbiBuZXR3b3JrcyBkbywgc28gTml2YXJhbmEgbWFrZXMgaXRzIG9mZmxpbmUgc3RhdGUgZXhwbGljaXQuCmV4cG9ydCBmdW5jdGlvbiBPZmZsaW5lQmFubmVyKCkgewogIGNvbnN0IFtvbmxpbmUsIHNldE9ubGluZV0gPSB1c2VTdGF0ZSh0cnVlKTsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgc2V0T25saW5lKG5hdmlnYXRvci5vbkxpbmUpOwogICAgY29uc3QgZ29PZmYgPSAoKSA9PiBzZXRPbmxpbmUoZmFsc2UpOwogICAgY29uc3QgZ29PbiA9ICgpID0+IHNldE9ubGluZSh0cnVlKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJvZmZsaW5lIiwgZ29PZmYpOwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoIm9ubGluZSIsIGdvT24pOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoIm9mZmxpbmUiLCBnb09mZik7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJvbmxpbmUiLCBnb09uKTsKICAgIH07CiAgfSwgW10pOwogIGlmIChvbmxpbmUpIHJldHVybiBudWxsOwogIHJldHVybiAoCiAgICA8ZGl2CiAgICAgIHJvbGU9InN0YXR1cyIKICAgICAgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItZ29sZC80MCBiZy1nb2xkLzE1IHB4LTQgcHktMiB0ZXh0LWNlbnRlciB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiCiAgICA+CiAgICAgIPCfk7UgWW91JmFwb3M7cmUgb2ZmbGluZS4gRXZlcnl0aGluZyBiZWxvdyBzdGlsbCB3b3JrcyDigJQgcmVwb3J0cywgcGxhbnMsIGNvbnRhY3RzIGFuZAogICAgICBndWlkZXMgYXJlIHNhdmVkIG9uIHRoaXMgZGV2aWNlLgogICAgPC9kaXY+CiAgKTsKfQo=
+"use client";
+import { useEffect, useState } from "react";
+
+// Shows a persistent banner when the device is offline — disaster apps die
+// when networks do, so Nivarana makes its offline state explicit.
+export function OfflineBanner() {
+  const [online, setOnline] = useState(true);
+  useEffect(() => {
+    setOnline(navigator.onLine);
+    const goOff = () => setOnline(false);
+    const goOn = () => setOnline(true);
+    window.addEventListener("offline", goOff);
+    window.addEventListener("online", goOn);
+    return () => {
+      window.removeEventListener("offline", goOff);
+      window.removeEventListener("online", goOn);
+    };
+  }, []);
+  if (online) return null;
+  return (
+    <div
+      role="status"
+      className="border-b border-gold/40 bg-gold/15 px-4 py-2 text-center text-sm font-semibold text-ink"
+    >
+      📵 You&apos;re offline. Everything below still works — reports, plans, contacts and
+      guides are saved on this device.
+    </div>
+  );
+}

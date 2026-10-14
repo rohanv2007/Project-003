@@ -1,1 +1,191 @@
-Ly8gUHJvamVjdCAwMDMgwrcgTml2YXJhbmEg4oCUIGRvbWFpbiB0eXBlcwoKZXhwb3J0IHR5cGUgSW5jaWRlbnRUeXBlID0KICB8ICJmbG9vZCIKICB8ICJ3YXRlcmxvZ2dpbmciCiAgfCAiYmxvY2tlZC1kcmFpbiIKICB8ICJvcGVuLW1hbmhvbGUiCiAgfCAiZmFsbGVuLXRyZWUiCiAgfCAicG93ZXItb3V0YWdlIgogIHwgInJlY2VkaW5nIgogIHwgIm90aGVyIjsKCmV4cG9ydCB0eXBlIFNldmVyaXR5ID0gImxvdyIgfCAibW9kZXJhdGUiIHwgImhpZ2giIHwgImNyaXRpY2FsIjsKCmV4cG9ydCBpbnRlcmZhY2UgSW5jaWRlbnQgewogIGlkOiBzdHJpbmc7CiAgdHlwZTogSW5jaWRlbnRUeXBlOwogIHNldmVyaXR5OiBTZXZlcml0eTsKICBhcmVhOiBzdHJpbmc7CiAgd2FyZDogc3RyaW5nOwogIG5vdGU6IHN0cmluZzsKICB3YXRlckRlcHRoQ206IG51bWJlciB8IG51bGw7CiAgcmVwb3J0ZXI6IHN0cmluZzsKICBjcmVhdGVkQXQ6IG51bWJlcjsKICBjb25maXJtYXRpb25zOiBudW1iZXI7CiAgY29uZmlybWVkQXQ/OiBudW1iZXIgfCBudWxsOyAvLyBsYXRlc3QgY29uZmlybWF0aW9uIHRpbWUg4oCUIGZyZXNobmVzcyBvZiB0aGUgY3Jvd2Qgc2lnbmFsCiAgc3RhdHVzOiAiYWN0aXZlIiB8ICJyZXNvbHZlZCI7CiAgbGF0PzogbnVtYmVyIHwgbnVsbDsKICBsb24/OiBudW1iZXIgfCBudWxsOwp9CgpleHBvcnQgaW50ZXJmYWNlIFNoZWx0ZXIgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIGFyZWE6IHN0cmluZzsKICBjYXBhY2l0eTogbnVtYmVyIHwgbnVsbDsKICBmYWNpbGl0aWVzOiBzdHJpbmdbXTsKICBjb250YWN0OiBzdHJpbmc7CiAgbm90ZTogc3RyaW5nOwogIHJlYWNoPzogc3RyaW5nOyAvLyAiaG93IHRvIHJlYWNoIjogbGFuZG1hcmstYmFzZWQgcm91dGUgdGV4dCwgb2ZmbGluZS1maXJzdAogIG9jY3VwYW5jeT86ICJzcGFjZSIgfCAiZmlsbGluZyIgfCAiZnVsbCI7IC8vIGNyb3dkc291cmNlZDogaXMgdGhlcmUgcm9vbSByaWdodCBub3c/CiAgb2NjdXBhbmN5QXQ/OiBudW1iZXIgfCBudWxsOyAvLyB3aGVuIHRoZSBjcm93ZHNvdXJjZWQgcm9vbSBzdGF0dXMgd2FzIGxhc3QgdXBkYXRlZCDigJQgc3RhbGUgaW5mbyBzZW5kcyBmYW1pbGllcyB0byBhIGZ1bGwgY2FtcAogIHNvdXJjZTogInNlZWQiIHwgInVzZXIiOwp9CgpleHBvcnQgdHlwZSBIZWxwTmVlZCA9ICJyZXNjdWUiIHwgImZvb2QiIHwgIndhdGVyIiB8ICJtZWRpY2FsIiB8ICJzaGVsdGVyIiB8ICJwb3dlciIgfCAib3RoZXIiOwoKZXhwb3J0IGludGVyZmFjZSBIZWxwUmVxdWVzdCB7CiAgaWQ6IHN0cmluZzsKICBuZWVkOiBIZWxwTmVlZDsKICBuYW1lOiBzdHJpbmc7CiAgcGhvbmU6IHN0cmluZzsKICBhcmVhOiBzdHJpbmc7CiAgcGVvcGxlOiBudW1iZXI7CiAgbm90ZTogc3RyaW5nOwogIHN0YXR1czogIm9wZW4iIHwgImluLXByb2dyZXNzIiB8ICJyZXNvbHZlZCI7CiAgY2xhaW1lZEJ5Pzogc3RyaW5nOyAvLyB2b2x1bnRlZXIgbmFtZSDigJQgY2xhaW0gcmVxdWlyZXMgdGhlIHNhZmV0eSBjaGVja2xpc3QKICBjbGFpbWVkUGhvbmU/OiBzdHJpbmc7IC8vIG5vcm1hbGl6ZWQgZGlnaXRzOyB1c2VkIHRvIGNhcCBjb25jdXJyZW50IGFzc2lnbm1lbnRzCiAgY3JlYXRlZEF0OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgVm9sdW50ZWVyIHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBwaG9uZTogc3RyaW5nOwogIGFyZWE6IHN0cmluZzsKICBza2lsbHM6IHN0cmluZ1tdOwogIGF2YWlsYWJsZTogYm9vbGVhbjsKICBjcmVhdGVkQXQ6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBFbWVyZ2VuY3lDb250YWN0IHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICByZWxhdGlvbjogc3RyaW5nOwogIHBob25lOiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmFtaWx5UGxhbiB7CiAgbWVldGluZ1BvaW50SG9tZTogc3RyaW5nOwogIG1lZXRpbmdQb2ludE91dHNpZGU6IHN0cmluZzsKICBvdXRPZlRvd25Db250YWN0OiBzdHJpbmc7CiAgbm90ZXM6IHN0cmluZzsKICBwZXROYW1lczogc3RyaW5nOwogIHBldFBsYW46IHN0cmluZzsKICAvLyBFdmFjdWF0aW9uIHJvdXRlOiBsYW5kbWFyay1iYXNlZCByb3V0ZSArIGNvbmZpcm1hdGlvbiBpdCBhdm9pZHMKICAvLyBmbG9vZC1wcm9uZSByb2Fkcy91bmRlcnBhc3NlcyAoUmVhZHkgVG9nZXRoZXI6ICJjb25maXJtIHdoZXRoZXIgeW91ciBtb3N0CiAgLy8gZGlyZWN0IHJvdXRlIHVzZXMgcm9hZHMgdGhhdCBmbG9vZCBlYXJseSDigJQgbWFueSBkbyIpLgogIGV2YWNSb3V0ZTogc3RyaW5nOwogIGV2YWNSb3V0ZUNoZWNrZWQ6IGJvb2xlYW47CiAgdXBkYXRlZEF0OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgR29CYWdJdGVtIHsKICBpZDogc3RyaW5nOwogIGxhYmVsOiBzdHJpbmc7CiAgZGV0YWlsOiBzdHJpbmc7CiAgZG9uZTogYm9vbGVhbjsKICAvLyBPcHRpb25hbCBZWVlZLU1NLUREIHJlLWNoZWNrIGRhdGUgZm9yIHBlcmlzaGFibGUga2l0IChtZWRpY2luZXMsIGRyeQogIC8vIGZvb2QsIGJhdHRlcmllcyk6IGEgcGFja2VkIGJhZyB3aXRoIGV4cGlyZWQgY29udGVudHMgaXMgZmFsc2UgcmVhZGluZXNzLgogIGV4cGlyeT86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBEb2NFbnRyeSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAga2VwdEF0OiBzdHJpbmc7CiAgZXhwaXJ5OiBzdHJpbmc7CiAgbm90ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIEFsZXJ0SXRlbSB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIGJvZHk6IHN0cmluZzsKICBzZXZlcml0eTogU2V2ZXJpdHk7CiAgYXJlYTogc3RyaW5nOwogIHNvdXJjZTogc3RyaW5nOwogIGlzc3VlZEF0OiBudW1iZXI7CiAgcmVhZDogYm9vbGVhbjsKfQoKZXhwb3J0IGludGVyZmFjZSBXYXRjaEFyZWEgewogIGlkOiBzdHJpbmc7CiAgYXJlYTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFNhZmVQaW5nIHsKICBpZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBtZXNzYWdlOiBzdHJpbmc7CiAgY3JlYXRlZEF0OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU29zU2VuZCB7CiAgaWQ6IHN0cmluZzsKICBuZWVkOiBzdHJpbmc7CiAgY2hhbm5lbDogIndoYXRzYXBwIiB8ICJzbXMiOwogIGNyZWF0ZWRBdDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIEVtZXJnZW5jeUlkIHsKICBibG9vZEdyb3VwOiBzdHJpbmc7CiAgYWxsZXJnaWVzOiBzdHJpbmc7CiAgbWVkaWNhdGlvbnM6IHN0cmluZzsKICBjb25kaXRpb25zOiBzdHJpbmc7Cn0KCmV4cG9ydCB0eXBlIE5laWdoYm91clN0YXR1cyA9ICJ1bmNoZWNrZWQiIHwgInNhZmUiIHwgIm5lZWRzLWhlbHAiOwoKZXhwb3J0IHR5cGUgRmFtaWx5U2FmZXR5U3RhdHVzID0gInNhZmUiIHwgInVuYWNjb3VudGVkIiB8ICJ1bmtub3duIjsKCmV4cG9ydCBpbnRlcmZhY2UgRmFtaWx5U2FmZXR5TWFyayB7CiAgc3RhdHVzOiBGYW1pbHlTYWZldHlTdGF0dXM7CiAgYXQ6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBOZWlnaGJvdXIgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIGFyZWE6IHN0cmluZzsKICBwaG9uZTogc3RyaW5nOwogIHZ1bG5lcmFiaWxpdGllczogc3RyaW5nW107CiAgbm90ZXM6IHN0cmluZzsKICBzdGF0dXM6IE5laWdoYm91clN0YXR1czsKICBsYXN0Q2hlY2tlZEF0OiBudW1iZXIgfCBudWxsOwogIGNyZWF0ZWRBdDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIFF1aXpCYWRnZSB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIGRldGFpbDogc3RyaW5nOwogIGVhcm5lZEF0OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmlyc3RBaWRHdWlkZSB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIHN1YnRpdGxlOiBzdHJpbmc7CiAgc3RlcHM6IHN0cmluZ1tdOwogIHdhcm5pbmc6IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBRdWl6UXVlc3Rpb24gewogIGd1aWRlSWQ6IHN0cmluZzsKICBxdWVzdGlvbjogc3RyaW5nOwogIG9wdGlvbnM6IHN0cmluZ1tdOwogIGFuc3dlcjogbnVtYmVyOyAvLyBpbmRleCBvZiB0aGUgY29ycmVjdCBvcHRpb24KICB3aHk6IHN0cmluZzsKfQo=
+// Project 003 · Nivarana — domain types
+
+export type IncidentType =
+  | "flood"
+  | "waterlogging"
+  | "blocked-drain"
+  | "open-manhole"
+  | "fallen-tree"
+  | "power-outage"
+  | "receding"
+  | "other";
+
+export type Severity = "low" | "moderate" | "high" | "critical";
+
+export interface Incident {
+  id: string;
+  type: IncidentType;
+  severity: Severity;
+  area: string;
+  ward: string;
+  note: string;
+  waterDepthCm: number | null;
+  reporter: string;
+  createdAt: number;
+  confirmations: number;
+  confirmedAt?: number | null; // latest confirmation time — freshness of the crowd signal
+  status: "active" | "resolved";
+  lat?: number | null;
+  lon?: number | null;
+}
+
+export interface Shelter {
+  id: string;
+  name: string;
+  area: string;
+  capacity: number | null;
+  facilities: string[];
+  contact: string;
+  note: string;
+  reach?: string; // "how to reach": landmark-based route text, offline-first
+  occupancy?: "space" | "filling" | "full"; // crowdsourced: is there room right now?
+  occupancyAt?: number | null; // when the crowdsourced room status was last updated — stale info sends families to a full camp
+  source: "seed" | "user";
+}
+
+export type HelpNeed = "rescue" | "food" | "water" | "medical" | "shelter" | "power" | "other";
+
+export interface HelpRequest {
+  id: string;
+  need: HelpNeed;
+  name: string;
+  phone: string;
+  area: string;
+  people: number;
+  note: string;
+  status: "open" | "in-progress" | "resolved";
+  claimedBy?: string; // volunteer name — claim requires the safety checklist
+  claimedPhone?: string; // normalized digits; used to cap concurrent assignments
+  createdAt: number;
+}
+
+export interface Volunteer {
+  id: string;
+  name: string;
+  phone: string;
+  area: string;
+  skills: string[];
+  available: boolean;
+  createdAt: number;
+}
+
+export interface EmergencyContact {
+  id: string;
+  name: string;
+  relation: string;
+  phone: string;
+}
+
+export interface FamilyPlan {
+  meetingPointHome: string;
+  meetingPointOutside: string;
+  outOfTownContact: string;
+  notes: string;
+  petNames: string;
+  petPlan: string;
+  // Evacuation route: landmark-based route + confirmation it avoids
+  // flood-prone roads/underpasses (Ready Together: "confirm whether your most
+  // direct route uses roads that flood early — many do").
+  evacRoute: string;
+  evacRouteChecked: boolean;
+  updatedAt: number;
+}
+
+export interface GoBagItem {
+  id: string;
+  label: string;
+  detail: string;
+  done: boolean;
+  // Optional YYYY-MM-DD re-check date for perishable kit (medicines, dry
+  // food, batteries): a packed bag with expired contents is false readiness.
+  expiry?: string;
+}
+
+export interface DocEntry {
+  id: string;
+  name: string;
+  keptAt: string;
+  expiry: string;
+  note: string;
+}
+
+export interface AlertItem {
+  id: string;
+  title: string;
+  body: string;
+  severity: Severity;
+  area: string;
+  source: string;
+  issuedAt: number;
+  read: boolean;
+}
+
+export interface WatchArea {
+  id: string;
+  area: string;
+}
+
+export interface SafePing {
+  id: string;
+  name: string;
+  message: string;
+  createdAt: number;
+}
+
+export interface SosSend {
+  id: string;
+  need: string;
+  channel: "whatsapp" | "sms";
+  createdAt: number;
+}
+
+export interface EmergencyId {
+  bloodGroup: string;
+  allergies: string;
+  medications: string;
+  conditions: string;
+}
+
+export type NeighbourStatus = "unchecked" | "safe" | "needs-help";
+
+export type FamilySafetyStatus = "safe" | "unaccounted" | "unknown";
+
+export interface FamilySafetyMark {
+  status: FamilySafetyStatus;
+  at: number;
+}
+
+export interface Neighbour {
+  id: string;
+  name: string;
+  area: string;
+  phone: string;
+  vulnerabilities: string[];
+  notes: string;
+  status: NeighbourStatus;
+  lastCheckedAt: number | null;
+  createdAt: number;
+}
+
+export interface QuizBadge {
+  id: string;
+  title: string;
+  detail: string;
+  earnedAt: number;
+}
+
+export interface FirstAidGuide {
+  id: string;
+  title: string;
+  subtitle: string;
+  steps: string[];
+  warning: string;
+}
+
+export interface QuizQuestion {
+  guideId: string;
+  question: string;
+  options: string[];
+  answer: number; // index of the correct option
+  why: string;
+}

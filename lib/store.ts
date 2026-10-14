@@ -1,1 +1,76 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VDYWxsYmFjaywgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCmV4cG9ydCBmdW5jdGlvbiB1aWQocHJlZml4ID0gImlkIik6IHN0cmluZyB7CiAgcmV0dXJuIGAke3ByZWZpeH0tJHtEYXRlLm5vdygpLnRvU3RyaW5nKDM2KX0tJHtNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCA4KX1gOwp9CgpleHBvcnQgZnVuY3Rpb24gbG9hZDxUPihrZXk6IHN0cmluZywgZmFsbGJhY2s6IFQpOiBUIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBmYWxsYmFjazsKICB0cnkgewogICAgY29uc3QgcmF3ID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgICBpZiAocmF3ID09IG51bGwpIHJldHVybiBmYWxsYmFjazsKICAgIHJldHVybiBKU09OLnBhcnNlKHJhdykgYXMgVDsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxsYmFjazsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBzYXZlKGtleTogc3RyaW5nLCB2YWx1ZTogdW5rbm93bik6IHZvaWQgewogIHRyeSB7CiAgICB3aW5kb3cubG9jYWxTdG9yYWdlLnNldEl0ZW0oa2V5LCBKU09OLnN0cmluZ2lmeSh2YWx1ZSkpOwogIH0gY2F0Y2ggewogICAgLyogc3RvcmFnZSBmdWxsIG9yIHVuYXZhaWxhYmxlIOKAlCBmYWlsIHNpbGVudGx5ICovCiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gdXNlTG9jYWxTdG9yYWdlPFQ+KGtleTogc3RyaW5nLCBpbml0aWFsOiBUIHwgKCgpID0+IFQpKSB7CiAgY29uc3QgW3ZhbHVlLCBzZXRWYWx1ZV0gPSB1c2VTdGF0ZTxUPigoKSA9PgogICAgdHlwZW9mIGluaXRpYWwgPT09ICJmdW5jdGlvbiIgPyAoaW5pdGlhbCBhcyAoKSA9PiBUKSgpIDogaW5pdGlhbAogICk7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldFZhbHVlKGxvYWQoa2V5LCB0eXBlb2YgaW5pdGlhbCA9PT0gImZ1bmN0aW9uIiA/IChpbml0aWFsIGFzICgpID0+IFQpKCkgOiBpbml0aWFsKSk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW2tleV0pOwogIGNvbnN0IHNldCA9IHVzZUNhbGxiYWNrKAogICAgKG5leHQ6IFQgfCAoKHByZXY6IFQpID0+IFQpKSA9PiB7CiAgICAgIHNldFZhbHVlKChwcmV2KSA9PiB7CiAgICAgICAgY29uc3QgdiA9IHR5cGVvZiBuZXh0ID09PSAiZnVuY3Rpb24iID8gKG5leHQgYXMgKHA6IFQpID0+IFQpKHByZXYpIDogbmV4dDsKICAgICAgICBzYXZlKGtleSwgdik7CiAgICAgICAgcmV0dXJuIHY7CiAgICAgIH0pOwogICAgfSwKICAgIFtrZXldCiAgKTsKICByZXR1cm4gW3ZhbHVlLCBzZXRdIGFzIGNvbnN0Owp9CgpleHBvcnQgY29uc3QgS0VZUyA9IHsKICBpbmNpZGVudHM6ICJuaXZhcmFuYS5pbmNpZGVudHMudjEiLAogIHNoZWx0ZXJzOiAibml2YXJhbmEuc2hlbHRlcnMudjEiLAogIGhlbHBSZXF1ZXN0czogIm5pdmFyYW5hLmhlbHAtcmVxdWVzdHMudjEiLAogIHZvbHVudGVlcnM6ICJuaXZhcmFuYS52b2x1bnRlZXJzLnYxIiwKICBjb250YWN0czogIm5pdmFyYW5hLmNvbnRhY3RzLnYxIiwKICBmYW1pbHlQbGFuOiAibml2YXJhbmEuZmFtaWx5LXBsYW4udjEiLAogIGdvQmFnOiAibml2YXJhbmEuZ28tYmFnLnYxIiwKICBnb0JhZ1Jldmlld2VkOiAibml2YXJhbmEuZ28tYmFnLXJldmlld2VkLnYxIiwKICBkb2NzOiAibml2YXJhbmEuZG9jcy52MSIsCiAgYWxlcnRzOiAibml2YXJhbmEuYWxlcnRzLnYxIiwKICB3YXRjaGVzOiAibml2YXJhbmEud2F0Y2hlcy52MSIsCiAgc2FmZVBpbmdzOiAibml2YXJhbmEuc2FmZS1waW5ncy52MSIsCiAgc29zU2VuZHM6ICJuaXZhcmFuYS5zb3Mtc2VuZHMudjEiLAogIGxhbmc6ICJuaXZhcmFuYS5sYW5nLnYxIiwKICB1aVNpbXBsZTogIm5pdmFyYW5hLnVpLnNpbXBsZS52MSIsCiAgcHJvZmlsZTogIm5pdmFyYW5hLnByb2ZpbGUudjEiLAogIGVtZXJnZW5jeUlkOiAibml2YXJhbmEuZW1lcmdlbmN5LWlkLnYxIiwKICBiYWRnZXM6ICJuaXZhcmFuYS5iYWRnZXMudjEiLAogIGRyaWxsczogIm5pdmFyYW5hLmRyaWxscy52MSIsCiAgY2hlY2tpbnM6ICJuaXZhcmFuYS5jaGVja2lucy52MSIsCiAgY2xhaW1JZGVudGl0eTogIm5pdmFyYW5hLmNsYWltLWlkZW50aXR5LnYxIiwKICBhbGVydFRlc3RlZDogIm5pdmFyYW5hLmFsZXJ0LXRlc3RlZC52MSIsCiAgYWxlcnRDb25maXJtczogIm5pdmFyYW5hLmFsZXJ0LWNvbmZpcm1zLnYxIiwKICBmYW1pbHlTYWZldHk6ICJuaXZhcmFuYS5mYW1pbHktc2FmZXR5LnYxIiwKICAvLyBUaW1lc3RhbXAgb2YgdGhlIGxhc3QgYmFja3VwIGRvd25sb2FkIOKAlCBhIGJhY2t1cCB0aGF0IHdhcyBuZXZlciB0YWtlbiAob3IKICAvLyB0YWtlbiBtb250aHMgYWdvKSBpcyBubyBwcm90ZWN0aW9uIGFnYWluc3QgbG9zaW5nIHRoZSBwaG9uZSBpbiBhIGZsb29kLgogIGJhY2t1cFRha2VuOiAibml2YXJhbmEuYmFja3VwLXRha2VuLnYxIiwKfSBhcyBjb25zdDsK
+"use client";
+import { useCallback, useEffect, useState } from "react";
+
+export function uid(prefix = "id"): string {
+  return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+}
+
+export function load<T>(key: string, fallback: T): T {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (raw == null) return fallback;
+    return JSON.parse(raw) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+export function save(key: string, value: unknown): void {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    /* storage full or unavailable — fail silently */
+  }
+}
+
+export function useLocalStorage<T>(key: string, initial: T | (() => T)) {
+  const [value, setValue] = useState<T>(() =>
+    typeof initial === "function" ? (initial as () => T)() : initial
+  );
+  useEffect(() => {
+    setValue(load(key, typeof initial === "function" ? (initial as () => T)() : initial));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
+  const set = useCallback(
+    (next: T | ((prev: T) => T)) => {
+      setValue((prev) => {
+        const v = typeof next === "function" ? (next as (p: T) => T)(prev) : next;
+        save(key, v);
+        return v;
+      });
+    },
+    [key]
+  );
+  return [value, set] as const;
+}
+
+export const KEYS = {
+  incidents: "nivarana.incidents.v1",
+  shelters: "nivarana.shelters.v1",
+  helpRequests: "nivarana.help-requests.v1",
+  volunteers: "nivarana.volunteers.v1",
+  contacts: "nivarana.contacts.v1",
+  familyPlan: "nivarana.family-plan.v1",
+  goBag: "nivarana.go-bag.v1",
+  goBagReviewed: "nivarana.go-bag-reviewed.v1",
+  docs: "nivarana.docs.v1",
+  alerts: "nivarana.alerts.v1",
+  watches: "nivarana.watches.v1",
+  safePings: "nivarana.safe-pings.v1",
+  sosSends: "nivarana.sos-sends.v1",
+  lang: "nivarana.lang.v1",
+  uiSimple: "nivarana.ui.simple.v1",
+  profile: "nivarana.profile.v1",
+  emergencyId: "nivarana.emergency-id.v1",
+  badges: "nivarana.badges.v1",
+  drills: "nivarana.drills.v1",
+  checkins: "nivarana.checkins.v1",
+  claimIdentity: "nivarana.claim-identity.v1",
+  alertTested: "nivarana.alert-tested.v1",
+  alertConfirms: "nivarana.alert-confirms.v1",
+  familySafety: "nivarana.family-safety.v1",
+  // Timestamp of the last backup download — a backup that was never taken (or
+  // taken months ago) is no protection against losing the phone in a flood.
+  backupTaken: "nivarana.backup-taken.v1",
+} as const;

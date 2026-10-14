@@ -1,1 +1,280 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgeyB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgYnRuR2hvc3QsIGJ0blByaW1hcnksIENhcmQsIEVtcHR5U3RhdGUsIEZpZWxkLCBpbnB1dENscywgU2VjdGlvbkhlYWQsIFNldmVyaXR5QmFkZ2UsIHRpbWVBZ28gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBGTE9PRF9QUk9ORV9BUkVBUywgQlJPQURDQVNUX1RFTVBMQVRFUyB9IGZyb20gIkAvbGliL2RhdGEiOwppbXBvcnQgeyBLRVlTLCB1aWQsIHVzZUxvY2FsU3RvcmFnZSB9IGZyb20gIkAvbGliL3N0b3JlIjsKaW1wb3J0IHR5cGUgeyBBbGVydEl0ZW0sIFNldmVyaXR5LCBXYXRjaEFyZWEgfSBmcm9tICJAL2xpYi90eXBlcyI7CgovLyBDb3B5LXBhc3RlIGJpbGluZ3VhbCBicm9hZGNhc3QgdGVtcGxhdGVzIGZvciBXaGF0c0FwcCBncm91cCBhZG1pbnMuCi8vIEluIGEgcmVhbCBldmVudCB0aGUgYWRtaW4gaXMgdGhlIHRydXN0ZWQgY29vcmRpbmF0b3Ig4oCUIHByZS13cml0dGVuIG1lc3NhZ2VzCi8vIGtlZXAgdGhlIGluZm9ybWF0aW9uIGNvbnNpc3RlbnQgYWNyb3NzIGdyb3VwcyBpbnN0ZWFkIG9mIHBhbmljIGZvcndhcmRzLgpmdW5jdGlvbiBCcm9hZGNhc3RUZW1wbGF0ZXMoKSB7CiAgY29uc3QgW2FyZWEsIHNldEFyZWFdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtsYW5nLCBzZXRMYW5nXSA9IHVzZVN0YXRlPCJlbiIgfCAidGEiPigiZW4iKTsKICBjb25zdCBbY29waWVkLCBzZXRDb3BpZWRdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CgogIGFzeW5jIGZ1bmN0aW9uIGNvcHkoaWQ6IHN0cmluZywgdGV4dDogc3RyaW5nKSB7CiAgICBjb25zdCBmaWxsZWQgPSBhcmVhLnRyaW0oKSA/IHRleHQucmVwbGFjZUFsbCgiW0FSRUFdIiwgYXJlYS50cmltKCkpIDogdGV4dDsKICAgIHRyeSB7CiAgICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KGZpbGxlZCk7CiAgICAgIHNldENvcGllZChpZCk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0Q29waWVkKG51bGwpLCAyMDAwKTsKICAgIH0gY2F0Y2ggewogICAgICBzZXRDb3BpZWQobnVsbCk7CiAgICB9CiAgfQoKICByZXR1cm4gKAogICAgPHNlY3Rpb24+CiAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtaW5rIj7wn5OjIEJyb2FkY2FzdCB0ZW1wbGF0ZXM8L2gyPgogICAgICA8cCBjbGFzc05hbWU9Im1iLTMgdGV4dC1zbSB0ZXh0LXNvb3QiPkZvciBzdHJlZXQvd2FyZCBXaGF0c0FwcCBncm91cCBhZG1pbnM6IHR5cGUgeW91ciBhcmVhIG9uY2UsIHRoZW4gY29weSBhIHJlYWR5IGJpbGluZ3VhbCBtZXNzYWdlLiBDYWxtLCBjb25zaXN0ZW50IHdvcmRzIGJlYXQgcGFuaWMgZm9yd2FyZHMuPC9wPgogICAgICA8Q2FyZD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCBmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICA8aW5wdXQgY2xhc3NOYW1lPXtpbnB1dENscyArICIgbWF4LXcteHMifSB2YWx1ZT17YXJlYX0gb25DaGFuZ2U9eyhlKSA9PiBzZXRBcmVhKGUudGFyZ2V0LnZhbHVlKX0gcGxhY2Vob2xkZXI9IkFyZWEgdG8gZmlsbCBpbiAoZS5nLiBWZWxhY2hlcnkpIiBsaXN0PSJwcm9uZSIgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIj4KICAgICAgICAgICAgeyhbImVuIiwgInRhIl0gYXMgY29uc3QpLm1hcCgobCkgPT4gKAogICAgICAgICAgICAgIDxidXR0b24ga2V5PXtsfSBvbkNsaWNrPXsoKSA9PiBzZXRMYW5nKGwpfSBjbGFzc05hbWU9e2BweC0zIHB5LTEuNSB0ZXh0LXhzIGZvbnQtYm9sZCAke2xhbmcgPT09IGwgPyAiYmctaW5rIHRleHQtY3JlYW0iIDogInRleHQtc29vdCJ9YH0+CiAgICAgICAgICAgICAgICB7bCA9PT0gImVuIiA/ICJFbmdsaXNoIiA6ICLgrqTgrq7grr/grrTgr40ifQogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAge0JST0FEQ0FTVF9URU1QTEFURVMubWFwKCh0KSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHRleHQgPSBsYW5nID09PSAiZW4iID8gdC5lbiA6IHQudGE7CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgPGRpdiBrZXk9e3QuaWR9IGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWxpbmUgYmctcGFwZXIgcHgtMyBweS0yLjUiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1pbmsiPnt0LnRpdGxlfTwvcD4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBjb3B5KHQuaWQsIHRleHQpfSBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIGJnLWNyZWFtIHB4LTMgcHktMS41IHRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LWluayBob3ZlcjpiZy1zYW5kIj4KICAgICAgICAgICAgICAgICAgICB7Y29waWVkID09PSB0LmlkID8gIuKckyBDb3BpZWQiIDogIkNvcHkifQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHdoaXRlc3BhY2UtcHJlLXdyYXAgdGV4dC14cyB0ZXh0LXNvb3QiPgogICAgICAgICAgICAgICAgICB7YXJlYS50cmltKCkgPyB0ZXh0LnJlcGxhY2VBbGwoIltBUkVBXSIsIGFyZWEudHJpbSgpKSA6IHRleHR9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkPgogICAgPC9zZWN0aW9uPgogICk7Cn0KCi8vIEEgd2FybmluZyBhcHAgaGVscHMgb25seSBpZiBpdHMgYWxlcnRzIGFjdHVhbGx5IHJlYWNoIHlvdXIgcGhvbmUg4oCUCi8vIHBvd2VyLXNhdmluZyBtb2RlcyBjYW4gZGVsYXkgbm90aWZpY2F0aW9ucywgYW5kIG1vc3QgcGVvcGxlIGRpc2NvdmVyCi8vIHRoZWlyIHNldHVwIGlzIGJyb2tlbiBvbmx5IHdoZW4gdGhlIHdhdGVyIGlzIHJpc2luZy4gVGhpcyBkcnktcnVuIGZpcmVzCi8vIGEgc2ltdWxhdGVkIGNyaXRpY2FsIGFsZXJ0IGluIHRoZSByZWFsIHZpc3VhbCBsYW5ndWFnZSBhbmQgcmVjb3JkcwovLyB3aGV0aGVyIHlvdSBzYXcgaXQsIG9uIGEgY2FsbSBkYXkgd2hlbiB0aGVyZSBpcyB0aW1lIHRvIGZpeCB0aGluZ3MuCmZ1bmN0aW9uIEFsZXJ0U2VsZlRlc3QoKSB7CiAgY29uc3QgW3Rlc3RlZCwgc2V0VGVzdGVkXSA9IHVzZUxvY2FsU3RvcmFnZTx7IGF0OiBudW1iZXIgfCBudWxsOyBzZWVuOiBib29sZWFuIH0+KAogICAgS0VZUy5hbGVydFRlc3RlZCwgeyBhdDogbnVsbCwgc2VlbjogZmFsc2UgfQogICk7CiAgY29uc3QgW2ZpcmVkLCBzZXRGaXJlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGZ1bmN0aW9uIHJ1blRlc3QoKSB7CiAgICBzZXRGaXJlZCh0cnVlKTsKICAgIHRyeSB7IG5hdmlnYXRvci52aWJyYXRlPy4oWzEyMCwgNjAsIDEyMF0pOyB9IGNhdGNoIHsgLyogbm8tb3AgKi8gfQogIH0KICBmdW5jdGlvbiBhbnN3ZXIoc2VlbjogYm9vbGVhbikgewogICAgc2V0VGVzdGVkKHsgYXQ6IERhdGUubm93KCksIHNlZW4gfSk7CiAgICBzZXRGaXJlZChmYWxzZSk7CiAgfQoKICByZXR1cm4gKAogICAgPHNlY3Rpb24+CiAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtaW5rIj7wn5SUIFRlc3QgeW91ciBhbGVydCBzZXR1cDwvaDI+CiAgICAgIDxDYXJkPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNvb3QiPgogICAgICAgICAgQSB3YXJuaW5nIG9ubHkgc2F2ZXMgbGl2ZXMgaWYgaXQgcmVhY2hlcyB5b3UuIFBvd2VyLXNhdmluZyBtb2RlcyBjYW4gZGVsYXkgbm90aWZpY2F0aW9ucyDigJQKICAgICAgICAgIHJ1biB0aGlzIGRyeS1ydW4gPGVtPnRvZGF5PC9lbT4sIHdoaWxlIGl0J3MgY2FsbSwgc28geW91IGtub3cgeW91ciBwaG9uZSB3aWxsIGFjdHVhbGx5IGFsZXJ0IHlvdSBhdCAyIEFNLgogICAgICAgIDwvcD4KICAgICAgICB7dGVzdGVkLmF0ID09IG51bGwgPyAoCiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgcm91bmRlZC1tZCBiZy1nb2xkLzIwIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICDimqAgTmV2ZXIgdGVzdGVkIOKAlCB5b3VyIGFsZXJ0cyBtaWdodCBiZSBzaWxlbnRseSBibG9ja2VkLiBUYXAgYmVsb3cuCiAgICAgICAgICA8L3A+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtc29vdCI+CiAgICAgICAgICAgIExhc3QgdGVzdGVkIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+e3RpbWVBZ28odGVzdGVkLmF0KX08L3NwYW4+CiAgICAgICAgICAgIHt0ZXN0ZWQuc2VlbiA/ICIg4oCUIHlvdSBzYXcgaXQgY2xlYXJseSDinJMiIDogIiDigJQg4pqgIHlvdSBjb3VsZG4ndCBzZWUgaXQgY2xlYXJseS4gQ2hlY2sgeW91ciBwaG9uZSdzIG5vdGlmaWNhdGlvbiAmIGJhdHRlcnkgc2V0dGluZ3MsIHRoZW4gcmUtdGVzdC4ifQogICAgICAgICAgPC9wPgogICAgICAgICl9CiAgICAgICAgeyFmaXJlZCA/ICgKICAgICAgICAgIDxidXR0b24gb25DbGljaz17cnVuVGVzdH0gY2xhc3NOYW1lPXtidG5QcmltYXJ5ICsgIiBtdC0zIn0+UnVuIHRlc3QgYWxlcnQ8L2J1dHRvbj4KICAgICAgICApIDogKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgc3BhY2UteS0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyLWwtNCBib3JkZXItbC1hbGFybSBiZy1jcmVhbSBweC00IHB5LTMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtaW5rIj7imqDvuI8gVEVTVCDigJQgY3JpdGljYWwgZmxvb2Qgd2FybmluZzwvcD4KICAgICAgICAgICAgICAgIDxTZXZlcml0eUJhZGdlIHNldmVyaXR5PSJjcml0aWNhbCIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNvb3QiPgogICAgICAgICAgICAgICAgVGhpcyBpcyB3aGF0IGEgcmVhbCBjcml0aWNhbCBhbGVydCB3aWxsIGxvb2sgbGlrZSBvbiB0aGlzIGRldmljZS4gSWYgaXQgc2Nyb2xsZWQgcGFzdAogICAgICAgICAgICAgICAgdW5ub3RpY2VkLCB0dXJuIG9uIG5vdGlmaWNhdGlvbnMgYW5kIGFkZCBOaXZhcmFuYSB0byB5b3VyIGJhdHRlcnkgInVucmVzdHJpY3RlZCIgbGlzdC4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+RGlkIHlvdSBzZWUgaXQgY2xlYXJseT88L3NwYW4+CiAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBhbnN3ZXIodHJ1ZSl9IGNsYXNzTmFtZT17YnRuUHJpbWFyeX0+WWVzLCBsb3VkIGFuZCBjbGVhcjwvYnV0dG9uPgogICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gYW5zd2VyKGZhbHNlKX0gY2xhc3NOYW1lPXtidG5HaG9zdH0+Tm8g4oCUIEkgbWlzc2VkIGl0PC9idXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0zIGxpc3QtZGlzYyBzcGFjZS15LTEgcGwtNSB0ZXh0LXhzIHRleHQtZmFpbnQiPgogICAgICAgICAgPGxpPktlZXAgeW91ciBwaG9uZSBjaGFyZ2VkIG92ZXJuaWdodCBkdXJpbmcgaGVhdnkgcmFpbi48L2xpPgogICAgICAgICAgPGxpPk1ha2Ugc3VyZSBvbmUgZmFtaWx5IG1lbWJlcidzIHBob25lIGlzIGFsd2F5cyByZWFjaGFibGUuPC9saT4KICAgICAgICAgIDxsaT5JZiB5b3Ugc2hhcmUgdGhpcyBkZXZpY2UsIHNob3cgZXZlcnlvbmUgd2hhdCBhIHJlYWwgYWxlcnQgbG9va3MgbGlrZS48L2xpPgogICAgICAgIDwvdWw+CiAgICAgIDwvQ2FyZD4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpmdW5jdGlvbiBzZWVkQWxlcnRzKCk6IEFsZXJ0SXRlbVtdIHsgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgcmV0dXJuIFsKICAgIHsKICAgICAgaWQ6ICJzZWVkLWExIiwgdGl0bGU6ICJIZWF2eSByYWluZmFsbCB3YXJuaW5nIOKAlCBDaGVubmFpIiwgc2V2ZXJpdHk6ICJoaWdoIiBhcyBTZXZlcml0eSwgYXJlYTogIkNoZW5uYWkgZGlzdHJpY3QiLAogICAgICBib2R5OiAiSU1EIGZvcmVjYXN0cyBoZWF2eSB0byB2ZXJ5IGhlYXZ5IHJhaW5mYWxsIGluIHRoZSBuZXh0IDI0IGhvdXJzLiBBdm9pZCBsb3ctbHlpbmcgYXJlYXM7IGtlZXAgdmFsdWFibGVzIGFib3ZlIGdyb3VuZCBsZXZlbC4iLAogICAgICBzb3VyY2U6ICJJTUQgKHNhbXBsZSkiLCBpc3N1ZWRBdDogbm93IC0gMiAqIDM2MDAgKiAxMDAwLCByZWFkOiBmYWxzZSwKICAgIH0sCiAgICB7CiAgICAgIGlkOiAic2VlZC1hMiIsIHRpdGxlOiAiV2F0ZXJsb2dnaW5nIHJlcG9ydGVkIOKAlCBWZWxhY2hlcnkiLCBzZXZlcml0eTogIm1vZGVyYXRlIiBhcyBTZXZlcml0eSwgYXJlYTogIlZlbGFjaGVyeSIsCiAgICAgIGJvZHk6ICJNdWx0aXBsZSBjaXRpemVuIHJlcG9ydHMgb2YgMjDigJMzMCBjbSB3YXRlcmxvZ2dpbmcgbmVhciAxMDAgRmVldCBSb2FkLiBUd28td2hlZWxlcnMgYWR2aXNlZCB0byBhdm9pZC4iLAogICAgICBzb3VyY2U6ICJOaXZhcmFuYSByZXBvcnRzIChzYW1wbGUpIiwgaXNzdWVkQXQ6IG5vdyAtIDUgKiAzNjAwICogMTAwMCwgcmVhZDogZmFsc2UsCiAgICB9LAogIF07Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFsZXJ0cygpIHsKICBjb25zdCBbYWxlcnRzLCBzZXRBbGVydHNdID0gdXNlTG9jYWxTdG9yYWdlPEFsZXJ0SXRlbVtdPihLRVlTLmFsZXJ0cywgc2VlZEFsZXJ0cyk7CiAgY29uc3QgW3dhdGNoZXMsIHNldFdhdGNoZXNdID0gdXNlTG9jYWxTdG9yYWdlPFdhdGNoQXJlYVtdPihLRVlTLndhdGNoZXMsIFtdKTsKICBjb25zdCBbY29uZmlybXMsIHNldENvbmZpcm1zXSA9IHVzZUxvY2FsU3RvcmFnZTxSZWNvcmQ8c3RyaW5nLCBudW1iZXI+PihLRVlTLmFsZXJ0Q29uZmlybXMsIHt9KTsKICBjb25zdCBbbmV3V2F0Y2gsIHNldE5ld1dhdGNoXSA9IHVzZVN0YXRlKCIiKTsKCiAgY29uc3QgdW5yZWFkID0gdXNlTWVtbygoKSA9PiBhbGVydHMuZmlsdGVyKChhKSA9PiAhYS5yZWFkKSwgW2FsZXJ0c10pOwogIGNvbnN0IG1hdGNoZWQgPSB1c2VNZW1vKAogICAgKCkgPT4gYWxlcnRzLmZpbHRlcigoYSkgPT4gd2F0Y2hlcy5zb21lKCh3KSA9PiBhLmFyZWEudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyh3LmFyZWEudG9Mb3dlckNhc2UoKSkgfHwgdy5hcmVhLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoYS5hcmVhLnRvTG93ZXJDYXNlKCkpKSksCiAgICBbYWxlcnRzLCB3YXRjaGVzXQogICk7CgogIGZ1bmN0aW9uIGFkZFdhdGNoKGU6IFJlYWN0LkZvcm1FdmVudCkgewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgY29uc3QgYXJlYSA9IG5ld1dhdGNoLnRyaW0oKTsKICAgIGlmICghYXJlYSB8fCB3YXRjaGVzLnNvbWUoKHcpID0+IHcuYXJlYS50b0xvd2VyQ2FzZSgpID09PSBhcmVhLnRvTG93ZXJDYXNlKCkpKSByZXR1cm47CiAgICBzZXRXYXRjaGVzKFsuLi53YXRjaGVzLCB7IGlkOiB1aWQoInciKSwgYXJlYSB9XSk7CiAgICBzZXROZXdXYXRjaCgiIik7CiAgfQogIGZ1bmN0aW9uIG1hcmtSZWFkKGlkOiBzdHJpbmcpIHsKICAgIHNldEFsZXJ0cyhhbGVydHMubWFwKChhKSA9PiAoYS5pZCA9PT0gaWQgPyB7IC4uLmEsIHJlYWQ6IHRydWUgfSA6IGEpKSk7CiAgfQogIGZ1bmN0aW9uIGNvbmZpcm1BbGVydChpZDogc3RyaW5nKSB7CiAgICBzZXRDb25maXJtcygocHJldikgPT4gKHsgLi4ucHJldiwgW2lkXTogKHByZXZbaWRdID8/IDApICsgMSB9KSk7CiAgICB0cnkgeyBuYXZpZ2F0b3IudmlicmF0ZT8uKDYwKTsgfSBjYXRjaCB7IC8qIG5vLW9wICovIH0KICB9CiAgZnVuY3Rpb24gbWFya0FsbCgpIHsKICAgIHNldEFsZXJ0cyhhbGVydHMubWFwKChhKSA9PiAoeyAuLi5hLCByZWFkOiB0cnVlIH0pKSk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctM3hsIHNwYWNlLXktOCI+CiAgICAgIDxTZWN0aW9uSGVhZAogICAgICAgIHRpdGxlPSJBbGVydHMiCiAgICAgICAgc3ViPSJXYXJuaW5ncyBmb3IgdGhlIGFyZWFzIHlvdSB3YXRjaC4gU2FtcGxlIElNRC1zdHlsZSBhbGVydHMgYXJlIHByZWxvYWRlZCDigJQgcmVwbGFjZSB3aXRoIHJlYWwgb25lcyBkdXJpbmcgbW9uc29vbi4iCiAgICAgICAgYWN0aW9uPXt1bnJlYWQubGVuZ3RoID4gMCA/IDxidXR0b24gb25DbGljaz17bWFya0FsbH0gY2xhc3NOYW1lPXtidG5HaG9zdH0+TWFyayBhbGwgcmVhZDwvYnV0dG9uPiA6IHVuZGVmaW5lZH0KICAgICAgLz4KCiAgICAgIDxzZWN0aW9uPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtaW5rIj7wn5GB77iPIFdhdGNoIGFyZWFzPC9oMj4KICAgICAgICA8Q2FyZD4KICAgICAgICAgIDxmb3JtIG9uU3VibWl0PXthZGRXYXRjaH0gY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgPGlucHV0IGNsYXNzTmFtZT17aW5wdXRDbHN9IHZhbHVlPXtuZXdXYXRjaH0gb25DaGFuZ2U9eyhlKSA9PiBzZXROZXdXYXRjaChlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJlLmcuIFZlbGFjaGVyeSIgbGlzdD0icHJvbmUiIC8+CiAgICAgICAgICAgIDxkYXRhbGlzdCBpZD0icHJvbmUiPntGTE9PRF9QUk9ORV9BUkVBUy5tYXAoKGEpID0+IDxvcHRpb24ga2V5PXthfSB2YWx1ZT17YX0gLz4pfTwvZGF0YWxpc3Q+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPXtidG5QcmltYXJ5fT5XYXRjaDwvYnV0dG9uPgogICAgICAgICAgPC9mb3JtPgogICAgICAgICAge3dhdGNoZXMubGVuZ3RoID4gMCA/ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICAgIHt3YXRjaGVzLm1hcCgodykgPT4gKAogICAgICAgICAgICAgICAgPHNwYW4ga2V5PXt3LmlkfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYmctc2FuZCBweC0zIHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAge3cuYXJlYX0KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRXYXRjaGVzKHdhdGNoZXMuZmlsdGVyKCh4KSA9PiB4LmlkICE9PSB3LmlkKSl9IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtZmFpbnQgaG92ZXI6dGV4dC1hbGFybSI+w5c8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1zbSB0ZXh0LWZhaW50Ij5ObyB3YXRjaCBhcmVhcyB5ZXQuIEFkZCB5b3VyIGhvbWUgYW5kIG9mZmljZSBhcmVhcyB0byBnZXQgbWF0Y2hlZCBhbGVydHMuPC9wPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmQ+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxBbGVydFNlbGZUZXN0IC8+CgogICAgICB7bWF0Y2hlZC5sZW5ndGggPiAwICYmICgKICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtYWxhcm0iPuKaoO+4jyBNYXRjaGluZyB5b3VyIHdhdGNoZXM8L2gyPiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAge21hdGNoZWQubWFwKChhKSA9PiA8QWxlcnRDYXJkIGtleT17YS5pZH0gYT17YX0gb25SZWFkPXttYXJrUmVhZH0gY29uZmlybUNvdW50PXtjb25maXJtc1thLmlkXSA/PyAwfSBvbkNvbmZpcm09e2NvbmZpcm1BbGVydH0gaGlnaGxpZ2h0IC8+KX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgKX0KCiAgICAgIDxCcm9hZGNhc3RUZW1wbGF0ZXMgLz4KCiAgICAgIDxzZWN0aW9uPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im1iLTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIHRleHQtaW5rIj5BbGwgYWxlcnRzIHt1bnJlYWQubGVuZ3RoID4gMCAmJiA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zYW5zIGZvbnQtc2VtaWJvbGQgdGV4dC1hbGFybSI+KHt1bnJlYWQubGVuZ3RofSB1bnJlYWQpPC9zcGFuPn08L2gyPgogICAgICAgIHthbGVydHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPEVtcHR5U3RhdGUgdGl0bGU9Ik5vIGFsZXJ0cyIgYm9keT0iV2hlbiBhIHdhcm5pbmcgaXMgaXNzdWVkIGZvciB5b3VyIHdhdGNoZWQgYXJlYXMsIGl0IHdpbGwgYXBwZWFyIGhlcmUuIiAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICAgICAge1suLi5hbGVydHNdLnNvcnQoKGEsIGIpID0+IGIuaXNzdWVkQXQgLSBhLmlzc3VlZEF0KS5tYXAoKGEpID0+IDxBbGVydENhcmQga2V5PXthLmlkfSBhPXthfSBvblJlYWQ9e21hcmtSZWFkfSBjb25maXJtQ291bnQ9e2NvbmZpcm1zW2EuaWRdID8/IDB9IG9uQ29uZmlybT17Y29uZmlybUFsZXJ0fSAvPil9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L3NlY3Rpb24+CiAgICA8L2Rpdj4KICApOwp9CgpmdW5jdGlvbiBBbGVydENhcmQoeyBhLCBvblJlYWQsIGNvbmZpcm1Db3VudCwgb25Db25maXJtLCBoaWdobGlnaHQgPSBmYWxzZSB9OiB7CiAgYTogQWxlcnRJdGVtOyBvblJlYWQ6IChpZDogc3RyaW5nKSA9PiB2b2lkOyBjb25maXJtQ291bnQ6IG51bWJlcjsgb25Db25maXJtOiAoaWQ6IHN0cmluZykgPT4gdm9pZDsgaGlnaGxpZ2h0PzogYm9vbGVhbjsKfSkgewogIHJldHVybiAoCiAgICA8Q2FyZCBjbGFzc05hbWU9e2AkeyFhLnJlYWQgPyAiYm9yZGVyLWwtNCBib3JkZXItbC1hbGFybSIgOiAiIn0gJHtoaWdobGlnaHQgPyAiYm9yZGVyLXNpZ25hbCIgOiAiIn1gfT4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0yIj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPXtgZm9udC1zZW1pYm9sZCAke2EucmVhZCA/ICJ0ZXh0LXNvb3QiIDogInRleHQtaW5rIn1gfT57YS50aXRsZX08L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LXNvb3QiPnthLmJvZHl9PC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgdGV4dC1mYWludCI+e2EuYXJlYX0gwrcge2Euc291cmNlfSDCtyB7dGltZUFnbyhhLmlzc3VlZEF0KX08L3A+CiAgICAgICAgICB7Y29uZmlybUNvdW50ID4gMCAmJiAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1zaWduYWwiPvCfkYEge2NvbmZpcm1Db3VudH0gbmVpZ2hib3Vye2NvbmZpcm1Db3VudCA9PT0gMSA/ICIiIDogInMifSBjb25maXJtaW5nIHRoaXMgbG9jYWxseTwvcD4KICAgICAgICAgICl9CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMiBmbGV4IGZsZXgtd3JhcCBnYXAtMS41Ij4KICAgICAgICAgICAge2FsZXJ0QWN0aW9ucyhhKS5tYXAoKHgpID0+ICgKICAgICAgICAgICAgICA8YSBrZXk9e3guaHJlZiArIHgubGFiZWx9IGhyZWY9e3guaHJlZn0gY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1wYXBlciBweC0yLjUgcHktMSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1zaWduYWwgaG92ZXI6Ym9yZGVyLXNpZ25hbCI+CiAgICAgICAgICAgICAgICB7eC5sYWJlbH0KICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICkpfQogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IG9uQ29uZmlybShhLmlkKX0gY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1wYXBlciBweC0yLjUgcHktMSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsgaG92ZXI6Ym9yZGVyLWluayI+CiAgICAgICAgICAgICAg8J+RgSBJIHNlZSB0aGlzIHRvbwogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IHNocmluay0wIGZsZXgtY29sIGl0ZW1zLWVuZCBnYXAtMiI+CiAgICAgICAgICA8U2V2ZXJpdHlCYWRnZSBzZXZlcml0eT17YS5zZXZlcml0eX0gLz4KICAgICAgICAgIHshYS5yZWFkICYmIDxidXR0b24gb25DbGljaz17KCkgPT4gb25SZWFkKGEuaWQpfSBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LXNpZ25hbCBob3Zlcjp1bmRlcmxpbmUiPk1hcmsgcmVhZDwvYnV0dG9uPn0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L0NhcmQ+CiAgKTsKfQoKLy8gVHVybiBhbiBhbGVydCBpbnRvIGNvbmNyZXRlIG5leHQgc3RlcHM6IGtleXdvcmQtbWF0Y2hlZCBkZWVwIGxpbmtzIHNvIGEKLy8gcmFpbmZhbGwgd2FybmluZyBwb2ludHMgYXQgdGhlIGdvLWJhZywgYSBmbG9vZCBhbGVydCBhdCBzaGVsdGVycy4KZnVuY3Rpb24gYWxlcnRBY3Rpb25zKGE6IEFsZXJ0SXRlbSk6IEFycmF5PHsgbGFiZWw6IHN0cmluZzsgaHJlZjogc3RyaW5nIH0+IHsKICBjb25zdCB0ID0gYCR7YS50aXRsZX0gJHthLmJvZHl9YC50b0xvd2VyQ2FzZSgpOwogIGNvbnN0IG91dDogQXJyYXk8eyBsYWJlbDogc3RyaW5nOyBocmVmOiBzdHJpbmcgfT4gPSBbXTsKICBpZiAoL3JhaW58c3Rvcm18Y3ljbG9uZXxtb25zb29ufHdhcm5pbmcvLnRlc3QodCkpIG91dC5wdXNoKHsgbGFiZWw6ICLwn46SIENoZWNrIGdvLWJhZyAmIGZhbWlseSBwbGFuIiwgaHJlZjogIi9wcmVwYXJlIiB9KTsKICBpZiAoL2Zsb29kfHdhdGVybG9nfGludW5kYXR8ZXZhY3VhdC8udGVzdCh0KSkgb3V0LnB1c2goeyBsYWJlbDogIvCfj6AgRmluZCByZWxpZWYgc2hlbHRlcnMiLCBocmVmOiAiL3NoZWx0ZXJzIiB9KTsKICBpZiAoL3Bvd2VyfGVsZWN0cmljfHdpcmUvLnRlc3QodCkpIG91dC5wdXNoKHsgbGFiZWw6ICLimqDvuI8gUmVwb3J0IHRoZSBoYXphcmQiLCBocmVmOiAiL3JlcG9ydHMvbmV3IiB9KTsKICBpZiAoL21lZGljYWx8aGVhbHRofGRpc2Vhc2UvLnRlc3QodCkpIG91dC5wdXNoKHsgbGFiZWw6ICLim5HvuI8gRmlyc3QtYWlkIGd1aWRlcyIsIGhyZWY6ICIvZmlyc3RhaWQiIH0pOwogIGlmICghb3V0Lmxlbmd0aCkgb3V0LnB1c2goeyBsYWJlbDogIvCfk4sgUmV2aWV3IHlvdXIgcmVhZGluZXNzIiwgaHJlZjogIi9wcmVwYXJlIiB9KTsKICByZXR1cm4gb3V0LnNsaWNlKDAsIDIpOwp9Cg==
+"use client";
+import { useMemo, useState } from "react";
+import { btnGhost, btnPrimary, Card, EmptyState, Field, inputCls, SectionHead, SeverityBadge, timeAgo } from "@/components/ui";
+import { FLOOD_PRONE_AREAS, BROADCAST_TEMPLATES } from "@/lib/data";
+import { KEYS, uid, useLocalStorage } from "@/lib/store";
+import type { AlertItem, Severity, WatchArea } from "@/lib/types";
+
+// Copy-paste bilingual broadcast templates for WhatsApp group admins.
+// In a real event the admin is the trusted coordinator — pre-written messages
+// keep the information consistent across groups instead of panic forwards.
+function BroadcastTemplates() {
+  const [area, setArea] = useState("");
+  const [lang, setLang] = useState<"en" | "ta">("en");
+  const [copied, setCopied] = useState<string | null>(null);
+
+  async function copy(id: string, text: string) {
+    const filled = area.trim() ? text.replaceAll("[AREA]", area.trim()) : text;
+    try {
+      await navigator.clipboard.writeText(filled);
+      setCopied(id);
+      setTimeout(() => setCopied(null), 2000);
+    } catch {
+      setCopied(null);
+    }
+  }
+
+  return (
+    <section>
+      <h2 className="mb-3 font-display text-xl font-bold text-ink">📣 Broadcast templates</h2>
+      <p className="mb-3 text-sm text-soot">For street/ward WhatsApp group admins: type your area once, then copy a ready bilingual message. Calm, consistent words beat panic forwards.</p>
+      <Card>
+        <div className="mb-4 flex flex-wrap gap-2">
+          <input className={inputCls + " max-w-xs"} value={area} onChange={(e) => setArea(e.target.value)} placeholder="Area to fill in (e.g. Velachery)" list="prone" />
+          <div className="flex rounded-md border border-line">
+            {(["en", "ta"] as const).map((l) => (
+              <button key={l} onClick={() => setLang(l)} className={`px-3 py-1.5 text-xs font-bold ${lang === l ? "bg-ink text-cream" : "text-soot"}`}>
+                {l === "en" ? "English" : "தமிழ்"}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="space-y-3">
+          {BROADCAST_TEMPLATES.map((t) => {
+            const text = lang === "en" ? t.en : t.ta;
+            return (
+              <div key={t.id} className="rounded-md border border-line bg-paper px-3 py-2.5">
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-sm font-bold text-ink">{t.title}</p>
+                  <button onClick={() => copy(t.id, text)} className="rounded-md border border-line bg-cream px-3 py-1.5 text-xs font-semibold text-ink hover:bg-sand">
+                    {copied === t.id ? "✓ Copied" : "Copy"}
+                  </button>
+                </div>
+                <p className="mt-1 whitespace-pre-wrap text-xs text-soot">
+                  {area.trim() ? text.replaceAll("[AREA]", area.trim()) : text}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      </Card>
+    </section>
+  );
+}
+
+// A warning app helps only if its alerts actually reach your phone —
+// power-saving modes can delay notifications, and most people discover
+// their setup is broken only when the water is rising. This dry-run fires
+// a simulated critical alert in the real visual language and records
+// whether you saw it, on a calm day when there is time to fix things.
+function AlertSelfTest() {
+  const [tested, setTested] = useLocalStorage<{ at: number | null; seen: boolean }>(
+    KEYS.alertTested, { at: null, seen: false }
+  );
+  const [fired, setFired] = useState(false);
+
+  function runTest() {
+    setFired(true);
+    try { navigator.vibrate?.([120, 60, 120]); } catch { /* no-op */ }
+  }
+  function answer(seen: boolean) {
+    setTested({ at: Date.now(), seen });
+    setFired(false);
+  }
+
+  return (
+    <section>
+      <h2 className="mb-3 font-display text-xl font-bold text-ink">🔔 Test your alert setup</h2>
+      <Card>
+        <p className="text-sm text-soot">
+          A warning only saves lives if it reaches you. Power-saving modes can delay notifications —
+          run this dry-run <em>today</em>, while it's calm, so you know your phone will actually alert you at 2 AM.
+        </p>
+        {tested.at == null ? (
+          <p className="mt-2 rounded-md bg-gold/20 px-3 py-2 text-sm font-semibold text-ink">
+            ⚠ Never tested — your alerts might be silently blocked. Tap below.
+          </p>
+        ) : (
+          <p className="mt-2 text-sm text-soot">
+            Last tested <span className="font-semibold text-ink">{timeAgo(tested.at)}</span>
+            {tested.seen ? " — you saw it clearly ✓" : " — ⚠ you couldn't see it clearly. Check your phone's notification & battery settings, then re-test."}
+          </p>
+        )}
+        {!fired ? (
+          <button onClick={runTest} className={btnPrimary + " mt-3"}>Run test alert</button>
+        ) : (
+          <div className="mt-3 space-y-3">
+            <div className="rounded-md border-l-4 border-l-alarm bg-cream px-4 py-3">
+              <div className="flex items-center justify-between gap-2">
+                <p className="font-semibold text-ink">⚠️ TEST — critical flood warning</p>
+                <SeverityBadge severity="critical" />
+              </div>
+              <p className="mt-1 text-sm text-soot">
+                This is what a real critical alert will look like on this device. If it scrolled past
+                unnoticed, turn on notifications and add Nivarana to your battery "unrestricted" list.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-sm font-semibold text-ink">Did you see it clearly?</span>
+              <button onClick={() => answer(true)} className={btnPrimary}>Yes, loud and clear</button>
+              <button onClick={() => answer(false)} className={btnGhost}>No — I missed it</button>
+            </div>
+          </div>
+        )}
+        <ul className="mt-3 list-disc space-y-1 pl-5 text-xs text-faint">
+          <li>Keep your phone charged overnight during heavy rain.</li>
+          <li>Make sure one family member's phone is always reachable.</li>
+          <li>If you share this device, show everyone what a real alert looks like.</li>
+        </ul>
+      </Card>
+    </section>
+  );
+}
+
+function seedAlerts(): AlertItem[] {  const now = Date.now();
+  return [
+    {
+      id: "seed-a1", title: "Heavy rainfall warning — Chennai", severity: "high" as Severity, area: "Chennai district",
+      body: "IMD forecasts heavy to very heavy rainfall in the next 24 hours. Avoid low-lying areas; keep valuables above ground level.",
+      source: "IMD (sample)", issuedAt: now - 2 * 3600 * 1000, read: false,
+    },
+    {
+      id: "seed-a2", title: "Waterlogging reported — Velachery", severity: "moderate" as Severity, area: "Velachery",
+      body: "Multiple citizen reports of 20–30 cm waterlogging near 100 Feet Road. Two-wheelers advised to avoid.",
+      source: "Nivarana reports (sample)", issuedAt: now - 5 * 3600 * 1000, read: false,
+    },
+  ];
+}
+
+export default function Alerts() {
+  const [alerts, setAlerts] = useLocalStorage<AlertItem[]>(KEYS.alerts, seedAlerts);
+  const [watches, setWatches] = useLocalStorage<WatchArea[]>(KEYS.watches, []);
+  const [confirms, setConfirms] = useLocalStorage<Record<string, number>>(KEYS.alertConfirms, {});
+  const [newWatch, setNewWatch] = useState("");
+
+  const unread = useMemo(() => alerts.filter((a) => !a.read), [alerts]);
+  const matched = useMemo(
+    () => alerts.filter((a) => watches.some((w) => a.area.toLowerCase().includes(w.area.toLowerCase()) || w.area.toLowerCase().includes(a.area.toLowerCase()))),
+    [alerts, watches]
+  );
+
+  function addWatch(e: React.FormEvent) {
+    e.preventDefault();
+    const area = newWatch.trim();
+    if (!area || watches.some((w) => w.area.toLowerCase() === area.toLowerCase())) return;
+    setWatches([...watches, { id: uid("w"), area }]);
+    setNewWatch("");
+  }
+  function markRead(id: string) {
+    setAlerts(alerts.map((a) => (a.id === id ? { ...a, read: true } : a)));
+  }
+  function confirmAlert(id: string) {
+    setConfirms((prev) => ({ ...prev, [id]: (prev[id] ?? 0) + 1 }));
+    try { navigator.vibrate?.(60); } catch { /* no-op */ }
+  }
+  function markAll() {
+    setAlerts(alerts.map((a) => ({ ...a, read: true })));
+  }
+
+  return (
+    <div className="mx-auto max-w-3xl space-y-8">
+      <SectionHead
+        title="Alerts"
+        sub="Warnings for the areas you watch. Sample IMD-style alerts are preloaded — replace with real ones during monsoon."
+        action={unread.length > 0 ? <button onClick={markAll} className={btnGhost}>Mark all read</button> : undefined}
+      />
+
+      <section>
+        <h2 className="mb-3 font-display text-xl font-bold text-ink">👁️ Watch areas</h2>
+        <Card>
+          <form onSubmit={addWatch} className="flex gap-2">
+            <input className={inputCls} value={newWatch} onChange={(e) => setNewWatch(e.target.value)} placeholder="e.g. Velachery" list="prone" />
+            <datalist id="prone">{FLOOD_PRONE_AREAS.map((a) => <option key={a} value={a} />)}</datalist>
+            <button className={btnPrimary}>Watch</button>
+          </form>
+          {watches.length > 0 ? (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {watches.map((w) => (
+                <span key={w.id} className="flex items-center gap-2 rounded-md bg-sand px-3 py-1.5 text-sm font-medium text-ink">
+                  {w.area}
+                  <button onClick={() => setWatches(watches.filter((x) => x.id !== w.id))} className="font-bold text-faint hover:text-alarm">×</button>
+                </span>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-3 text-sm text-faint">No watch areas yet. Add your home and office areas to get matched alerts.</p>
+          )}
+        </Card>
+      </section>
+
+      <AlertSelfTest />
+
+      {matched.length > 0 && (
+        <section>
+          <h2 className="mb-3 font-display text-xl font-bold text-alarm">⚠️ Matching your watches</h2>          <div className="space-y-3">
+            {matched.map((a) => <AlertCard key={a.id} a={a} onRead={markRead} confirmCount={confirms[a.id] ?? 0} onConfirm={confirmAlert} highlight />)}
+          </div>
+        </section>
+      )}
+
+      <BroadcastTemplates />
+
+      <section>
+        <h2 className="mb-3 font-display text-xl font-bold text-ink">All alerts {unread.length > 0 && <span className="text-sm font-sans font-semibold text-alarm">({unread.length} unread)</span>}</h2>
+        {alerts.length === 0 ? (
+          <EmptyState title="No alerts" body="When a warning is issued for your watched areas, it will appear here." />
+        ) : (
+          <div className="space-y-3">
+            {[...alerts].sort((a, b) => b.issuedAt - a.issuedAt).map((a) => <AlertCard key={a.id} a={a} onRead={markRead} confirmCount={confirms[a.id] ?? 0} onConfirm={confirmAlert} />)}
+          </div>
+        )}
+      </section>
+    </div>
+  );
+}
+
+function AlertCard({ a, onRead, confirmCount, onConfirm, highlight = false }: {
+  a: AlertItem; onRead: (id: string) => void; confirmCount: number; onConfirm: (id: string) => void; highlight?: boolean;
+}) {
+  return (
+    <Card className={`${!a.read ? "border-l-4 border-l-alarm" : ""} ${highlight ? "border-signal" : ""}`}>
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          <p className={`font-semibold ${a.read ? "text-soot" : "text-ink"}`}>{a.title}</p>
+          <p className="mt-1 text-sm text-soot">{a.body}</p>
+          <p className="mt-1 text-xs text-faint">{a.area} · {a.source} · {timeAgo(a.issuedAt)}</p>
+          {confirmCount > 0 && (
+            <p className="mt-1 text-xs font-semibold text-signal">👁 {confirmCount} neighbour{confirmCount === 1 ? "" : "s"} confirming this locally</p>
+          )}
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {alertActions(a).map((x) => (
+              <a key={x.href + x.label} href={x.href} className="rounded-md border border-line bg-paper px-2.5 py-1 text-xs font-semibold text-signal hover:border-signal">
+                {x.label}
+              </a>
+            ))}
+            <button onClick={() => onConfirm(a.id)} className="rounded-md border border-line bg-paper px-2.5 py-1 text-xs font-semibold text-ink hover:border-ink">
+              👁 I see this too
+            </button>
+          </div>
+        </div>
+        <div className="flex shrink-0 flex-col items-end gap-2">
+          <SeverityBadge severity={a.severity} />
+          {!a.read && <button onClick={() => onRead(a.id)} className="text-xs font-semibold text-signal hover:underline">Mark read</button>}
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// Turn an alert into concrete next steps: keyword-matched deep links so a
+// rainfall warning points at the go-bag, a flood alert at shelters.
+function alertActions(a: AlertItem): Array<{ label: string; href: string }> {
+  const t = `${a.title} ${a.body}`.toLowerCase();
+  const out: Array<{ label: string; href: string }> = [];
+  if (/rain|storm|cyclone|monsoon|warning/.test(t)) out.push({ label: "🎒 Check go-bag & family plan", href: "/prepare" });
+  if (/flood|waterlog|inundat|evacuat/.test(t)) out.push({ label: "🏠 Find relief shelters", href: "/shelters" });
+  if (/power|electric|wire/.test(t)) out.push({ label: "⚠️ Report the hazard", href: "/reports/new" });
+  if (/medical|health|disease/.test(t)) out.push({ label: "⛑️ First-aid guides", href: "/firstaid" });
+  if (!out.length) out.push({ label: "📋 Review your readiness", href: "/prepare" });
+  return out.slice(0, 2);
+}
