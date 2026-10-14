@@ -1,1 +1,1 @@
-bW9kdWxlLmV4cG9ydHMgPSB7IHBsdWdpbnM6IHsgdGFpbHdpbmRjc3M6IHt9LCBhdXRvcHJlZml4ZXI6IHt9IH0gfTsK
+module.exports = { plugins: { tailwindcss: {}, autoprefixer: {} } };

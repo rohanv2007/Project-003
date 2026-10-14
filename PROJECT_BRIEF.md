@@ -1,1 +1,82 @@
-IyBQUk9KRUNUX0JSSUVGLm1kIOKAlCBQcm9qZWN0IDAwMyDCtyBOaXZhcmFuYQoKIyMgSWRlbnRpdHkKLSAqKlByb2plY3QgbnVtYmVyOioqIDAwMyAodHJhY2tlciBzaGVldCBtYXggd2FzIDIg4oaSIHRoaXMgcnVuIHRha2VzIDAwMykKLSAqKlByb2R1Y3QgbmFtZToqKiBOaXZhcmFuYSDigJQgRmxvb2QgJiBEaXNhc3RlciBSZXNpbGllbmNlCi0gKipGaWVsZDoqKiBEaXNhc3RlciByZXNwb25zZSAobm90IGNvdmVyZWQgYnkgYW55IHByaW9yIHByb2plY3Q6IDAwMSA9IFdQIHByb2plY3QsIDAwMiA9IFJha3RoYSBibG9vZC1kb25vciBuZXR3b3JrKQoKIyMgVGhlIHJlYWwsIHBhaW5mdWwgcHJvYmxlbQpFdmVyeSBub3J0aGVhc3QgbW9uc29vbiwgQ2hlbm5haSBmbG9vZHMg4oCUIDIwMTUgZGV2YXN0YXRlZCB0aGUgY2l0eSwgMjAyMydzIE1pY2hhdW5nCmRpZCBpdCBhZ2Fpbi4gRmFtaWxpZXMgZGlzY292ZXIgYXQgMiBBTSB0aGF0IHdhdGVyIGlzIGF0IHRoZWlyIGRvb3JzdGVwOiBubyBnby1iYWcsCm5vIHBsYW4gZm9yIHdoZXJlIHRvIG1lZXQsIG5vIGlkZWEgd2hpY2ggc3RyZWV0cyBhcmUgZmxvb2RlZCwgbm8gbGlzdCBvZiB3aG8gdG8gY2FsbC4KV2lsbGluZyBuZWlnaGJvdXJzIHdpdGggYm9hdHMgYW5kIHN1cHBsaWVzIGhhdmUgbm8gd2F5IHRvIGNvb3JkaW5hdGUgd2l0aCBmYW1pbGllcwp3aG8gbmVlZCByZXNjdWUuIEdvdmVybm1lbnQgYXBwcyAoUmlza01hcCwgVE4tU01BUlQpIGV4aXN0IGJ1dCBjaXRpemVucyBuZWVkIG9uZSBjYWxtLApvZmZsaW5lLCBiaWxpbmd1YWwgdG9vbCB0aGF0IGNvdmVycyB0aGUgd2hvbGUgYXJjOiBwcmVwYXJlIOKGkiB3YXRjaCDihpIgcmVwb3J0IOKGkiBnZXQgaGVscC4KCiMjIFZpc2lvbgpPbmUgY2FsbSwgbG9jYWwtZmlyc3QgcmVzaWxpZW5jZSBjb21wYW5pb246IHByZXBhcmUgeW91ciBob3VzZWhvbGQgYmVmb3JlIHRoZSByYWluLAp3YXRjaCB5b3VyIHN0cmVldHMgdGhyb3VnaCBjcm93ZC1zb3VyY2VkIHJlcG9ydHMsIGZpbmQgc2hlbHRlciBpbiBvbmUgdGFwLCBhbmQgY2FsbApmb3IgaGVscCBvciBvZmZlciBpdCDigJQgYWxsIG9mZmxpbmUgaW4gdGhlIGJyb3dzZXIsIGluIEVuZ2xpc2ggYW5kIOCupOCuruCuv+CutOCvjS4gTm8gYWNjb3VudCwKbm8gYmFja2VuZCwgbm8gQVBJIGtleXMuCgojIyBSZXNlYXJjaGVkIGluc2lnaHRzIChmb2xkZWQgaW4gZnJvbSBuaWdodCByZXNlYXJjaCkKMS4gKipSZWQgQ3Jvc3MgRW1lcmdlbmN5IGFwcCdzICJJJ20gU2FmZSIgb25lLXRhcCBtZXNzYWdpbmcgKyBwcmVsb2FkZWQgb2ZmbGluZQogICBjb250ZW50Kiog4oaSIE5pdmFyYW5hIHNoaXBzIGZ1bGx5IG9mZmxpbmUgdmlhIGxvY2FsU3RvcmFnZSwgd2l0aCBvbmUtdGFwICJJJ20gU2FmZSIKICAgYW5kIFNPUyBicm9hZGNhc3RzLiAoUmVkIENyb3NzIHN1aXRlOiByZWFsLXRpbWUgYWxlcnRzLCBmYW1pbHkgcGxhbnMsIGZpcnN0IGFpZCwKICAgbXVsdGlsaW5ndWFsLCBvZmZsaW5lIGFjY2Vzcy4pCjIuICoqTUlUIFJpc2tNYXAgQ2hlbm5haSdzIGNyb3dkLXJlcG9ydCB0YXhvbm9teSoqIChmbG9vZCBkZXB0aCwgYmxvY2tlZCBkcmFpbnMsIG9wZW4KICAgbWFuaG9sZXMsIGZhbGxlbiB0cmVlcywgcG93ZXIgb3V0YWdlLCByZWNlZGluZyB3YXRlcikg4oaSIG91ciBpbmNpZGVudCBmb3JtIHVzZXMKICAgZXhhY3RseSB0aGVzZSBjYXRlZ29yaWVzIHdpdGggYSBzZXZlcml0eSBzY2FsZSBhbmQgY29uZmlybWF0aW9ucy4KMy4gKipJSVQtTWFkcmFzIGJpbGluZ3VhbCAoRU4v4K6k4K6u4K6/4K604K+NKSB3YXRlcmxvZ2dpbmcgY3Jvd2Rzb3VyY2luZyoqIOKGkiBiaWxpbmd1YWwKICAgZW1lcmdlbmN5IGZsb3dzOiBTT1MgYW5kIEknbSBTYWZlIG1lc3NhZ2VzIGdlbmVyYXRlIGluIGJvdGggbGFuZ3VhZ2VzLgo0LiAqKkZFTUEgYXBwJ3Mga2l0IGNoZWNrbGlzdHMgKyBmYW1pbHkgcGxhbiB0ZW1wbGF0ZXMqKiDihpIgZ28tYmFnIGNoZWNrbGlzdCBhbmQKICAgZmFtaWx5IGVtZXJnZW5jeSBwbGFuIHdpdGggYSBjb21wdXRlZCByZWFkaW5lc3Mgc2NvcmUuCjUuICoqQ3Jvd2RTb3VyY2UgUmVzY3VlIC8gQ0VSVCBjb29yZGluYXRpb24gbGVzc29uKiogKEhvdXN0b24gZmxvb2QgcmVzcG9uc2U6CiAgIHZvbHVudGVlcnMgYW5kIGFnZW5jaWVzIHdvcmtpbmcgdW5jb29yZGluYXRlZCwgZHVwbGljYXRlIHRyaXBzIHRvIHRoZSBzYW1lCiAgIGFkZHJlc3MsIHVucGxhbm5lZCBhcnJpdmFscyBwdXR0aW5nIHBlb3BsZSBhdCByaXNrKSDihpIgc2FmZXR5LWNoZWNrZWQgY2xhaW1zCiAgIHdpdGggYSAyLWFzc2lnbm1lbnQgY2FwLCBkdXBsaWNhdGUtcmVxdWVzdCB3YXJuaW5ncyBvbiB0aGUgaGVscCBmb3JtLCBhbmQgYQogICBvbmUtdGFwIGNvb3JkaW5hdG9yIHNpdC1yZXAgZm9yIFdoYXRzQXBwIHZvbHVudGVlciBncm91cHMgKGN5Y2xlcyA0OeKAkzUxKS4KNi4gKipSZWFkeSBUb2dldGhlciBlbWVyZ2VuY3kgdG9vbGtpdCAoU29tZXJzZXQpKiog4oaSIHZ1bG5lcmFibGUtbmVpZ2hib3VyCiAgIHdlbGZhcmUgcmVnaXN0cnkgd2l0aCBhIDEyLWhvdXIgc3RhbGVuZXNzIHJ1bGUgYW5kIHByaW9yaXR5IHF1ZXVlOyBwYXBlcgogICB3YWxsZXQgZW1lcmdlbmN5IGNhcmQgKCJlc3NlbnRpYWwgbnVtYmVycyBvbiBwYXBlciwgbm90IG9ubHkgaW4gYSBmbGF0CiAgIHBob25lIik7IGV2YWN1YXRpb24gcm91dGUgY2hlY2tlZCBhZ2FpbnN0IGZsb29kLXByb25lIHJvYWRzOyBwb3N0LWZsb29kCiAgIHJlY292ZXJ5IGNoZWNrbGlzdCAoY3ljbGVzIDQ4LCA1MuKAkzU1LCA1OCkuCjcuICoqQWxlcnQtZGVsaXZlcnkgcmVhbGl0eSBjaGVjayAoZmxvb2Qtd2FybmluZyBhcHAgc2V0dXAgZ3VpZGFuY2UpKiog4oaSIGEgd2FybmluZwogICBvbmx5IHNhdmVzIGxpdmVzIGlmIGl0IHJlYWNoZXMgdGhlIHBob25lIOKAlCBiYXR0ZXJ5LXNhdmVyIG1vZGVzIHNpbGVudGx5IGJsb2NrCiAgIG5vdGlmaWNhdGlvbnMsIHNvIHVzZXJzIGFyZSB0b2xkIHRvIHRlc3QgdGhlaXIgc2V0dXAgb24gYSBjYWxtIGRheSwgbm90IGF0IDIgQU0uCiAgIE5pdmFyYW5hJ3MgYC9hbGVydHNgIG5vdyBoYXMgYSBkcnktcnVuICJ0ZXN0IGFsZXJ0IiB0aGF0IGZpcmVzIHRoZSByZWFsIHZpc3VhbAogICBsYW5ndWFnZSBhbmQgcmVjb3JkcyB3aGV0aGVyIHlvdSBzYXcgaXQgKGN5Y2xlIDY0KS4KOC4gKipUd28td2F5IGFsZXJ0cyAvIGNpdGl6ZW4gY29uZmlybWF0aW9uIChGbG9vZCBXYXRjaCBJbmRpYSwgQy1GbG9vZCkqKiDihpIKICAgb25lLXdheSBicm9hZGNhc3RzIGJlY29tZSB2ZXJpZmllZCBsb2NhbCBncm91bmQgdHJ1dGg6ICLwn5GBIEkgc2VlIHRoaXMgdG9vIgogICBjb25maXJtYXRpb25zIG9uIGV2ZXJ5IGFsZXJ0LCB3aXRoIGNvdW50cyBzaG93biBwdWJsaWNseSAoY3ljbGUgNjUpLgo5LiAqKkZhbWlseSByZXVuaWZpY2F0aW9uIChob3VzZWhvbGQgU2FmZXR5LUNoZWNrIHBhdHRlcm4pKiog4oaSIHRoZSBTT1MgcGFnZSdzCiAgIGZhbWlseSBzYWZldHkgYm9hcmQ6IGV2ZXJ5IGVtZXJnZW5jeSBjb250YWN0IG1hcmtlZCDinIUgc2FmZSAvIOKaoCBsb3N0IC8g4peLIHVua25vd24KICAgd2l0aCB0aW1lc3RhbXBzLCBvbmUtdGFwIFdoYXRzQXBwIHN1bW1hcnksIGhvbWUtZGFzaGJvYXJkIHZpc2liaWxpdHkgZm9yCiAgIHVuYWNjb3VudGVkIG1lbWJlcnMsIGFuZCBmdWxsIFRhbWlsIGxvY2FsaXNhdGlvbiBvZiB0aGUgZW1lcmdlbmN5IGZsb3cKICAgKGN5Y2xlcyA2NiwgNjgsIDY5KS4KCiMjIEZlYXR1cmUgc2NvcGUKMS4gKipIb21lIGRhc2hib2FyZCoqIOKAlCByZWFkaW5lc3Mgc2NvcmUsIHVucmVhZCBhbGVydHMsIHVyZ2VudCBpbmNpZGVudHMsIHF1aWNrIGFjdGlvbnMuCjIuICoqSW5jaWRlbnQgcmVwb3J0aW5nICsgYm9hcmQqKiDigJQgUmlza01hcC1zdHlsZSBjYXRlZ29yaWVzLCBzZXZlcml0eSwgd2F0ZXIgZGVwdGgsCiAgIGNvbmZpcm1hdGlvbnMgKCJJIHNlZSB0aGlzIHRvbyIpLCByZXNvbHZlLCBXaGF0c0FwcCBzaGFyZS4KMy4gKipab25lIHNldmVyaXR5IHZpZXcqKiDigJQgYXJlYS13aXNlIHJvbGx1cCBvZiBhY3RpdmUgcmVwb3J0cyB3aXRoIHNldmVyaXR5IGNvbG91cmluZy4KNC4gKipHby1iYWcgY2hlY2tsaXN0Kiog4oCUIE5ETUEvRkVNQS1zdHlsZSAxMi1pdGVtIGtpdCB3aXRoIHByb2dyZXNzLgo1LiAqKkZhbWlseSBlbWVyZ2VuY3kgcGxhbioqIOKAlCBtZWV0aW5nIHBvaW50cywgb3V0LW9mLXRvd24gY29udGFjdCwgbm90ZXMuCjYuICoqU2hlbHRlciBkaXJlY3RvcnkqKiDigJQgcmVsaWVmIGNhbXBzIHdpdGggY2FwYWNpdHksIGZhY2lsaXRpZXMsIGNvbnRhY3Q7IHVzZXItYWRkYWJsZS4KNy4gKipTT1MgKyBJJ20gU2FmZSoqIOKAlCBiaWxpbmd1YWwgb25lLXRhcCBicm9hZGNhc3RzIHZpYSBXaGF0c0FwcC9TTVMsIGVtZXJnZW5jeQogICBjb250YWN0cywgcmVhbCBoZWxwbGluZXMgKDExMiwgMTA3NywgMTA4LCAxMDAsIDEwMSwgMTkxMykuCjguICoqVm9sdW50ZWVyIHJlZ2lzdHJ5ICsgaGVscCBib2FyZCoqIOKAlCBvZmZlciBza2lsbHMgLyByZXF1ZXN0IHJlc2N1ZSwgZm9vZCwgd2F0ZXIsCiAgIG1lZGljYWwsIHNoZWx0ZXI7IHN0YXR1cyB3b3JrZmxvdyBvcGVuIOKGkiBpbi1wcm9ncmVzcyDihpIgcmVzb2x2ZWQuCjkuICoqQWxlcnRzICsgd2F0Y2ggYXJlYXMqKiDigJQgd2FyZCB3YXRjaGxpc3Qgd2l0aCBtYXRjaGVkIGFsZXJ0cywgc2VlZGVkIElNRC1zdHlsZSBhbGVydHMuCjEwLiAqKkRvY3VtZW50IHZhdWx0Kiog4oCUIHdoZXJlIGVtZXJnZW5jeSBkb2N1bWVudHMgYXJlIGtlcHQgKyBleHBpcnkgcmVtaW5kZXJzLgoxMS4gKipGaXJzdC1haWQgcXVpY2sgZ3VpZGVzKiog4oCUIGZsb29kIHJlc2N1ZSwgaGFuZHMtb25seSBDUFIsIGJsZWVkaW5nLCBlbGVjdHJpYyBzaG9jaywKICAgIGNob2tpbmc7IHByZWxvYWRlZCBmb3Igb2ZmbGluZSB1c2UuCjEyLiAqKlNldHRpbmdzKiog4oCUIGV4cG9ydC9pbXBvcnQgYWxsIGRhdGEgKGJhY2t1cCksIGxhbmd1YWdlIHRvZ2dsZSwgcmVzZXQuCgojIyBVSSBydWxlcyAobm9uLW5lZ290aWFibGUpCi0gRml4TXlDYW1wdXMgZWRpdG9yaWFsIHN5c3RlbTogd2FybSBwYXBlciBiYWNrZ3JvdW5kLCBjcmVhbSBjYXJkcywgc2VyaWYgZGlzcGxheQogIGhlYWRsaW5lcyAoRnJhdW5jZXMpLCBzaGFycCBjb3JuZXJzLCBnZW5lcm91cyB3aGl0ZXNwYWNlLgotIFJlc3RyYWluZWQgcGFsZXR0ZTogbmV1dHJhbHMgKyBPTkUgYWNjZW50IChkZWVwIHRlYWwgIzBmNmY2YSkuIFNldmVyaXR5IHVzZXMKICBmdW5jdGlvbmFsIGdyZWVuL2FtYmVyL3JlZCBvbmx5LgotIE1pbmltYWwgYW5pbWF0aW9uLCBOTyBncmFkaWVudHMsIGxpZ2h0IHRoZW1lLgotIE1vYmlsZS1maXJzdDogcmVzcG9uc2l2ZSwgdG91Y2gtZnJpZW5kbHkgdGFyZ2V0cywgbm8gaG9yaXpvbnRhbCBzY3JvbGwuCg==
+# PROJECT_BRIEF.md — Project 003 · Nivarana
+
+## Identity
+- **Project number:** 003 (tracker sheet max was 2 → this run takes 003)
+- **Product name:** Nivarana — Flood & Disaster Resilience
+- **Field:** Disaster response (not covered by any prior project: 001 = WP project, 002 = Raktha blood-donor network)
+
+## The real, painful problem
+Every northeast monsoon, Chennai floods — 2015 devastated the city, 2023's Michaung
+did it again. Families discover at 2 AM that water is at their doorstep: no go-bag,
+no plan for where to meet, no idea which streets are flooded, no list of who to call.
+Willing neighbours with boats and supplies have no way to coordinate with families
+who need rescue. Government apps (RiskMap, TN-SMART) exist but citizens need one calm,
+offline, bilingual tool that covers the whole arc: prepare → watch → report → get help.
+
+## Vision
+One calm, local-first resilience companion: prepare your household before the rain,
+watch your streets through crowd-sourced reports, find shelter in one tap, and call
+for help or offer it — all offline in the browser, in English and தமிழ். No account,
+no backend, no API keys.
+
+## Researched insights (folded in from night research)
+1. **Red Cross Emergency app's "I'm Safe" one-tap messaging + preloaded offline
+   content** → Nivarana ships fully offline via localStorage, with one-tap "I'm Safe"
+   and SOS broadcasts. (Red Cross suite: real-time alerts, family plans, first aid,
+   multilingual, offline access.)
+2. **MIT RiskMap Chennai's crowd-report taxonomy** (flood depth, blocked drains, open
+   manholes, fallen trees, power outage, receding water) → our incident form uses
+   exactly these categories with a severity scale and confirmations.
+3. **IIT-Madras bilingual (EN/தமிழ்) waterlogging crowdsourcing** → bilingual
+   emergency flows: SOS and I'm Safe messages generate in both languages.
+4. **FEMA app's kit checklists + family plan templates** → go-bag checklist and
+   family emergency plan with a computed readiness score.
+5. **CrowdSource Rescue / CERT coordination lesson** (Houston flood response:
+   volunteers and agencies working uncoordinated, duplicate trips to the same
+   address, unplanned arrivals putting people at risk) → safety-checked claims
+   with a 2-assignment cap, duplicate-request warnings on the help form, and a
+   one-tap coordinator sit-rep for WhatsApp volunteer groups (cycles 49–51).
+6. **Ready Together emergency toolkit (Somerset)** → vulnerable-neighbour
+   welfare registry with a 12-hour staleness rule and priority queue; paper
+   wallet emergency card ("essential numbers on paper, not only in a flat
+   phone"); evacuation route checked against flood-prone roads; post-flood
+   recovery checklist (cycles 48, 52–55, 58).
+7. **Alert-delivery reality check (flood-warning app setup guidance)** → a warning
+   only saves lives if it reaches the phone — battery-saver modes silently block
+   notifications, so users are told to test their setup on a calm day, not at 2 AM.
+   Nivarana's `/alerts` now has a dry-run "test alert" that fires the real visual
+   language and records whether you saw it (cycle 64).
+8. **Two-way alerts / citizen confirmation (Flood Watch India, C-Flood)** →
+   one-way broadcasts become verified local ground truth: "👁 I see this too"
+   confirmations on every alert, with counts shown publicly (cycle 65).
+9. **Family reunification (household Safety-Check pattern)** → the SOS page's
+   family safety board: every emergency contact marked ✅ safe / ⚠ lost / ○ unknown
+   with timestamps, one-tap WhatsApp summary, home-dashboard visibility for
+   unaccounted members, and full Tamil localisation of the emergency flow
+   (cycles 66, 68, 69).
+
+## Feature scope
+1. **Home dashboard** — readiness score, unread alerts, urgent incidents, quick actions.
+2. **Incident reporting + board** — RiskMap-style categories, severity, water depth,
+   confirmations ("I see this too"), resolve, WhatsApp share.
+3. **Zone severity view** — area-wise rollup of active reports with severity colouring.
+4. **Go-bag checklist** — NDMA/FEMA-style 12-item kit with progress.
+5. **Family emergency plan** — meeting points, out-of-town contact, notes.
+6. **Shelter directory** — relief camps with capacity, facilities, contact; user-addable.
+7. **SOS + I'm Safe** — bilingual one-tap broadcasts via WhatsApp/SMS, emergency
+   contacts, real helplines (112, 1077, 108, 100, 101, 1913).
+8. **Volunteer registry + help board** — offer skills / request rescue, food, water,
+   medical, shelter; status workflow open → in-progress → resolved.
+9. **Alerts + watch areas** — ward watchlist with matched alerts, seeded IMD-style alerts.
+10. **Document vault** — where emergency documents are kept + expiry reminders.
+11. **First-aid quick guides** — flood rescue, hands-only CPR, bleeding, electric shock,
+    choking; preloaded for offline use.
+12. **Settings** — export/import all data (backup), language toggle, reset.
+
+## UI rules (non-negotiable)
+- FixMyCampus editorial system: warm paper background, cream cards, serif display
+  headlines (Fraunces), sharp corners, generous whitespace.
+- Restrained palette: neutrals + ONE accent (deep teal #0f6f6a). Severity uses
+  functional green/amber/red only.
+- Minimal animation, NO gradients, light theme.
+- Mobile-first: responsive, touch-friendly targets, no horizontal scroll.

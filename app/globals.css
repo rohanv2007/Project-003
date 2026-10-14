@@ -1,1 +1,63 @@
-QHRhaWx3aW5kIGJhc2U7CkB0YWlsd2luZCBjb21wb25lbnRzOwpAdGFpbHdpbmQgdXRpbGl0aWVzOwoKOjpzZWxlY3Rpb24gewogIGJhY2tncm91bmQ6ICMwZjZmNmE7CiAgY29sb3I6ICNmY2ZhZjM7Cn0KCmlucHV0W3R5cGU9ImNoZWNrYm94Il0gewogIGFjY2VudC1jb2xvcjogIzBmNmY2YTsKfQoKLyogQWNjZXNzaWJpbGl0eTogaG9ub3VyIE9TIHJlZHVjZWQtbW90aW9uIChraWxsIHRyYW5zaXRpb25zIGFuZCB0aGUgZHJpbGwKICAgcHJvZ3Jlc3MgYW5pbWF0aW9uKSwga2VlcCBrZXlib2FyZCBmb2N1cyB2aXNpYmxlLCBhbmQgZ3VhcmFudGVlIGNvbWZvcnRhYmxlCiAgIHRvdWNoIHRhcmdldHMgb24gaW50ZXJhY3RpdmUgY29udHJvbHMuICovCkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSB7CiAgKiwgKjo6YmVmb3JlLCAqOjphZnRlciB7CiAgICBhbmltYXRpb246IG5vbmUgIWltcG9ydGFudDsKICAgIHRyYW5zaXRpb246IG5vbmUgIWltcG9ydGFudDsKICB9Cn0KOmZvY3VzLXZpc2libGUgewogIG91dGxpbmU6IDJweCBzb2xpZCAjMGY2ZjZhOwogIG91dGxpbmUtb2Zmc2V0OiAycHg7Cn0KQG1lZGlhIChwb2ludGVyOiBjb2Fyc2UpIHsKICBidXR0b24sIGEsIGlucHV0W3R5cGU9ImNoZWNrYm94Il0gewogICAgbWluLWhlaWdodDogNDRweDsKICB9CiAgaW5wdXRbdHlwZT0iY2hlY2tib3giXSB7CiAgICBtaW4td2lkdGg6IDQ0cHg7CiAgfQp9CgovKiBTaW1wbGUgbW9kZSDigJQgZm9yIGVsZGVycyBhbmQgbG93LXZpc2lvbiB1c2Vycy4gQWxtb3N0IGFsbCBzcGFjaW5nIGFuZCB0ZXh0CiAgIHV0aWxpdGllcyBhcmUgcmVtLWJhc2VkLCBzbyBidW1waW5nIHRoZSByb290IGZvbnQgc2l6ZSBzY2FsZXMgdGhlIHdob2xlCiAgIGludGVyZmFjZSBwcm9wb3J0aW9uYWxseS4gVG9nZ2xlZCBmcm9tIFNldHRpbmdzLiAqLwpodG1sLnNpbXBsZS1tb2RlIHsKICBmb250LXNpemU6IDEyMCU7Cn0KaHRtbC5zaW1wbGUtbW9kZSBpbnB1dFt0eXBlPSJjaGVja2JveCJdIHsKICB3aWR0aDogMS41cmVtOwogIGhlaWdodDogMS41cmVtOwp9CgovKiBQcmludGluZzogc3RyaXAgdGhlIGFwcCBjaHJvbWU7IGEgLnByaW50LW9ubHkgc3VtbWFyeSB0YWtlcyBpdHMgcGxhY2UuICovCi5wcmludC1vbmx5IHsKICBkaXNwbGF5OiBub25lOwp9CkBtZWRpYSBwcmludCB7CiAgaGVhZGVyLAogIGZvb3RlciwKICAubm8tcHJpbnQgewogICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50OwogIH0KICAucHJpbnQtb25seSB7CiAgICBkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50OwogIH0KICBib2R5IHsKICAgIGJhY2tncm91bmQ6ICNmZmY7CiAgfQp9Cg==
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #0f6f6a;
+  color: #fcfaf3;
+}
+
+input[type="checkbox"] {
+  accent-color: #0f6f6a;
+}
+
+/* Accessibility: honour OS reduced-motion (kill transitions and the drill
+   progress animation), keep keyboard focus visible, and guarantee comfortable
+   touch targets on interactive controls. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+:focus-visible {
+  outline: 2px solid #0f6f6a;
+  outline-offset: 2px;
+}
+@media (pointer: coarse) {
+  button, a, input[type="checkbox"] {
+    min-height: 44px;
+  }
+  input[type="checkbox"] {
+    min-width: 44px;
+  }
+}
+
+/* Simple mode — for elders and low-vision users. Almost all spacing and text
+   utilities are rem-based, so bumping the root font size scales the whole
+   interface proportionally. Toggled from Settings. */
+html.simple-mode {
+  font-size: 120%;
+}
+html.simple-mode input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Printing: strip the app chrome; a .print-only summary takes its place. */
+.print-only {
+  display: none;
+}
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: #fff;
+  }
+}

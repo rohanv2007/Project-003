@@ -1,1 +1,3 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwpjb25zdCBuZXh0Q29uZmlnID0geyByZWFjdFN0cmljdE1vZGU6IHRydWUgfTsKbW9kdWxlLmV4cG9ydHMgPSBuZXh0Q29uZmlnOwo=
+/** @type {import('next').NextConfig} */
+const nextConfig = { reactStrictMode: true };
+module.exports = nextConfig;

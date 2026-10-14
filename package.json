@@ -1,1 +1,27 @@
-ewogICJuYW1lIjogInByb2plY3QtMDAzLW5pdmFyYW5hIiwKICAidmVyc2lvbiI6ICIwLjEuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImJ1aWxkIjogIm5leHQgYnVpbGQiLAogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAibGludCI6ICJuZXh0IGxpbnQiLAogICAgInN0YXJ0IjogIm5leHQgc3RhcnQiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIm5leHQiOiAiXjE1LjEuMCIsCiAgICAicmVhY3QiOiAiXjE5LjAuMCIsCiAgICAicmVhY3QtZG9tIjogIl4xOS4wLjAiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB0eXBlcy9ub2RlIjogIl4yMi4wLjAiLAogICAgIkB0eXBlcy9yZWFjdCI6ICJeMTkuMC4wIiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOS4wLjAiLAogICAgImF1dG9wcmVmaXhlciI6ICJeMTAuNC4yMCIsCiAgICAiZXNsaW50IjogIl45LjAuMCIsCiAgICAiZXNsaW50LWNvbmZpZy1uZXh0IjogIl4xNS4xLjAiLAogICAgInBvc3Rjc3MiOiAiXjguNC40OSIsCiAgICAidGFpbHdpbmRjc3MiOiAiXjMuNC4xNiIsCiAgICAidHlwZXNjcmlwdCI6ICJeNS43LjAiCiAgfQp9Cg==
+{
+  "name": "project-003-nivarana",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.0"
+  }
+}

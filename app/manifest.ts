@@ -1,1 +1,24 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YVJvdXRlIH0gZnJvbSAibmV4dCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBtYW5pZmVzdCgpOiBNZXRhZGF0YVJvdXRlLk1hbmlmZXN0IHsKICByZXR1cm4gewogICAgbmFtZTogIk5pdmFyYW5hIOKAlCBGbG9vZCAmIERpc2FzdGVyIFJlc2lsaWVuY2UiLAogICAgc2hvcnRfbmFtZTogIk5pdmFyYW5hIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiUHJlcGFyZSwgcmVwb3J0LCBhbmQgcmVzcG9uZCB0byBmbG9vZHMgYW5kIGRpc2FzdGVycy4gV29ya3Mgb2ZmbGluZSwgYmlsaW5ndWFsLCBsb2NhbC1maXJzdC4iLAogICAgc3RhcnRfdXJsOiAiLyIsCiAgICBkaXNwbGF5OiAic3RhbmRhbG9uZSIsCiAgICBvcmllbnRhdGlvbjogInBvcnRyYWl0IiwKICAgIGJhY2tncm91bmRfY29sb3I6ICIjZjRmMWU4IiwKICAgIHRoZW1lX2NvbG9yOiAiIzBmNmY2YSIsCiAgICBsYW5nOiAiZW4iLAogICAgaWNvbnM6IFsKICAgICAgewogICAgICAgIHNyYzogIi9pY29uLnN2ZyIsCiAgICAgICAgc2l6ZXM6ICI1MTJ4NTEyIiwKICAgICAgICB0eXBlOiAiaW1hZ2Uvc3ZnK3htbCIsCiAgICAgICAgcHVycG9zZTogImFueSIsCiAgICAgIH0sCiAgICBdLAogIH07Cn0K
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "Nivarana — Flood & Disaster Resilience",
+    short_name: "Nivarana",
+    description:
+      "Prepare, report, and respond to floods and disasters. Works offline, bilingual, local-first.",
+    start_url: "/",
+    display: "standalone",
+    orientation: "portrait",
+    background_color: "#f4f1e8",
+    theme_color: "#0f6f6a",
+    lang: "en",
+    icons: [
+      {
+        src: "/icon.svg",
+        sizes: "512x512",
+        type: "image/svg+xml",
+        purpose: "any",
+      },
+    ],
+  };
+}

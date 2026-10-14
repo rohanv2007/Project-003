@@ -1,1 +1,28 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfSAqLwptb2R1bGUuZXhwb3J0cyA9IHsKICBjb250ZW50OiBbIi4vYXBwLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fSIsICIuL2NvbXBvbmVudHMvKiovKi57anMsdHMsanN4LHRzeCxtZHh9IiwgIi4vbGliLyoqLyoue2pzLHRzLGpzeCx0c3gsbWR4fSJdLAogIHRoZW1lOiB7CiAgICBleHRlbmQ6IHsKICAgICAgY29sb3JzOiB7CiAgICAgICAgLy8gRml4TXlDYW1wdXMgZWRpdG9yaWFsIHN5c3RlbSwgZGVlcCB0ZWFsIGFjY2VudCBmb3IgTml2YXJhbmEKICAgICAgICBwYXBlcjogIiNmNGYxZTgiLAogICAgICAgIGNyZWFtOiAiI2ZjZmFmMyIsCiAgICAgICAgc2FuZDogIiNlOWUyY2YiLAogICAgICAgIGxpbmU6ICIjZDhjZGIyIiwKICAgICAgICBpbms6ICIjMWMxYTE0IiwKICAgICAgICBzb290OiAiIzU1NTAzZiIsCiAgICAgICAgZmFpbnQ6ICIjN2Q3NDYwIiwKICAgICAgICBzaWduYWw6ICIjMGY2ZjZhIiwKICAgICAgICB0aWRlOiAiIzBhNGY0YiIsCiAgICAgICAgbW9zczogIiMyZjZlNGUiLAogICAgICAgIGdvbGQ6ICIjOTY2OTBhIiwKICAgICAgICBhbGFybTogIiNiMzI2MWUiLAogICAgICB9LAogICAgICBmb250RmFtaWx5OiB7CiAgICAgICAgZGlzcGxheTogWyJ2YXIoLS1mb250LWZyYXVuY2VzKSIsICJHZW9yZ2lhIiwgInNlcmlmIl0sCiAgICAgICAgc2FuczogWyJ2YXIoLS1mb250LWdyb3Rlc2spIiwgInVpLXNhbnMtc2VyaWYiLCAic3lzdGVtLXVpIiwgInNhbnMtc2VyaWYiXSwKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbXSwKfTsK
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./lib/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {
+      colors: {
+        // FixMyCampus editorial system, deep teal accent for Nivarana
+        paper: "#f4f1e8",
+        cream: "#fcfaf3",
+        sand: "#e9e2cf",
+        line: "#d8cdb2",
+        ink: "#1c1a14",
+        soot: "#55503f",
+        faint: "#7d7460",
+        signal: "#0f6f6a",
+        tide: "#0a4f4b",
+        moss: "#2f6e4e",
+        gold: "#96690a",
+        alarm: "#b3261e",
+      },
+      fontFamily: {
+        display: ["var(--font-fraunces)", "Georgia", "serif"],
+        sans: ["var(--font-grotesk)", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
