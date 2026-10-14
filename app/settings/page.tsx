@@ -147,7 +147,7 @@ export default function Settings() {
         <Card>
           <h3 className="font-display text-lg font-bold text-ink">About</h3>
           <p className="mt-1 text-sm text-soot">
-            <strong>Nivarana · Project 003.</strong> A local-first flood & disaster resilience companion —
+            <strong>Nivarana.</strong> A local-first flood & disaster resilience companion —
             prepare, report, find shelter, call for help. No accounts, no servers, no tracking.
             Works offline once loaded. In a real emergency, always call <a href="tel:112" className="font-bold text-signal">112</a>.
           </p>

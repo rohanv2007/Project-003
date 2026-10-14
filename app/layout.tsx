@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main" className="mx-auto max-w-5xl px-4 pb-16 pt-6">{children}</main>
         <footer className="border-t border-line bg-cream">
           <div className="mx-auto max-w-5xl px-4 py-6 text-center">
-            <p className="font-display text-sm font-semibold text-ink">Nivarana · Project 003</p>
+            <p className="font-display text-sm font-semibold text-ink">Nivarana</p>
             <p className="mt-1 text-xs text-faint">
               Local-first: every report, plan and contact stays in this browser. In a real emergency, always call 112.
             </p>

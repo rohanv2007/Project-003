@@ -8,7 +8,7 @@ import type { QuizBadge } from "@/lib/types";
 
 
 function shareBadge(score: number, total: number) {
-  const text = `${QUIZ_BADGE_TITLE}\nI scored ${score}/${total} on Nivarana's flood first-aid quiz (Project 003) — tested on CPR, bleeding, electric shock, choking and flood rescue. Trained to help when the water rises. 💪`;
+  const text = `${QUIZ_BADGE_TITLE}\nI scored ${score}/${total} on Nivarana's flood first-aid quiz — tested on CPR, bleeding, electric shock, choking and flood rescue. Trained to help when the water rises. 💪`;
   window.open(whatsappUrl(text), "_blank", "noopener");
 }
 

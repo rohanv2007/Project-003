@@ -38,9 +38,6 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-baseline gap-2">
           <span className="font-display text-2xl font-bold tracking-tight text-ink">Nivarana</span>
-          <span className="hidden rounded-sm bg-signal px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-widest text-cream sm:inline">
-            Project 003
-          </span>
         </Link>
         <nav className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
