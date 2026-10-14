@@ -1,1 +1,186 @@
-InVzZSBjbGllbnQiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyB1c2VQYXJhbXMgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyB1c2VNZW1vIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBDYXJkLCBFbXB0eVN0YXRlLCBJTkNJREVOVF9MQUJFTFMsIFNlY3Rpb25IZWFkLCBTZXZlcml0eUJhZGdlLCBTdGFsZUJhZGdlLCBpc1N0YWxlLCB0aW1lQWdvIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpIjsKaW1wb3J0IHsgYnVpbGRJbmNpZGVudFRleHQgfSBmcm9tICJAL2xpYi9zaGFyZSI7CmltcG9ydCB7IEtFWVMsIHVzZUxvY2FsU3RvcmFnZSB9IGZyb20gIkAvbGliL3N0b3JlIjsKaW1wb3J0IHR5cGUgeyBJbmNpZGVudCB9IGZyb20gIkAvbGliL3R5cGVzIjsKCmNvbnN0IERFVEFJTF9ST1dTOiBBcnJheTx7IGtleToga2V5b2YgSW5jaWRlbnQ7IGxhYmVsOiBzdHJpbmcgfT4gPSBbCiAgeyBrZXk6ICJhcmVhIiwgbGFiZWw6ICJBcmVhIiB9LAogIHsga2V5OiAid2FyZCIsIGxhYmVsOiAiV2FyZCAvIGxvY2FsaXR5IiB9LAogIHsga2V5OiAid2F0ZXJEZXB0aENtIiwgbGFiZWw6ICJXYXRlciBkZXB0aCIgfSwKICB7IGtleTogInJlcG9ydGVyIiwgbGFiZWw6ICJSZXBvcnRlZCBieSIgfSwKICB7IGtleTogImNyZWF0ZWRBdCIsIGxhYmVsOiAiUmVwb3J0ZWQiIH0sCiAgeyBrZXk6ICJjb25maXJtYXRpb25zIiwgbGFiZWw6ICJDb25maXJtYXRpb25zIiB9LAogIHsga2V5OiAic3RhdHVzIiwgbGFiZWw6ICJTdGF0dXMiIH0sCl07CgpmdW5jdGlvbiBmdWxsRGF0ZSh0czogbnVtYmVyKTogc3RyaW5nIHsKICByZXR1cm4gbmV3IERhdGUodHMpLnRvTG9jYWxlU3RyaW5nKCJlbi1JTiIsIHsKICAgIHdlZWtkYXk6ICJzaG9ydCIsCiAgICBkYXk6ICJudW1lcmljIiwKICAgIG1vbnRoOiAic2hvcnQiLAogICAgaG91cjogIm51bWVyaWMiLAogICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICBob3VyMTI6IHRydWUsCiAgfSk7Cn0KCmZ1bmN0aW9uIG5vcm1BcmVhKHM6IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIHMudG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9bXmEtejAtOV0vZywgIiIpOwp9CmZ1bmN0aW9uIGFyZWFNYXRjaGVzKGE6IHN0cmluZywgYjogc3RyaW5nKTogYm9vbGVhbiB7CiAgY29uc3QgeCA9IG5vcm1BcmVhKGEpLCB5ID0gbm9ybUFyZWEoYik7CiAgcmV0dXJuIHgubGVuZ3RoID4gMiAmJiB5Lmxlbmd0aCA+IDIgJiYgKHguaW5jbHVkZXMoeSkgfHwgeS5pbmNsdWRlcyh4KSk7Cn0KCi8vIE90aGVyIGFjdGl2ZSByZXBvcnRzIHdob3NlIGFyZWEgZnV6enktbWF0Y2hlcyB0aGlzIG9uZSDigJQgdGhlIG5laWdoYm91cmhvb2QKLy8gY2x1c3RlciBhcm91bmQgdGhlIHNhbWUgZmxvb2QsIHNvIGEgcmVhZGVyIHNlZXMgaXQgd2hvbGUuCmZ1bmN0aW9uIE5lYXJieVJlcG9ydHMoeyBjdXJyZW50LCBpbmNpZGVudHMgfTogeyBjdXJyZW50OiBJbmNpZGVudDsgaW5jaWRlbnRzOiBJbmNpZGVudFtdIH0pIHsKICBjb25zdCBuZWFyYnkgPSBpbmNpZGVudHMKICAgIC5maWx0ZXIoKHgpID0+IHguaWQgIT09IGN1cnJlbnQuaWQgJiYgeC5zdGF0dXMgPT09ICJhY3RpdmUiICYmIGFyZWFNYXRjaGVzKHguYXJlYSwgY3VycmVudC5hcmVhKSkKICAgIC5zb3J0KChhLCBiKSA9PiBiLmNyZWF0ZWRBdCAtIGEuY3JlYXRlZEF0KQogICAgLnNsaWNlKDAsIDMpOwogIGlmIChuZWFyYnkubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02Ij4KICAgICAgPGgyIGNsYXNzTmFtZT0ibWItMyBmb250LWRpc3BsYXkgdGV4dC1sZyBmb250LWJvbGQgdGV4dC1pbmsiPvCfk40gT3RoZXIgcmVwb3J0cyBpbiB0aGlzIGFyZWE8L2gyPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICB7bmVhcmJ5Lm1hcCgoeCkgPT4gKAogICAgICAgICAgPExpbmsga2V5PXt4LmlkfSBocmVmPXtgL3JlcG9ydHMvJHt4LmlkfWB9PgogICAgICAgICAgICA8Q2FyZCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBob3Zlcjpib3JkZXItc2lnbmFsIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRydW5jYXRlIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPntJTkNJREVOVF9MQUJFTFNbeC50eXBlXX0g4oCUIHt4LmFyZWF9PC9wPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZmFpbnQiPnt4Lm5vdGUgPyBgJHt4Lm5vdGUuc2xpY2UoMCwgODApfSR7eC5ub3RlLmxlbmd0aCA+IDgwID8gIuKApiIgOiAiIn1gIDogIk5vIGRldGFpbHMifSDCtyB7dGltZUFnbyh4LmNyZWF0ZWRBdCl9IMK3IHt4LmNvbmZpcm1hdGlvbnN9IGNvbmZpcm1lZDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8U2V2ZXJpdHlCYWRnZSBzZXZlcml0eT17eC5zZXZlcml0eX0gLz4KICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgPC9MaW5rPgogICAgICAgICkpfQogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJbmNpZGVudERldGFpbCgpIHsKICBjb25zdCBwYXJhbXMgPSB1c2VQYXJhbXM8eyBpZDogc3RyaW5nIH0+KCk7CiAgY29uc3QgW2luY2lkZW50cywgc2V0SW5jaWRlbnRzXSA9IHVzZUxvY2FsU3RvcmFnZTxJbmNpZGVudFtdPihLRVlTLmluY2lkZW50cywgW10pOwogIGNvbnN0IGluY2lkZW50ID0gdXNlTWVtbygKICAgICgpID0+IGluY2lkZW50cy5maW5kKChpKSA9PiBpLmlkID09PSBwYXJhbXMuaWQpLAogICAgW2luY2lkZW50cywgcGFyYW1zLmlkXQogICk7CgogIGlmICghaW5jaWRlbnQpIHsKICAgIHJldHVybiAoCiAgICAgIDxFbXB0eVN0YXRlCiAgICAgICAgdGl0bGU9IlJlcG9ydCBub3QgZm91bmQiCiAgICAgICAgYm9keT0iVGhpcyByZXBvcnQgbWF5IGhhdmUgYmVlbiBjbGVhcmVkIGZyb20gdGhpcyBicm93c2VyLCBvciB0aGUgbGluayBpcyBpbmNvbXBsZXRlLiIKICAgICAgICBhY3Rpb249ewogICAgICAgICAgPExpbmsgaHJlZj0iL3JlcG9ydHMiIGNsYXNzTmFtZT0icm91bmRlZC1tZCBiZy1zaWduYWwgcHgtNSBweS0yLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtd2hpdGUiPgogICAgICAgICAgICBCYWNrIHRvIGluY2lkZW50IGJvYXJkCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgfQogICAgICAvPgogICAgKTsKICB9CgogIGNvbnN0IGkgPSBpbmNpZGVudDsKICBjb25zdCBoYXNDb29yZHMgPSB0eXBlb2YgaS5sYXQgPT09ICJudW1iZXIiICYmIHR5cGVvZiBpLmxvbiA9PT0gIm51bWJlciI7CiAgY29uc3QgbWFwc1VybCA9IGhhc0Nvb3JkcyA/IGBodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT0ke2kubGF0IS50b0ZpeGVkKDYpfSwke2kubG9uIS50b0ZpeGVkKDYpfWAgOiBudWxsOwogIGNvbnN0IHZhbHVlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAgIGFyZWE6IGkuYXJlYSB8fCAi4oCUIiwKICAgIHdhcmQ6IGkud2FyZCB8fCAi4oCUIiwKICAgIHdhdGVyRGVwdGhDbTogaS53YXRlckRlcHRoQ20gIT0gbnVsbCA/IGDiiYgke2kud2F0ZXJEZXB0aENtfSBjbWAgOiAi4oCUIiwKICAgIHJlcG9ydGVyOiBpLnJlcG9ydGVyIHx8ICJBbm9ueW1vdXMiLAogICAgY3JlYXRlZEF0OiBgJHtmdWxsRGF0ZShpLmNyZWF0ZWRBdCl9ICgke3RpbWVBZ28oaS5jcmVhdGVkQXQpfSlgLAogICAgY29uZmlybWF0aW9uczogYCR7aS5jb25maXJtYXRpb25zfSBuZWlnaGJvdXIke2kuY29uZmlybWF0aW9ucyA9PT0gMSA/ICIiIDogInMifSBjb25maXJtZWQke2kuY29uZmlybWVkQXQgPyBgIMK3IGxhdGVzdCAke3RpbWVBZ28oaS5jb25maXJtZWRBdCl9YCA6ICIifWAsCiAgICBzdGF0dXM6IGkuc3RhdHVzID09PSAiYWN0aXZlIiA/ICJBY3RpdmUiIDogIlJlc29sdmVkIiwKICB9OwoKICBmdW5jdGlvbiBjb25maXJtKCkgewogICAgc2V0SW5jaWRlbnRzKGluY2lkZW50cy5tYXAoKHgpID0+ICh4LmlkID09PSBpLmlkID8geyAuLi54LCBjb25maXJtYXRpb25zOiB4LmNvbmZpcm1hdGlvbnMgKyAxLCBjb25maXJtZWRBdDogRGF0ZS5ub3coKSB9IDogeCkpKTsKICB9CiAgZnVuY3Rpb24gdG9nZ2xlUmVzb2x2ZWQoKSB7CiAgICBzZXRJbmNpZGVudHMoaW5jaWRlbnRzLm1hcCgoeCkgPT4gKHguaWQgPT09IGkuaWQgPyB7IC4uLngsIHN0YXR1czogeC5zdGF0dXMgPT09ICJhY3RpdmUiID8gInJlc29sdmVkIiA6ICJhY3RpdmUiIH0gOiB4KSkpOwogIH0KICBmdW5jdGlvbiBzaGFyZSgpIHsKICAgIGNvbnN0IHRleHQgPSBidWlsZEluY2lkZW50VGV4dCh7CiAgICAgIHR5cGVMYWJlbDogSU5DSURFTlRfTEFCRUxTW2kudHlwZV0sCiAgICAgIHNldmVyaXR5OiBpLnNldmVyaXR5LAogICAgICBhcmVhOiBpLmFyZWEsCiAgICAgIG5vdGU6IGkubm90ZSwKICAgICAgY29vcmRzOiBoYXNDb29yZHMgPyB7IGxhdDogaS5sYXQhLCBsb246IGkubG9uISB9IDogbnVsbCwKICAgIH0pOwogICAgd2luZG93Lm9wZW4oYGh0dHBzOi8vd2EubWUvP3RleHQ9JHtlbmNvZGVVUklDb21wb25lbnQodGV4dCl9YCwgIl9ibGFuayIsICJub29wZW5lciIpOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxMaW5rIGhyZWY9Ii9yZXBvcnRzIiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXNpZ25hbCBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgIOKGkCBCYWNrIHRvIGluY2lkZW50IGJvYXJkCiAgICAgIDwvTGluaz4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMiPgogICAgICAgIDxTZWN0aW9uSGVhZAogICAgICAgICAgdGl0bGU9e2Ake0lOQ0lERU5UX0xBQkVMU1tpLnR5cGVdfSDigJQgJHtpLmFyZWF9YH0KICAgICAgICAgIHN1Yj17aS53YXJkID8gYFdhcmQgLyBsb2NhbGl0eTogJHtpLndhcmR9YCA6ICJJbmNpZGVudCByZXBvcnQifQogICAgICAgICAgYWN0aW9uPXsKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtZW5kIGdhcC0xLjUiPgogICAgICAgICAgICAgIDxTZXZlcml0eUJhZGdlIHNldmVyaXR5PXtpLnNldmVyaXR5fSAvPgogICAgICAgICAgICAgIHtpLnN0YXR1cyA9PT0gImFjdGl2ZSIgJiYgaXNTdGFsZShpLmNyZWF0ZWRBdCkgJiYgPFN0YWxlQmFkZ2UgLz59CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgfQogICAgICAgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPENhcmQgY2xhc3NOYW1lPXtpLnN0YXR1cyA9PT0gInJlc29sdmVkIiA/ICJvcGFjaXR5LTcwIiA6ICIifT4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtc29vdCI+e2kubm90ZSB8fCAiTm8gZGV0YWlscyBhZGRlZC4ifTwvcD4KICAgICAgICA8ZGwgY2xhc3NOYW1lPSJtdC00IGdyaWQgZ2FwLXgtNiBnYXAteS0zIHNtOmdyaWQtY29scy0yIj4KICAgICAgICAgIHtERVRBSUxfUk9XUy5tYXAoKHJvdykgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17cm93LmtleX0+CiAgICAgICAgICAgICAgPGR0IGNsYXNzTmFtZT0idGV4dC14cyBmb250LXNlbWlib2xkIHVwcGVyY2FzZSB0cmFja2luZy13aWRlIHRleHQtZmFpbnQiPntyb3cubGFiZWx9PC9kdD4KICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJtdC0wLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWluayI+e3ZhbHVlc1tyb3cua2V5XX08L2RkPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGw+CiAgICAgICAge21hcHNVcmwgJiYgKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc20iPgogICAgICAgICAgICDwn5ONIDxhIGhyZWY9e21hcHNVcmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1zaWduYWwgaG92ZXI6dW5kZXJsaW5lIj4KICAgICAgICAgICAgICBPcGVuIGV4YWN0IGxvY2F0aW9uIGluIE1hcHMKICAgICAgICAgICAgPC9hPnsiICJ9CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1mYWludCI+KHtpLmxhdCEudG9GaXhlZCg1KX0sIHtpLmxvbiEudG9GaXhlZCg1KX0pPC9zcGFuPgogICAgICAgICAgPC9wPgogICAgICAgICl9CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAge2kuc3RhdHVzID09PSAiYWN0aXZlIiAmJiAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtjb25maXJtfSBjbGFzc05hbWU9InJvdW5kZWQtbWQgYmctc2lnbmFsIHB4LTQgcHktMi41IHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXdoaXRlIGhvdmVyOmJnLXRpZGUiPgogICAgICAgICAgICAgICAg4pyTIEkgc2VlIHRoaXMgdG9vICh7aS5jb25maXJtYXRpb25zfSkKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3NoYXJlfSBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIGJnLXBhcGVyIHB4LTQgcHktMi41IHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayBob3ZlcjpiZy1zYW5kIj4KICAgICAgICAgICAgICAgIFNoYXJlIG9uIFdoYXRzQXBwCiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXt0b2dnbGVSZXNvbHZlZH0gY2xhc3NOYW1lPSJyb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1wYXBlciBweC00IHB5LTIuNSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1tb3NzIGhvdmVyOmJnLXNhbmQiPgogICAgICAgICAgICAgICAgTWFyayByZXNvbHZlZAogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8Lz4KICAgICAgICAgICl9CiAgICAgICAgICB7aS5zdGF0dXMgPT09ICJyZXNvbHZlZCIgJiYgKAogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3RvZ2dsZVJlc29sdmVkfSBjbGFzc05hbWU9InJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIGJnLXBhcGVyIHB4LTQgcHktMi41IHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayBob3ZlcjpiZy1zYW5kIj4KICAgICAgICAgICAgICBSZW9wZW4gcmVwb3J0CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9DYXJkPgoKICAgICAgey8qIE5lYXJieSByZXBvcnRzOiBzYW1lIGZsb29kIHJhcmVseSBwcm9kdWNlcyBhIHNpbmdsZSByZXBvcnQg4oCUIHNob3cgdGhlCiAgICAgICAgICBjbHVzdGVyIHNvIG5laWdoYm91cnMgcmVhZCB0aGUgd2hvbGUgcGljdHVyZSwgbm90IG9uZSBwaW4uICovfQogICAgICA8TmVhcmJ5UmVwb3J0cyBjdXJyZW50PXtpfSBpbmNpZGVudHM9e2luY2lkZW50c30gLz4KCiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LXhzIHRleHQtZmFpbnQiPgogICAgICAgIFRpcDogc2hhcmUgdGhpcyBwYWdlJ3MgbGluayB3aXRoIG5laWdoYm91cnMg4oCUIGV2ZXJ5IGNvbmZpcm1hdGlvbiBtYWtlcyB0aGUgcmVwb3J0IG1vcmUgdHJ1c3R3b3J0aHkuCiAgICAgIDwvcD4KICAgIDwvZGl2PgogICk7Cn0K
+"use client";
+import Link from "next/link";
+import { useParams } from "next/navigation";
+import { useMemo } from "react";
+import { Card, EmptyState, INCIDENT_LABELS, SectionHead, SeverityBadge, StaleBadge, isStale, timeAgo } from "@/components/ui";
+import { buildIncidentText } from "@/lib/share";
+import { KEYS, useLocalStorage } from "@/lib/store";
+import type { Incident } from "@/lib/types";
+
+const DETAIL_ROWS: Array<{ key: keyof Incident; label: string }> = [
+  { key: "area", label: "Area" },
+  { key: "ward", label: "Ward / locality" },
+  { key: "waterDepthCm", label: "Water depth" },
+  { key: "reporter", label: "Reported by" },
+  { key: "createdAt", label: "Reported" },
+  { key: "confirmations", label: "Confirmations" },
+  { key: "status", label: "Status" },
+];
+
+function fullDate(ts: number): string {
+  return new Date(ts).toLocaleString("en-IN", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+  });
+}
+
+function normArea(s: string): string {
+  return s.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+function areaMatches(a: string, b: string): boolean {
+  const x = normArea(a), y = normArea(b);
+  return x.length > 2 && y.length > 2 && (x.includes(y) || y.includes(x));
+}
+
+// Other active reports whose area fuzzy-matches this one — the neighbourhood
+// cluster around the same flood, so a reader sees it whole.
+function NearbyReports({ current, incidents }: { current: Incident; incidents: Incident[] }) {
+  const nearby = incidents
+    .filter((x) => x.id !== current.id && x.status === "active" && areaMatches(x.area, current.area))
+    .sort((a, b) => b.createdAt - a.createdAt)
+    .slice(0, 3);
+  if (nearby.length === 0) return null;
+  return (
+    <section className="mt-6">
+      <h2 className="mb-3 font-display text-lg font-bold text-ink">📍 Other reports in this area</h2>
+      <div className="space-y-2">
+        {nearby.map((x) => (
+          <Link key={x.id} href={`/reports/${x.id}`}>
+            <Card className="flex items-center justify-between gap-3 hover:border-signal">
+              <div className="min-w-0">
+                <p className="truncate font-semibold text-ink">{INCIDENT_LABELS[x.type]} — {x.area}</p>
+                <p className="text-xs text-faint">{x.note ? `${x.note.slice(0, 80)}${x.note.length > 80 ? "…" : ""}` : "No details"} · {timeAgo(x.createdAt)} · {x.confirmations} confirmed</p>
+              </div>
+              <SeverityBadge severity={x.severity} />
+            </Card>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default function IncidentDetail() {
+  const params = useParams<{ id: string }>();
+  const [incidents, setIncidents] = useLocalStorage<Incident[]>(KEYS.incidents, []);
+  const incident = useMemo(
+    () => incidents.find((i) => i.id === params.id),
+    [incidents, params.id]
+  );
+
+  if (!incident) {
+    return (
+      <EmptyState
+        title="Report not found"
+        body="This report may have been cleared from this browser, or the link is incomplete."
+        action={
+          <Link href="/reports" className="rounded-md bg-signal px-5 py-2.5 text-sm font-semibold text-white">
+            Back to incident board
+          </Link>
+        }
+      />
+    );
+  }
+
+  const i = incident;
+  const hasCoords = typeof i.lat === "number" && typeof i.lon === "number";
+  const mapsUrl = hasCoords ? `https://maps.google.com/?q=${i.lat!.toFixed(6)},${i.lon!.toFixed(6)}` : null;
+  const values: Record<string, string> = {
+    area: i.area || "—",
+    ward: i.ward || "—",
+    waterDepthCm: i.waterDepthCm != null ? `≈${i.waterDepthCm} cm` : "—",
+    reporter: i.reporter || "Anonymous",
+    createdAt: `${fullDate(i.createdAt)} (${timeAgo(i.createdAt)})`,
+    confirmations: `${i.confirmations} neighbour${i.confirmations === 1 ? "" : "s"} confirmed${i.confirmedAt ? ` · latest ${timeAgo(i.confirmedAt)}` : ""}`,
+    status: i.status === "active" ? "Active" : "Resolved",
+  };
+
+  function confirm() {
+    setIncidents(incidents.map((x) => (x.id === i.id ? { ...x, confirmations: x.confirmations + 1, confirmedAt: Date.now() } : x)));
+  }
+  function toggleResolved() {
+    setIncidents(incidents.map((x) => (x.id === i.id ? { ...x, status: x.status === "active" ? "resolved" : "active" } : x)));
+  }
+  function share() {
+    const text = buildIncidentText({
+      typeLabel: INCIDENT_LABELS[i.type],
+      severity: i.severity,
+      area: i.area,
+      note: i.note,
+      coords: hasCoords ? { lat: i.lat!, lon: i.lon! } : null,
+    });
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+  }
+
+  return (
+    <div>
+      <Link href="/reports" className="text-sm font-semibold text-signal hover:underline">
+        ← Back to incident board
+      </Link>
+      <div className="mt-3">
+        <SectionHead
+          title={`${INCIDENT_LABELS[i.type]} — ${i.area}`}
+          sub={i.ward ? `Ward / locality: ${i.ward}` : "Incident report"}
+          action={
+            <div className="flex flex-col items-end gap-1.5">
+              <SeverityBadge severity={i.severity} />
+              {i.status === "active" && isStale(i.createdAt) && <StaleBadge />}
+            </div>
+          }
+        />
+      </div>
+
+      <Card className={i.status === "resolved" ? "opacity-70" : ""}>
+        <p className="text-sm leading-relaxed text-soot">{i.note || "No details added."}</p>
+        <dl className="mt-4 grid gap-x-6 gap-y-3 sm:grid-cols-2">
+          {DETAIL_ROWS.map((row) => (
+            <div key={row.key}>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-faint">{row.label}</dt>
+              <dd className="mt-0.5 text-sm font-medium text-ink">{values[row.key]}</dd>
+            </div>
+          ))}
+        </dl>
+        {mapsUrl && (
+          <p className="mt-3 text-sm">
+            📍 <a href={mapsUrl} target="_blank" rel="noopener" className="font-semibold text-signal hover:underline">
+              Open exact location in Maps
+            </a>{" "}
+            <span className="text-faint">({i.lat!.toFixed(5)}, {i.lon!.toFixed(5)})</span>
+          </p>
+        )}
+        <div className="mt-5 flex flex-wrap gap-2">
+          {i.status === "active" && (
+            <>
+              <button onClick={confirm} className="rounded-md bg-signal px-4 py-2.5 text-sm font-semibold text-white hover:bg-tide">
+                ✓ I see this too ({i.confirmations})
+              </button>
+              <button onClick={share} className="rounded-md border border-line bg-paper px-4 py-2.5 text-sm font-semibold text-ink hover:bg-sand">
+                Share on WhatsApp
+              </button>
+              <button onClick={toggleResolved} className="rounded-md border border-line bg-paper px-4 py-2.5 text-sm font-semibold text-moss hover:bg-sand">
+                Mark resolved
+              </button>
+            </>
+          )}
+          {i.status === "resolved" && (
+            <button onClick={toggleResolved} className="rounded-md border border-line bg-paper px-4 py-2.5 text-sm font-semibold text-ink hover:bg-sand">
+              Reopen report
+            </button>
+          )}
+        </div>
+      </Card>
+
+      {/* Nearby reports: same flood rarely produces a single report — show the
+          cluster so neighbours read the whole picture, not one pin. */}
+      <NearbyReports current={i} incidents={incidents} />
+
+      <p className="mt-4 text-xs text-faint">
+        Tip: share this page's link with neighbours — every confirmation makes the report more trustworthy.
+      </p>
+    </div>
+  );
+}
